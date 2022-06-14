@@ -1,0 +1,50 @@
+[AMERICANAS]
+[DESCOBERTA]
+https://www.americanas.com.br/busca/iphone?filter=%7B"id"%3A"loja"%2C"value"%3A"1p%7CAmericanas%7Cb2w.loja"%2C"fixed"%3Afalse%7D&sortBy=relevance&limit=24&offset=0
+
+query = '?filter=%7B"id"%3A"loja"%2C"value"%3A"1p%7CAmericanas%7Cb2w.loja"%2C"fixed"%3Afalse%7D&sortBy=relevance&limit=24&offset=0'
+
+from urllib.parse import urlparse
+parsed_uri = urlparse(response.url)
+url_base = '{uri.scheme}://{uri.netloc}'.format(uri=parsed_uri)
+
+cards = response.xpath('//*[contains(@class, "ColGridItem")]')
+for card in cards:
+	print(card.xpath('.//*[contains(@class, "product-name")]/text()').get())
+	print(card.xpath('.//*[contains(@class, "PromotionalPrice")]/text()').get())
+	print(url_base+card.xpath('.//a/@href').get())
+
+
+https://www.americanas.com.br/produto/1611344814
+response.xpath('//*[contains(@class, "product-title")]/text()').get() -> title 
+response.xpath('//*[contains(@class, "priceSales")]/text()').get()
+
+
+[PAGINACAO]
+https://www.americanas.com.br/busca/iphone?limit=24&offset=0
+//*[contains(text(), "poxa, nenhum resultado encontrado para ")]
+
+
+
+
+lista_pesquisa = ['iphone', 'jbl', 'apple watch']
+
+
+
+for item in lista_pesquisa:
+	
+
+./app.py -s iphone 
+
+./app.py -s item -f ?filter=%7B"id"%3A"loja"%2C"value"%3A"1p%7CAmericanas%7Cb2w.loja"%2C"fixed"%3Afalse%7D&sortBy=relevance& -f 1000
+
+
+13/06 09:15 a 12:25
+
+[CASAS BAHIA]
+https://prd-api-partner.viavarejo.com.br/api/search?resultsPerPage=20&terms=iphone&filter=d%3A1136148%3A1136150&salesChannel=desktop&apiKey=casasbahia
+$.products[0].name
+$.products[0].price
+$.products[0].installment
+
+14/06 09:20 - 12:30
