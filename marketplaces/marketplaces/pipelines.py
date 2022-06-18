@@ -2,6 +2,8 @@ import os
 from loguru import logger as log
 from scrapy.exporters import JsonItemExporter
 
+from .utils import clean_string_BRL
+
 
 class AmericanasPipeline(object):
     def __init__(self):
@@ -15,10 +17,21 @@ class AmericanasPipeline(object):
 
     def process_item(self, item, spider):
         log.info(f'Um novo item foi processado: {item["product_name"]}')
-        self.exporter.export_item(item)
+        try:
+            item["product_price_sale"] = clean_string_BRL(item["product_price_sale"]).strip()
+            log.info(f'{item["product_name"]}: preço formatado.')
+        except BaseException as err:
+            log.error(f'Ocorreu um erro ao tentar converter o preço do produto: {item["product_price_sale"]}')
+            log.error(err)
+
+        price = '1000'
+        if item["product_price_sale"] > price:
+            self.exporter.export_item(item)
         return item
 
     def close_spider(self, spider):
         self.exporter.finish_exporting()
         self.fp.close()
         log.info('Crawler finalizado.')
+
+

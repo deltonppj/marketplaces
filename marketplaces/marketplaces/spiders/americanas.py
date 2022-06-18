@@ -1,7 +1,7 @@
 from loguru import logger as log
 
 import scrapy
-#import os
+# import os
 
 from scrapy.exceptions import CloseSpider
 
@@ -14,7 +14,7 @@ class AmericanasSpider(scrapy.Spider):
     name = 'americanas'
     allowed_domains = ['americanas.com.br']
 
-    def __init__(self, search=None, **kwargs):
+    def __init__(self, search=None, filter=None, price=None, **kwargs):
         super().__init__(**kwargs)
 
         if search is None:
@@ -23,12 +23,15 @@ class AmericanasSpider(scrapy.Spider):
         self.keyword = search
         log.info(f'Palavra chave informada: {self.keyword}')
 
-        self.query_filter = '?filter=%7B"id"%3A"loja"%2C"value"%3A"1p%7CAmericanas%7Cb2w.loja"%2C"fixed"%3Afalse%7D&sortBy=relevance'
+        self.query_filter = '?filter={"id":"loja","value":"1p|Americanas|b2w.loja","fixed":false}&sortBy=relevance}'
+        if filter is not None:
+            self.query_filter = f'{self.query_filter}&{filter}'
+
         log.info(f'Filtro configurado: {self.query_filter}')
 
         self.query_offset = '&limit=24&offset={}'
         self.offset = 0
-        #self.path_output = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'output', '{}'))
+        # self.path_output = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'output', '{}'))
 
         self.url = f'https://americanas.com.br/busca/{self.keyword}{self.query_filter}{self.query_offset.format(self.offset)}'
 
@@ -66,6 +69,3 @@ class AmericanasSpider(scrapy.Spider):
             url=f'https://americanas.com.br/busca/{self.keyword}{self.query_filter}{self.query_offset.format(self.offset)}',
             callback=self.parse
         )
-
-
-
