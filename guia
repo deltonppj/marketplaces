@@ -42,6 +42,9 @@ $.products[0].installment
 
 14/06 09:20 - 12:30
 ---------------------------------------------------------------------
+https://www.urldecoder.org/
+filtro preco -> filter={"id":"preco_salesolutions","value":"R$+250,00+a+R$+500,00","fixed":false}
+%7B%22id%22%3A%22preco_salesolutions%22%2C%22value%22%3A%22R%24+15.000%2C00+a+R%24+30.000%2C00%22%2C%22fixed%22%3Afalse%7D
 
+18/06 14:00 - 17:55
 
-18/06 14:00
