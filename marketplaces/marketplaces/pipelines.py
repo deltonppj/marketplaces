@@ -14,7 +14,7 @@ class AmericanasPipeline(object):
         log.info('Crawler iniciado.')
 
     def process_item(self, item, spider):
-        log.info('Um novo item foi processado.')
+        log.info(f'Um novo item foi processado: {item["product_name"]}')
         self.exporter.export_item(item)
         return item
 

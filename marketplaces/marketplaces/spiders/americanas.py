@@ -1,4 +1,4 @@
-import logging
+from loguru import logger as log
 
 import scrapy
 #import os
@@ -24,7 +24,7 @@ class AmericanasSpider(scrapy.Spider):
         log.info(f'Palavra chave informada: {self.keyword}')
 
         self.query_filter = '?filter=%7B"id"%3A"loja"%2C"value"%3A"1p%7CAmericanas%7Cb2w.loja"%2C"fixed"%3Afalse%7D&sortBy=relevance'
-        log.info(f'Filtro configurado: {self.self.query_filter}')
+        log.info(f'Filtro configurado: {self.query_filter}')
 
         self.query_offset = '&limit=24&offset={}'
         self.offset = 0
