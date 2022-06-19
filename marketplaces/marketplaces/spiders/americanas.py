@@ -36,7 +36,7 @@ class AmericanasSpider(scrapy.Spider):
         self.url = f'https://americanas.com.br/busca/{self.keyword}{self.query_filter}{self.query_offset.format(self.offset)}'
 
         self.cards = '//*[contains(@class, "ColGridItem")]'
-        self.product_url = '//*[contains(@class, "ColGridItem")]//a/@href'
+        self.product_url = './/a/@href'
         self.product_name = './/*[contains(@class, "product-name")]/text()'
         self.product_price_sale = './/*[contains(@class, "PromotionalPrice")]/text()'
         self.limit_page = '//*[contains(text(), "poxa, nenhum resultado encontrado para ")]'
