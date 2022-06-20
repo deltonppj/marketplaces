@@ -31,7 +31,7 @@ class AmericanasPipeline(object):
             log.error(f'Ocorreu um erro ao tentar converter o preço do produto: {item["product_price_sale"]}')
             log.error(err)
 
-        if item["product_price_sale"] > float(spider.price):
+        if (item["product_price_sale"] > float(spider.price)) & (spider.freight != -1):
             self.products.append(item)
 
         return item

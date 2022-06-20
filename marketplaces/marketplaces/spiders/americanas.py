@@ -20,6 +20,7 @@ class AmericanasSpider(scrapy.Spider):
         super().__init__(**kwargs)
 
         self.price = price
+        log.info(f'Preço desejado: {self.price}')
         self.freight = None
         self.validate_freight = validate_freight
         log.info(f'Validar frete: {self.validate_freight}')
@@ -56,6 +57,7 @@ class AmericanasSpider(scrapy.Spider):
         self.btn_ok_cep = '//button[contains(@class, "src__Button-sc-9")]'
         self.freight_field = '(//span[contains(@class, "freight-option-price")])[1]'
         self.cep_not_found = '//span[contains(text(), "Opa, CEP não encontrado")]'
+        self.freight_error = '//span[contains(@class, "freight-errors__TextWarning")]'
 
     def start_requests(self):
         log.info('Acessando...')
@@ -82,7 +84,7 @@ class AmericanasSpider(scrapy.Spider):
             item['product_url'] = url_base + card.xpath(self.product_url).get()
 
             if self.validate_freight:
-                if self.freight is None:
+                if (self.freight is None) | (self.freight == -1):
                     self.set_freight(url=url_base + card.xpath(self.product_url).get())
 
             yield item
@@ -98,17 +100,19 @@ class AmericanasSpider(scrapy.Spider):
     def set_freight(self, url):
         log.info('Preparando para abrir o navegador.')
         try:
-            web = BrowserV2(use_headless=True)
+            web = BrowserV2(use_headless=False)
             web.navigate(url=url)
             log.info(f'Navegando na url: {url}')
-            web.wait_to_click(xpath=self.cookie_accept, time=10)
+            web.wait_to_click(xpath=self.cookie_accept, time=15)
             web.input_like_a_human(xpath=self.input_cep, send=self.cep)
             web.delay(start=2, end=4)
             web.click(xpath=self.btn_ok_cep)
-            web.delay(start=5, end=8)
+            web.delay(start=10, end=15)
 
-            if web.element_is_present(xpath=self.cep_not_found):
-                log.warning(f'Cep não encontrado: {self.cep}')
+            if web.element_is_present(xpath=self.freight_error):
+                err = web.get_text(xpath=self.freight_error)
+                log.warning(f'Erro: {err}')
+                web.close_driver()
             else:
                 web.wait_element(xpath=self.freight_field)
                 self.freight = web.get_text(xpath=self.freight_field)
@@ -122,5 +126,3 @@ class AmericanasSpider(scrapy.Spider):
 
         except BaseException as err:
             log.error(f'Ocorreu um erro ao tentar acessar o navegador. {err}')
-
-
