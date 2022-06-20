@@ -8,6 +8,7 @@ authors = ["Thiago Oliveira <thiceconelo@gmail.com>"]
 python = "^3.8"
 Scrapy = "^2.6.1"
 loguru = "^0.6.0"
+uc-browser = "^0.2.5"
 
 [tool.poetry.dev-dependencies]
 

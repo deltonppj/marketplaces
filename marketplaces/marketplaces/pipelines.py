@@ -9,6 +9,7 @@ class AmericanasPipeline(object):
     def __init__(self):
         self.path_base = os.path.abspath(os.path.join(os.path.dirname(__file__), 'output', 'americanas'))
         self.path_output = os.path.abspath(os.path.join(os.path.dirname(__file__), 'output', 'americanas', '{}'))
+        self.products = []
         self.fp = None
         self.exporter = None
         # self.exporter.start_exporting()
@@ -31,10 +32,18 @@ class AmericanasPipeline(object):
             log.error(err)
 
         if item["product_price_sale"] > float(spider.price):
-            self.exporter.export_item(item)
+            self.products.append(item)
+
         return item
 
     def close_spider(self, spider):
+        output = {
+            'freight': spider.freight,
+            'size': len(self.products),
+            'products': self.products
+
+        }
+        self.exporter.export_item(output)
         self.exporter.finish_exporting()
         self.fp.close()
         log.info('Crawler finalizado.')
