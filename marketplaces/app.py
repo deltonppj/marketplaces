@@ -7,8 +7,10 @@ from twisted.internet import reactor, defer
 
 from scrapy.crawler import CrawlerRunner
 from scrapy.utils.project import get_project_settings
+from scrapy.utils.log import configure_logging
 
 from marketplaces.spiders.americanas import AmericanasSpider
+from marketplaces.spiders.casasbahia import CasasbahiaSpider
 
 
 def get_argument():
@@ -30,6 +32,7 @@ def get_argument():
 @defer.inlineCallbacks
 def crawl(search=None, filter=None, price=None, validate_freight=None):
     settings = get_project_settings()
+    #configure_logging()
     runner = CrawlerRunner(settings)
 
     if type(search) is list:
@@ -38,12 +41,13 @@ def crawl(search=None, filter=None, price=None, validate_freight=None):
             search = splited[0].strip() # keyword
             price = splited[1].strip() # price
 
-            yield runner.crawl(AmericanasSpider, search=search, filter=filter, price=price,
-                               validate_freight=validate_freight)
+            yield runner.crawl(AmericanasSpider, search=search, filter=filter, price=price, validate_freight=validate_freight)
+            yield runner.crawl(CasasbahiaSpider, search=search, filter=filter, price=price, validate_freight=validate_freight)
         reactor.stop()
 
     else:
         yield runner.crawl(AmericanasSpider, search=search, filter=filter, price=price, validate_freight=validate_freight)
+        yield runner.crawl(CasasbahiaSpider, search=search, filter=filter, price=price, validate_freight=validate_freight)
         reactor.stop()
 
 

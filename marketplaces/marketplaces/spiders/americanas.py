@@ -9,7 +9,7 @@ from scrapy.exceptions import CloseSpider
 from urllib.parse import urlparse
 from uc_browser.browser_v2 import BrowserV2
 
-from ..items import AmericanasItem
+from ..items import DefaultItem
 
 
 class AmericanasSpider(scrapy.Spider):
@@ -18,7 +18,7 @@ class AmericanasSpider(scrapy.Spider):
 
     def __init__(self, search=None, filter=None, price=None, validate_freight=False, **kwargs):
         super().__init__(**kwargs)
-
+        log.info(f'Crawler iniciado: {self.name}')
         self.price = price
         log.info(f'Preço desejado: {self.price}')
         self.freight = None
@@ -77,7 +77,7 @@ class AmericanasSpider(scrapy.Spider):
         today = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
 
         for card in cards:
-            item = AmericanasItem()
+            item = DefaultItem()
             item['created_at'] = str(today)
             item['product_name'] = card.xpath(self.product_name).get()
             item['product_price_sale'] = card.xpath(self.product_price_sale).get()
