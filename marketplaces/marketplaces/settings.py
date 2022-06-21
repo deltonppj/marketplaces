@@ -12,6 +12,8 @@ BOT_NAME = 'marketplaces'
 SPIDER_MODULES = ['marketplaces.spiders']
 NEWSPIDER_MODULE = 'marketplaces.spiders'
 
+SCRAPEOPS_API_KEY = '12f7d53c-6829-4494-9840-71ea7faeb658'
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 # USER_AGENT = 'marketplaces (+http://www.yourdomain.com)'
 
@@ -48,6 +50,10 @@ DEFAULT_REQUEST_HEADERS = {
 # SPIDER_MIDDLEWARES = {
 #    'marketplaces.middlewares.MarketplacesSpiderMiddleware': 543,
 # }
+DOWNLOADER_MIDDLEWARES = {
+    'scrapeops_scrapy.middleware.retry.RetryMiddleware': 550,
+    'scrapy.downloadermiddlewares.retry.RetryMiddleware': None,
+}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
@@ -60,6 +66,9 @@ DEFAULT_REQUEST_HEADERS = {
 # EXTENSIONS = {
 #    'scrapy.extensions.telnet.TelnetConsole': None,
 # }
+EXTENSIONS = {
+    'scrapeops_scrapy.extension.ScrapeOpsMonitor': 500,
+}
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
