@@ -15,8 +15,8 @@ from uc_browser.browser_v2 import BrowserV2
 from ..items import DefaultItem
 
 
-class CasasbahiaSpider(scrapy.Spider):
-    name = 'casasbahia'
+class ExtraSpider(scrapy.Spider):
+    name = 'extra'
 
     def __init__(self, search=None, filter=None, price=None, validate_freight=False, **kwargs):
         super().__init__(**kwargs)
@@ -34,8 +34,8 @@ class CasasbahiaSpider(scrapy.Spider):
         log.info(f'Palavra chave informada: {self.keyword}')
 
         self.index = 1
-        self.filter = 'd%3A1136148%3A1136150'  # Vendido pela loja
-        self.query_filter = f'?resultsPerPage=20&terms={self.keyword}&filter={self.filter}&page={self.index}&salesChannel=desktop&apiKey=casasbahia'
+        self.filter = 'd%3A1216815%3A1216817'  # Vendido pela loja
+        self.query_filter = f'?resultsPerPage=20&terms={self.keyword}&filter={self.filter}&page={self.index}&salesChannel=desktop&apiKey=extra'
 
         if filter is not None:
             self.filter = filter
@@ -62,8 +62,9 @@ class CasasbahiaSpider(scrapy.Spider):
                              callback=self.parse)
 
     def parse(self, response, **kwargs):
-        current_nav = 0 # Controle webdriver
+        current_nav = 0  # Controle webdriver
         try_again = 3
+
         data = json.loads(response.text)
         products = data.get('products')
         log.debug(f'Produtos encontrados: {len(products)}')
@@ -96,7 +97,7 @@ class CasasbahiaSpider(scrapy.Spider):
 
         if next_pagination:
             self.index += 1
-            url = f'https://prd-api-partner.viavarejo.com.br/api/search?resultsPerPage=20&terms={self.keyword}&filter={self.filter}&page={self.index}&salesChannel=desktop&apiKey=casasbahia'
+            url = f'https://prd-api-partner.viavarejo.com.br/api/search?resultsPerPage=20&terms={self.keyword}&filter={self.filter}&page={self.index}&salesChannel=desktop&apiKey=extra'
             log.info(f'Pagina: {self.index} - {self.url}')
             yield scrapy.Request(
                 url=url,

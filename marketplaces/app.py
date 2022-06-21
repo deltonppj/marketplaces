@@ -11,6 +11,8 @@ from scrapy.utils.log import configure_logging
 
 from marketplaces.spiders.americanas import AmericanasSpider
 from marketplaces.spiders.casasbahia import CasasbahiaSpider
+from marketplaces.spiders.extra import ExtraSpider
+from marketplaces.spiders.pontofrio import PontofrioSpider
 
 
 def get_argument():
@@ -32,7 +34,7 @@ def get_argument():
 @defer.inlineCallbacks
 def crawl(search=None, filter=None, price=None, validate_freight=None):
     settings = get_project_settings()
-    #configure_logging()
+    # configure_logging()
     runner = CrawlerRunner(settings)
 
     if type(search) is list:
@@ -43,11 +45,15 @@ def crawl(search=None, filter=None, price=None, validate_freight=None):
 
             yield runner.crawl(AmericanasSpider, search=search, filter=filter, price=price, validate_freight=validate_freight)
             yield runner.crawl(CasasbahiaSpider, search=search, filter=filter, price=price, validate_freight=validate_freight)
+            yield runner.crawl(ExtraSpider, search=search, filter=filter, price=price, validate_freight=validate_freight)
+            yield runner.crawl(PontofrioSpider, search=search, filter=filter, price=price, validate_freight=validate_freight)
         reactor.stop()
 
     else:
         yield runner.crawl(AmericanasSpider, search=search, filter=filter, price=price, validate_freight=validate_freight)
         yield runner.crawl(CasasbahiaSpider, search=search, filter=filter, price=price, validate_freight=validate_freight)
+        yield runner.crawl(ExtraSpider, search=search, filter=filter, price=price, validate_freight=validate_freight)
+        yield runner.crawl(PontofrioSpider, search=search, filter=filter, price=price, validate_freight=validate_freight)
         reactor.stop()
 
 

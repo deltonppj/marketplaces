@@ -51,6 +51,4 @@ filtro preco -> filter={"id":"preco_salesolutions","value":"R$+250,00+a+R$+500,0
 ----------------------------------------------------------
 20/06 09:20 - 13:40
 
-https://prd-api-partner.viavarejo.com.br/api/search/?resultsPerPage=20&terms=iphone%2011&filter=d%3A1136148%3A1136150&page=1&salesChannel=desktop&apiKey=casasbahia
-https://prd-api-partner.viavarejo.com.br/api/search?resultsPerPage=20&terms=iphone&filter=d%3A1136148%3A1136150&page=1&salesChannel=desktop&apiKey=casasbahia
-
+21/06 09:25 - 14:20

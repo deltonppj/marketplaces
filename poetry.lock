@@ -696,7 +696,7 @@ python-versions = ">=3.7"
 
 [[package]]
 name = "uc-browser"
-version = "0.2.5"
+version = "0.2.6"
 description = ""
 category = "main"
 optional = false
@@ -1295,8 +1295,8 @@ typing-extensions = [
     {file = "typing_extensions-4.2.0.tar.gz", hash = "sha256:f1c24655a0da0d1b67f07e17a5e6b2a105894e6824b92096378bb3668ef02376"},
 ]
 uc-browser = [
-    {file = "uc_browser-0.2.5-py3-none-any.whl", hash = "sha256:eb79359a79f8960a35613e9753692d80d73cf8329f797a65527b2d2b4f215118"},
-    {file = "uc_browser-0.2.5.tar.gz", hash = "sha256:0dbe0b15bd7c7709c85ac3cfc2b480100d56ef87f6671539209fc988ee50bf88"},
+    {file = "uc_browser-0.2.6-py3-none-any.whl", hash = "sha256:fb727900087803aa2b05b04cad36342be0562bb3bbeda8be508953cc30fe73cc"},
+    {file = "uc_browser-0.2.6.tar.gz", hash = "sha256:3a159294ff327b32c4fd01da76de48de39cf53b5d5e3404303a9b5caa2f8146f"},
 ]
 undetected-chromedriver = [
     {file = "undetected-chromedriver-3.1.5.post4.tar.gz", hash = "sha256:cfd77c38d86825f2f2b5ab296bf7814ef8f7199c3d9f46f24e57b93ea1662223"},
