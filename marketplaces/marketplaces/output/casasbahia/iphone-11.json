@@ -1,0 +1,68 @@
+[
+  {
+    "freight": null,
+    "size": 10,
+    "products": [
+      {
+        "created_at": "2022-06-22 16:26:00",
+        "product_name": "iPhone 8 Apple com 128GB, Tela Retina HD de 4,7”, iOS 11, Câmera de 12 MP, Resistente à Água, Wi-Fi, 4G LTE e NFC - Dourado",
+        "product_price_sale": 3299,
+        "product_url": "https://www.casasbahia.com.br/Telefones-Celulares/Smartphones/iPhone/iphone-8-apple-com-128gb-tela-retina-hd-de-47-ios-11-camera-de-12-mp-resistente-a-agua-wi-fi-4g-lte-e-nfc-dourado-50005205.html?IdSku=50005205"
+      },
+      {
+        "created_at": "2022-06-22 16:26:04",
+        "product_name": "iPhone 11 Apple 64GB Amarelo, Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 3899,
+        "product_url": "https://www.casasbahia.com.br/Telefones-Celulares/Smartphones/iPhone/iphone-11-apple-64gb-amarelo-tela-de-61-camera-dupla-de-12mp-ios-55014767.html?IdSku=55014767"
+      },
+      {
+        "created_at": "2022-06-22 16:26:06",
+        "product_name": "iPhone 11 Apple 128GB Amarelo Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 4299,
+        "product_url": "https://www.casasbahia.com.br/Telefones-Celulares/Smartphones/iPhone/iphone-11-apple-128gb-amarelo-tela-de-61-camera-dupla-de-12mp-ios-55014773.html?IdSku=55014773"
+      },
+      {
+        "created_at": "2022-06-22 16:26:06",
+        "product_name": "iPhone 11 Apple 128GB Verde Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 4299,
+        "product_url": "https://www.casasbahia.com.br/Telefones-Celulares/Smartphones/iPhone/iphone-11-apple-128gb-verde-tela-de-61-camera-dupla-de-12mp-ios-55014775.html?IdSku=55014775"
+      },
+      {
+        "created_at": "2022-06-22 16:26:07",
+        "product_name": "iPhone 11 Apple 128GB PRODUCT(RED Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 4299,
+        "product_url": "https://www.casasbahia.com.br/Telefones-Celulares/Smartphones/iPhone/iphone-11-apple-128gb-product-red-tela-de-61-camera-dupla-de-12mp-ios-55014772.html?IdSku=55014772"
+      },
+      {
+        "created_at": "2022-06-22 16:26:08",
+        "product_name": "iPhone 11 Apple 64GB PRODUCT(RED), Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 3899,
+        "product_url": "https://www.casasbahia.com.br/Telefones-Celulares/Smartphones/iPhone/iphone-11-apple-64gb-product-red-tela-de-61-camera-dupla-de-12mp-ios-55014766.html?IdSku=55014766"
+      },
+      {
+        "created_at": "2022-06-22 16:26:08",
+        "product_name": "iPhone 11 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 4299,
+        "product_url": "https://www.casasbahia.com.br/Telefones-Celulares/Smartphones/iPhone/iphone-11-apple-128gb-branco-tela-de-61-camera-dupla-de-12mp-ios-55014771.html?IdSku=55014771"
+      },
+      {
+        "created_at": "2022-06-22 16:26:08",
+        "product_name": "iPhone 11 Apple 128GB Preto Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 4299,
+        "product_url": "https://www.casasbahia.com.br/Telefones-Celulares/Smartphones/iPhone/iphone-11-apple-128gb-preto-tela-de-61-camera-dupla-de-12mp-ios-55014770.html?IdSku=55014770"
+      },
+      {
+        "created_at": "2022-06-22 16:26:08",
+        "product_name": "iPhone 11 Apple 64GB Preto, Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 3899,
+        "product_url": "https://www.casasbahia.com.br/Telefones-Celulares/Smartphones/iPhone/iphone-11-apple-64gb-preto-tela-de-61-camera-dupla-de-12mp-ios-55014764.html?IdSku=55014764"
+      },
+      {
+        "created_at": "2022-06-22 16:26:08",
+        "product_name": "iPhone 11 Apple 64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 3899,
+        "product_url": "https://www.casasbahia.com.br/Telefones-Celulares/Smartphones/iPhone/iphone-11-apple-64gb-branco-tela-de-61-camera-dupla-de-12mp-ios-55014765.html?IdSku=55014765"
+      }
+    ]
+  }
+]

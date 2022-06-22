@@ -87,7 +87,7 @@ class ExtraSpider(scrapy.Spider):
                             self.set_freight(url=product['url'])
                     current_nav += 1
 
-                url = f'https://pdp-api.casasbahia.com.br/api/v2/sku/{product_sku}/price/source/CB?utm_source=undefined&take=undefined&device_type=MOBILE'
+                url = f'https://pdp-api.extra.com.br/api/v2/sku/{product_sku}/price/source/EX?utm_source=undefined&take=undefined&device_type=MOBILE'
                 yield scrapy.Request(
                     url=url,
                     method='GET',
@@ -98,7 +98,7 @@ class ExtraSpider(scrapy.Spider):
         if next_pagination:
             self.index += 1
             url = f'https://prd-api-partner.viavarejo.com.br/api/search?resultsPerPage=20&terms={self.keyword}&filter={self.filter}&page={self.index}&salesChannel=desktop&apiKey=extra'
-            log.info(f'Pagina: {self.index} - {self.url}')
+            log.info(f'Pagina: {self.index} - {url}')
             yield scrapy.Request(
                 url=url,
                 method='GET',

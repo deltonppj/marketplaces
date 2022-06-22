@@ -95,9 +95,9 @@ class CasasbahiaSpider(scrapy.Spider):
                     cb_kwargs={'product_item': product_item})
 
         if next_pagination:
-            self.index += 1
+            self.index = self.index + 1
             url = f'https://prd-api-partner.viavarejo.com.br/api/search?resultsPerPage=20&terms={self.keyword}&filter={self.filter}&page={self.index}&salesChannel=desktop&apiKey=casasbahia'
-            log.info(f'Pagina: {self.index} - {self.url}')
+            log.info(f'Pagina: {self.index} - {url}')
             yield scrapy.Request(
                 url=url,
                 method='GET',
