@@ -8,6 +8,7 @@ import scrapy
 
 class DefaultItem(scrapy.Item):
     created_at = scrapy.Field()
+    product_sku = scrapy.Field()
     product_name = scrapy.Field()
     product_price_sale = scrapy.Field()
     product_url = scrapy.Field()

@@ -1,0 +1,10 @@
+import scrapy
+
+
+class FastshopSpider(scrapy.Spider):
+    name = 'fastshop'
+    allowed_domains = ['x']
+    start_urls = ['http://x/']
+
+    def parse(self, response, **kwargs):
+        pass
