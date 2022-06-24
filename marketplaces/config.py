@@ -4,6 +4,7 @@ from marketplaces.spiders.extra import ExtraSpider
 from marketplaces.spiders.pontofrio import PontofrioSpider
 from marketplaces.spiders.submarino import SubmarinoSpider
 from marketplaces.spiders.shoptime import ShoptimeSpider
+from marketplaces.spiders.magazineluiza import MagazineluizaSpider
 
 SPIDERS = [
     AmericanasSpider,
@@ -11,7 +12,8 @@ SPIDERS = [
     ExtraSpider,
     PontofrioSpider,
     SubmarinoSpider,
-    ShoptimeSpider
+    ShoptimeSpider,
+    MagazineluizaSpider
     ]
 
 KEYWORDS = [

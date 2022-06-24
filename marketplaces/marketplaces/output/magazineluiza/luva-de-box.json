@@ -1,0 +1,519 @@
+[
+  {
+    "freight": null,
+    "size": 73,
+    "products": [
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232561700",
+        "product_name": "Kit Boxe/Muay Thai Pretorian Core Preto e Amarelo",
+        "product_price_sale": 229.9,
+        "product_url": "https://www.magazineluiza.com.br/kit-boxe-muay-thai-pretorian-core-preto-e-amarelo-3-pecas-14oz/p/2325617/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232153400",
+        "product_name": "Luva de Boxe/Muay Thai Vollo Sports Training",
+        "product_price_sale": 180.41,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-vollo-sports-training-14oz/p/2321534/es/elam/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232554000",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Black 12oz",
+        "product_price_sale": 209.9,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-black-12oz/p/2325540/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232563700",
+        "product_name": "Kit Boxe/Muay Thai Pretorian First Preto e Rosa",
+        "product_price_sale": 209.9,
+        "product_url": "https://www.magazineluiza.com.br/kit-boxe-muay-thai-pretorian-first-preto-e-rosa-3-pecas-10oz/p/2325637/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232152900",
+        "product_name": "Luva de Boxe/Muay Thai Vollo Sports Training",
+        "product_price_sale": 180.41,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-vollo-sports-training-10oz/p/2321529/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232554100",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Black 14oz",
+        "product_price_sale": 209.9,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-black-14oz/p/2325541/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232153300",
+        "product_name": "Luva de Boxe/Muay Thai Vollo Sports Training",
+        "product_price_sale": 208.91,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-vollo-sports-training-12oz/p/2321533/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "231285500",
+        "product_name": "Luva de Boxe/Muay Thai Punch Sports PU2152 M",
+        "product_price_sale": 59.9,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-punch-sports-pu2152-m/p/2312855/es/luve/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "231285400",
+        "product_name": "Luva de Boxe/Muay Thai Punch Sports PU215 M ",
+        "product_price_sale": 59.9,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-punch-sports-pu215-m/p/2312854/es/luve/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "231283300",
+        "product_name": "Luva de Boxe Punch Sports Importada 12oz",
+        "product_price_sale": 227.91,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-punch-sports-importada-12oz/p/2312833/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "227400100",
+        "product_name": "Luva de Boxe/Muay Thai Acte Sports P12-10",
+        "product_price_sale": 180.41,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-acte-sports-p12-10-10oz/p/2274001/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "227399800",
+        "product_name": "Luva de Boxe/Muay Thai Acte Sports P11-10",
+        "product_price_sale": 180.41,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-acte-sports-p11-10-10oz/p/2273998/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232553000",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Elite 14oz",
+        "product_price_sale": 180.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-elite-14oz/p/2325530/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "231285200",
+        "product_name": "Luva de Boxe/Muay Thai Punch Sports PU2153 G",
+        "product_price_sale": 59.9,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-punch-sports-pu2153-g/p/2312852/es/luve/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "227401300",
+        "product_name": "Luva de Boxe/Muay Thai Acte Sports P16-12",
+        "product_price_sale": 246.91,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-acte-sports-p16-12-12oz/p/2274013/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "227401200",
+        "product_name": "Luva de Boxe/Muay Thai Acte Sports P16-10",
+        "product_price_sale": 237.41,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-acte-sports-p16-10-10oz/p/2274012/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "227400400",
+        "product_name": "Luva de Boxe/Muay Thai Acte Sports P13-12",
+        "product_price_sale": 227.91,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-acte-sports-p13-12-12oz/p/2274004/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232552400",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Elite 10oz",
+        "product_price_sale": 218.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-elite-10oz/p/2325524/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232547500",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian First 12oz",
+        "product_price_sale": 180.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-first-12oz/p/2325475/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "231282700",
+        "product_name": "Luva de Boxe Punch Sports Importada 8oz",
+        "product_price_sale": 227.91,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-punch-sports-importada-8oz/p/2312827/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232546600",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian First 10oz",
+        "product_price_sale": 208.99,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-first-10oz/p/2325466/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232553900",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Black 10oz",
+        "product_price_sale": 199.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-black-10oz/p/2325539/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "227400500",
+        "product_name": "Luva de Boxe/Muay Thai Acte Sports P13-14",
+        "product_price_sale": 227.91,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-acte-sports-p13-14-14oz/p/2274005/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "227401100",
+        "product_name": "Luva de Boxe/Muay Thai Acte Sports P15-14",
+        "product_price_sale": 246.91,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-acte-sports-p15-14-14oz/p/2274011/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "231283500",
+        "product_name": "Luva de Boxe Punch Sports Importada 14oz",
+        "product_price_sale": 227.91,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-punch-sports-importada-14oz/p/2312835/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "231283000",
+        "product_name": "Luva de Boxe Punch Sports Importada 10oz",
+        "product_price_sale": 227.91,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-punch-sports-importada-10oz/p/2312830/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "234164900",
+        "product_name": "Luva de Boxe/Muay Thai Acte Sports",
+        "product_price_sale": 175.7,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-acte-sports-premium-p13-10-10oz/p/2341649/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "231283100",
+        "product_name": "Luva de Boxe Punch Sports Importada 10oz",
+        "product_price_sale": 237.41,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-punch-sports-importada-10oz/p/2312831/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "231282600",
+        "product_name": "Luva de Boxe Punch Sports Importada 8oz",
+        "product_price_sale": 227.91,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-punch-sports-importada-8oz/p/2312826/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "233422700",
+        "product_name": "Luva de Boxe/Muay Thai Punch Sports PU2155",
+        "product_price_sale": 59.9,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-punch-sports-pu2155-m/p/2334227/es/luve/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "231283900",
+        "product_name": "Luva de Boxe Punch Sports Importada 16oz",
+        "product_price_sale": 265.91,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-punch-sports-importada-16oz/p/2312839/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "227400900",
+        "product_name": "Luva de Boxe/Muay Thai Acte Sports P15-10",
+        "product_price_sale": 227.91,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-acte-sports-p15-10-10oz/p/2274009/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "227401000",
+        "product_name": "Luva de Boxe/Muay Thai Acte Sports P15-12",
+        "product_price_sale": 227.91,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-acte-sports-p15-12-12oz/p/2274010/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "231283400",
+        "product_name": "Luva de Boxe Punch Sports Importada 12oz",
+        "product_price_sale": 227.91,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-punch-sports-importada-12oz/p/2312834/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "231285300",
+        "product_name": "Luva de Boxe/Muay Thai Punch Sports PU2154 G",
+        "product_price_sale": 59.9,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-punch-sports-pu2154-g/p/2312853/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "227401400",
+        "product_name": "Luva de Boxe/Muay Thai Acte Sports P16-14",
+        "product_price_sale": 227.91,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-acte-sports-p16-14-14oz/p/2274014/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "227400700",
+        "product_name": "Luva de Boxe/Muay Thai Acte Sports P14-12",
+        "product_price_sale": 227.91,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-acte-sports-p14-12-12oz/p/2274007/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "227400600",
+        "product_name": "Luva de Boxe/Muay Thai Acte Sports P14-10",
+        "product_price_sale": 227.91,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-acte-sports-p14-10-10oz/p/2274006/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "227399700",
+        "product_name": "Luva de Boxe/Muay Thai Acte Sports",
+        "product_price_sale": 180.41,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-acte-sports-p10-12-12oz/p/2273997/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "231282900",
+        "product_name": "Luva de Boxe Punch Sports Importada 10oz",
+        "product_price_sale": 227.91,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-punch-sports-importada-10oz/p/2312829/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "231283200",
+        "product_name": "Luva de Boxe Punch Sports Importada 12oz",
+        "product_price_sale": 227.91,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-punch-sports-importada-12oz/p/2312832/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232553200",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Elite 10oz",
+        "product_price_sale": 218.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-elite-10oz/p/2325532/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "231283700",
+        "product_name": "Luva de Boxe Punch Sports Importada 14oz",
+        "product_price_sale": 227.91,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-punch-sports-importada-14oz/p/2312837/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232546400",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian First 14oz",
+        "product_price_sale": 208.99,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-first-14oz/p/2325464/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232547400",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian First 10oz",
+        "product_price_sale": 208.99,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-first-10oz/p/2325474/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232547300",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian First 16oz",
+        "product_price_sale": 208.99,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-first-16oz/p/2325473/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232546300",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian First 12oz",
+        "product_price_sale": 208.99,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-first-12oz/p/2325463/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232547200",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian First 14oz",
+        "product_price_sale": 208.99,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-first-14oz/p/2325472/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232552800",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Elite 10oz",
+        "product_price_sale": 218.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-elite-10oz/p/2325528/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232552900",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Elite 12oz",
+        "product_price_sale": 218.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-elite-12oz/p/2325529/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232547100",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian First 12oz",
+        "product_price_sale": 208.99,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-first-12oz/p/2325471/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232553400",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Elite 14oz",
+        "product_price_sale": 218.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-elite-14oz/p/2325534/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232554300",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Black 10oz",
+        "product_price_sale": 218.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-black-10oz/p/2325543/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232552300",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Elite 16oz",
+        "product_price_sale": 218.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-elite-16oz/p/2325523/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232551900",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Elite 16oz",
+        "product_price_sale": 218.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-elite-16oz/p/2325519/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232552600",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Elite 14oz",
+        "product_price_sale": 218.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-elite-14oz/p/2325526/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232546800",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian First 14oz",
+        "product_price_sale": 208.99,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-first-14oz/p/2325468/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232547700",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Elite 10oz",
+        "product_price_sale": 218.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-elite-10oz/p/2325477/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232553300",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Elite 12oz",
+        "product_price_sale": 218.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-elite-12oz/p/2325533/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:42",
+        "product_sku": "232552200",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Elite 14oz",
+        "product_price_sale": 218.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-elite-14oz/p/2325522/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:44",
+        "product_sku": "232553300",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Elite 12oz",
+        "product_price_sale": 218.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-elite-12oz/p/2325533/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:44",
+        "product_sku": "232546900",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Elite 16oz",
+        "product_price_sale": 208.99,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-elite-16oz/p/2325469/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:44",
+        "product_sku": "232546500",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian First 16oz",
+        "product_price_sale": 208.99,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-first-16oz/p/2325465/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:44",
+        "product_sku": "232552200",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Elite 14oz",
+        "product_price_sale": 218.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-elite-14oz/p/2325522/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:44",
+        "product_sku": "232546200",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian First 10oz",
+        "product_price_sale": 208.99,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-first-10oz/p/2325462/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:44",
+        "product_sku": "232547300",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian First 16oz",
+        "product_price_sale": 208.99,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-first-16oz/p/2325473/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:44",
+        "product_sku": "232554600",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Black 16oz",
+        "product_price_sale": 218.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-black-16oz/p/2325546/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:44",
+        "product_sku": "232552900",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Elite 12oz",
+        "product_price_sale": 218.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-elite-12oz/p/2325529/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:44",
+        "product_sku": "232547000",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian First 10oz",
+        "product_price_sale": 208.99,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-first-10oz/p/2325470/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:44",
+        "product_sku": "232552100",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Elite 12oz",
+        "product_price_sale": 218.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-elite-12oz/p/2325521/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:44",
+        "product_sku": "232554400",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Black 12oz",
+        "product_price_sale": 218.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-black-12oz/p/2325544/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:44",
+        "product_sku": "232548000",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Elite 14oz",
+        "product_price_sale": 218.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-elite-14oz/p/2325480/es/lvdb/"
+      },
+      {
+        "created_at": "2022-06-24 14:16:44",
+        "product_sku": "232554500",
+        "product_name": "Luva de Boxe/Muay Thai Pretorian Black 14oz",
+        "product_price_sale": 199.49,
+        "product_url": "https://www.magazineluiza.com.br/luva-de-boxe-muay-thai-pretorian-black-14oz/p/2325545/es/lvdb/"
+      }
+    ]
+  }
+]
