@@ -3,13 +3,15 @@ from marketplaces.spiders.casasbahia import CasasbahiaSpider
 from marketplaces.spiders.extra import ExtraSpider
 from marketplaces.spiders.pontofrio import PontofrioSpider
 from marketplaces.spiders.submarino import SubmarinoSpider
+from marketplaces.spiders.shoptime import ShoptimeSpider
 
 SPIDERS = [
     AmericanasSpider,
     CasasbahiaSpider,
     ExtraSpider,
     PontofrioSpider,
-    SubmarinoSpider
+    SubmarinoSpider,
+    ShoptimeSpider
     ]
 
 KEYWORDS = [

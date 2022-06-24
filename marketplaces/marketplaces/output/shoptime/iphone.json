@@ -1,0 +1,680 @@
+[
+  {
+    "freight": null,
+    "size": 96,
+    "products": [
+      {
+        "created_at": "2022-06-24 11:00:12",
+        "product_sku": "3919411711",
+        "product_name": "Apple iPhone 13 Pro 128GB iOS 5G Wi-Fi Tela 6.1'' Câmera Tripla 12MP + Sensor LiDAR - Grafite",
+        "product_price_sale": 7099.1,
+        "product_url": "https://www.shoptime.com.br/produto/3919411711?pfm_carac=iphone&pfm_index=5&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9a9062ff5a574bc1c0a&buyboxToken=smartbuybox-shop-v2-844b2c7d-c9a6-4cae-b721-dcf479255058-2022-06-24 11:00:11-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:12",
+        "product_sku": "3919536425",
+        "product_name": "Iphone 13 Pro Max Azul-sierra 256gb",
+        "product_price_sale": 8359.1,
+        "product_url": "https://www.shoptime.com.br/produto/3919536425?pfm_carac=iphone&pfm_index=7&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9b6062ff5a574bc4065&buyboxToken=smartbuybox-shop-v2-1fe029f0-ae5f-4ed1-ac1e-4cfccda2f3ff-2022-06-24 11:00:11-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:12",
+        "product_sku": "3923260231",
+        "product_name": "Apple iPhone 13 Pro Max 128GB iOS 5G Wi-Fi Tela 6.7'' Câmera Tripla 12MP + Sensor LiDAR - Grafite",
+        "product_price_sale": 8704.71,
+        "product_url": "https://www.shoptime.com.br/produto/3923260231?pfm_carac=iphone&pfm_index=8&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=62a0b066729e6c067bd944dc&buyboxToken=smartbuybox-shop-v2-a3650c80-e4a4-4c8f-8d49-3a471f3272b2-2022-06-24 11:00:11-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:12",
+        "product_sku": "3591024450",
+        "product_name": "iPhone 12 Apple 64GB iOS 5G Wi-Fi Tela 6.1'' Câmera 12MP - Azul",
+        "product_price_sale": 5199.0,
+        "product_url": "https://www.shoptime.com.br/produto/3591024450?pfm_carac=iphone&pfm_index=11&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=62a7a353f2adc6d985870dea&buyboxToken=smartbuybox-shop-v2-d1069ab8-34e6-4044-803d-38d2b3e7f1d3-2022-06-24 11:00:11-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:12",
+        "product_sku": "3923260214",
+        "product_name": "Apple iPhone 13 Pro 128GB iOS 5G Wi-Fi Tela 6.1'' Câmera Tripla 12MP + Sensor LiDAR - Dourado",
+        "product_price_sale": 7099.1,
+        "product_url": "https://www.shoptime.com.br/produto/3923260214?pfm_carac=iphone&pfm_index=13&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9a5062ff5a574bc0ff2&buyboxToken=smartbuybox-shop-v2-17e6288f-f0ad-4634-b995-adcbaf68d4a5-2022-06-24 11:00:11-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:12",
+        "product_sku": "3919412473",
+        "product_name": "Iphone 13 Pro Prateado 128gb",
+        "product_price_sale": 7099.1,
+        "product_url": "https://www.shoptime.com.br/produto/3919412473?pfm_carac=iphone&pfm_index=14&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9a2062ff5a574bc0159&buyboxToken=smartbuybox-shop-v2-14f17c09-8dd9-4411-98f7-dc39a2443a5b-2022-06-24 11:00:11-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:12",
+        "product_sku": "3919413767",
+        "product_name": "Iphone 13 Pro Max Prateado 256gb",
+        "product_price_sale": 8359.1,
+        "product_url": "https://www.shoptime.com.br/produto/3919413767?pfm_carac=iphone&pfm_index=15&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9b1062ff5a574bc2f7f&buyboxToken=smartbuybox-shop-v2-5bc9210c-bb45-4d37-b7c7-ef707acc256a-2022-06-24 11:00:11-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:12",
+        "product_sku": "3591022585",
+        "product_name": "iPhone 12 Apple 128GB iOS 5G Wi-Fi Tela 6.1'' Câmera 12MP - Verde",
+        "product_price_sale": 7799.0,
+        "product_url": "https://www.shoptime.com.br/produto/3591022585?pfm_carac=iphone&pfm_index=16&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6269426701eed16e39048443&buyboxToken=smartbuybox-shop-v2-85de55ec-9dcb-48c8-94b5-4dc2fdd3b4c2-2022-06-24 11:00:11-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:12",
+        "product_sku": "2290963285",
+        "product_name": "iPhone 12 Mini Apple (64GB) Preto  tela 5,4\" Câmera dupla 12MP iOS",
+        "product_price_sale": 6299.89,
+        "product_url": "https://www.shoptime.com.br/produto/2290963285?pfm_carac=iphone&pfm_index=17&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=60a3d8b1871ea274bc87cb1b&buyboxToken=smartbuybox-shop-v2-c8b28603-00b6-41f7-a172-2d04acee7361-2022-06-24 11:00:11-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:12",
+        "product_sku": "3624889426",
+        "product_name": "iPhone 12 Apple 64GB iOS 5G Wi-Fi Tela 6.1'' Câmera 12MP - Verde",
+        "product_price_sale": 7409.0,
+        "product_url": "https://www.shoptime.com.br/produto/3624889426?pfm_carac=iphone&pfm_index=20&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6287fcd901eed16e39dc4f82&buyboxToken=smartbuybox-shop-v2-36b36e1e-256d-4379-891a-bc5255d6ac8c-2022-06-24 11:00:11-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:12",
+        "product_sku": "3919420924",
+        "product_name": "Apple iPhone 13 256GB iOS 5G Wi-Fi Tela 6.1'' Câmera Dupla 12MP - Rosa",
+        "product_price_sale": 8240.09,
+        "product_url": "https://www.shoptime.com.br/produto/3919420924?pfm_carac=iphone&pfm_index=21&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6168b034062ff5a5745bdfbc&buyboxToken=smartbuybox-shop-v2-c9b7499a-8608-46e5-bebb-bb0bc31ff4f8-2022-06-24 11:00:11-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:12",
+        "product_sku": "4864623184",
+        "product_name": "iPhone 13 Apple 256GB iOS 5G Wi-Fi Tela 6.1'' Câmera Dupla 12MP - Azul",
+        "product_price_sale": 6259.05,
+        "product_url": "https://www.shoptime.com.br/produto/4864623184?pfm_carac=iphone&pfm_index=22&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=624cb89d01eed16e398734c1&buyboxToken=smartbuybox-shop-v2-1e71a2a7-038e-416a-a1f5-07c80e90dc5f-2022-06-24 11:00:11-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:12",
+        "product_sku": "3919423893",
+        "product_name": "Iphone 13 Pro Grafite 512gb",
+        "product_price_sale": 9102.34,
+        "product_url": "https://www.shoptime.com.br/produto/3919423893?pfm_carac=iphone&pfm_index=23&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=619cddc4062ff5a5748031fd&buyboxToken=smartbuybox-shop-v2-f699671e-75d0-4ae6-9db0-09858e9fc879-2022-06-24 11:00:11-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:12",
+        "product_sku": "3591024118",
+        "product_name": "iPhone 12 Apple 256GB iOS 5G Wi-Fi Tela 6.1'' Câmera 12MP - Branco",
+        "product_price_sale": 6119.1,
+        "product_url": "https://www.shoptime.com.br/produto/3591024118?pfm_carac=iphone&pfm_index=24&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6143a3c9871ea274bce12f31&buyboxToken=smartbuybox-shop-v2-f76f8421-859c-46b0-baf6-f0ca4961848e-2022-06-24 11:00:11-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:15",
+        "product_sku": "134074531",
+        "product_name": "iPhone XS Apple (512GB) Dourado tela 5.8\" Câmera dupla 12MP iOS",
+        "product_price_sale": 9299.0,
+        "product_url": "https://www.shoptime.com.br/produto/134074531?pfm_carac=iphone&pfm_index=2&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=629b1bfa729e6c067bb3d03e"
+      },
+      {
+        "created_at": "2022-06-24 11:00:15",
+        "product_sku": "3919423041",
+        "product_name": "Iphone 13 Pro Dourado 256gb",
+        "product_price_sale": 7936.1,
+        "product_url": "https://www.shoptime.com.br/produto/3919423041?pfm_carac=iphone&pfm_index=3&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9b6062ff5a574bc418f&buyboxToken=smartbuybox-shop-v2-82d02f2e-8194-4c2f-8788-ffd7bb81610e-2022-06-24 11:00:15-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:15",
+        "product_sku": "2290965838",
+        "product_name": "iPhone 12 Pro Apple (512GB) Grafite tela 6,1\" Câmera tripla 12MP iOS",
+        "product_price_sale": 9069.0,
+        "product_url": "https://www.shoptime.com.br/produto/2290965838?pfm_carac=iphone&pfm_index=4&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5fadca2d1e77494604896c16&buyboxToken=smartbuybox-shop-v2-68d9c667-0c4a-4bbc-a4a9-7daa354bfd64-2022-06-24 11:00:15-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:15",
+        "product_sku": "3919535941",
+        "product_name": "Apple iPhone 13 256GB iOS 5G Wi-Fi Tela 6.1'' Câmera Dupla 12MP - (PRODUCT)RED",
+        "product_price_sale": 6259.05,
+        "product_url": "https://www.shoptime.com.br/produto/3919535941?pfm_carac=iphone&pfm_index=5&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9a0062ff5a574bbfc34&buyboxToken=smartbuybox-shop-v2-ec422e88-2352-48c6-ab23-9cab9f6015d5-2022-06-24 11:00:15-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:15",
+        "product_sku": "2291756173",
+        "product_name": "iPhone 12 Mini Apple (64GB) Branco tela 5,4\" Câmera dupla 12MP iOS",
+        "product_price_sale": 6109.0,
+        "product_url": "https://www.shoptime.com.br/produto/2291756173?pfm_carac=iphone&pfm_index=6&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5fb6cc651e774946040dddde&buyboxToken=smartbuybox-shop-v2-9436d70a-d9d1-4796-b7c8-faa99f280596-2022-06-24 11:00:15-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:15",
+        "product_sku": "3919529663",
+        "product_name": "Apple iPhone 13 Mini 512GB iOS 5G Wi-Fi Tela 5.4'' Câmera Dupla 12MP - (PRODUCT) RED",
+        "product_price_sale": 7252.1,
+        "product_url": "https://www.shoptime.com.br/produto/3919529663?pfm_carac=iphone&pfm_index=7&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6168ad04062ff5a5744eee1d&buyboxToken=smartbuybox-shop-v2-9252f3c1-e67b-4a38-b76c-81697de2299e-2022-06-24 11:00:15-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:15",
+        "product_sku": "3919421302",
+        "product_name": "Iphone 13 Pro Max Prateado 512gb",
+        "product_price_sale": 10050.0,
+        "product_url": "https://www.shoptime.com.br/produto/3919421302?pfm_carac=iphone&pfm_index=9&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9ad062ff5a574bc25b2&buyboxToken=smartbuybox-shop-v2-f461e73d-1d8b-40c4-9f7e-bb8fe3d7a9a0-2022-06-24 11:00:15-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:15",
+        "product_sku": "2290966620",
+        "product_name": "iPhone 12 Apple (128GB)  (PRODUCT)RED tela 6,1\" Câmera dupla 12MP iOS",
+        "product_price_sale": 5763.53,
+        "product_url": "https://www.shoptime.com.br/produto/2290966620?pfm_carac=iphone&pfm_index=10&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=62a10be4729e6c067bdc2570"
+      },
+      {
+        "created_at": "2022-06-24 11:00:15",
+        "product_sku": "2601436011",
+        "product_name": "iPhone 12 Mini 256GB Preto iOS 5G Wi-Fi Tela 5.4\" Câmera - 12MP + 12MP + Airpods com estojo de recarga",
+        "product_price_sale": 8698.0,
+        "product_url": "https://www.shoptime.com.br/produto/2601436011?pfm_carac=iphone&pfm_index=11&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=629b1c4c729e6c067bbcade3"
+      },
+      {
+        "created_at": "2022-06-24 11:00:15",
+        "product_sku": "3919529225",
+        "product_name": "Apple iPhone 13 512GB iOS 5G Wi-Fi Tela 6.1'' Câmera Dupla 12MP - (PRODUCT)RED",
+        "product_price_sale": 8089.1,
+        "product_url": "https://www.shoptime.com.br/produto/3919529225?pfm_carac=iphone&pfm_index=12&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9a1062ff5a574bbfe48&buyboxToken=smartbuybox-shop-v2-afefbdb0-7a5a-4397-ad4a-ef769bda08f7-2022-06-24 11:00:15-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:15",
+        "product_sku": "2290962928",
+        "product_name": "iPhone 12 Mini Apple (256GB) Preto tela 5,4\" Câmera dupla 12MP iOS",
+        "product_price_sale": 5444.1,
+        "product_url": "https://www.shoptime.com.br/produto/2290962928?pfm_carac=iphone&pfm_index=13&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5fadca0f1e7749460489490a"
+      },
+      {
+        "created_at": "2022-06-24 11:00:15",
+        "product_sku": "3919423201",
+        "product_name": "Apple iPhone 13 Pro 512GB iOS 5G Wi-Fi Tela 6.1'' Câmera Tripla 12MP + Sensor LiDAR - Prateado",
+        "product_price_sale": 8959.21,
+        "product_url": "https://www.shoptime.com.br/produto/3919423201?pfm_carac=iphone&pfm_index=14&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f40b062ff5a574ad2a0b&buyboxToken=smartbuybox-shop-v2-52b463d3-38d1-43da-a552-40a94d3d1eb6-2022-06-24 11:00:15-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:15",
+        "product_sku": "3919528062",
+        "product_name": "Apple iPhone 13 Mini 512GB iOS 5G Wi-Fi Tela 5.4'' Câmera Dupla 12MP - Rosa",
+        "product_price_sale": 7252.1,
+        "product_url": "https://www.shoptime.com.br/produto/3919528062?pfm_carac=iphone&pfm_index=15&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9b8062ff5a574bc44e0&buyboxToken=smartbuybox-shop-v2-0d57186a-29ff-406b-b552-4de88098605b-2022-06-24 11:00:15-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:15",
+        "product_sku": "3919418816",
+        "product_name": "Iphone 13 Estelar 512gb",
+        "product_price_sale": 8089.1,
+        "product_url": "https://www.shoptime.com.br/produto/3919418816?pfm_carac=iphone&pfm_index=16&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9a8062ff5a574bc1a07&buyboxToken=smartbuybox-shop-v2-26a4f84e-2d01-4a79-be63-a6a49a56dc34-2022-06-24 11:00:15-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:15",
+        "product_sku": "2290962881",
+        "product_name": "iPhone 12 Pro Apple (512GB) Prateado Tela 6,1\" Câmera Tripla 12MP iOS",
+        "product_price_sale": 9069.0,
+        "product_url": "https://www.shoptime.com.br/produto/2290962881?pfm_carac=iphone&pfm_index=17&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5fadca0e1e774946048942e5&buyboxToken=smartbuybox-shop-v2-b4e66c22-d089-4e9d-94aa-7583f2c0fb1f-2022-06-24 11:00:15-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:15",
+        "product_sku": "3919528097",
+        "product_name": "Apple iPhone 13 Mini 512GB iOS 5G Wi-Fi Tela 5.4'' Câmera Dupla 12MP - Azul",
+        "product_price_sale": 7252.1,
+        "product_url": "https://www.shoptime.com.br/produto/3919528097?pfm_carac=iphone&pfm_index=18&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9a1062ff5a574bbffa2&buyboxToken=smartbuybox-shop-v2-fda0786a-4a6f-43f6-940e-37b839d3cbc6-2022-06-24 11:00:15-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:15",
+        "product_sku": "3919529680",
+        "product_name": "Apple iPhone 13 Mini 512GB iOS 5G Wi-Fi Tela 5.4'' Câmera Dupla 12MP - Estelar",
+        "product_price_sale": 7252.1,
+        "product_url": "https://www.shoptime.com.br/produto/3919529680?pfm_carac=iphone&pfm_index=19&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9b0062ff5a574bc2f04&buyboxToken=smartbuybox-shop-v2-014236c8-2671-47ae-85a4-42f5d44fe46d-2022-06-24 11:00:15-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:15",
+        "product_sku": "3919536388",
+        "product_name": "Apple iPhone 13 Mini 512GB iOS 5G Wi-Fi Tela 5.4'' Câmera Dupla 12MP - Meia-noite",
+        "product_price_sale": 7252.1,
+        "product_url": "https://www.shoptime.com.br/produto/3919536388?pfm_carac=iphone&pfm_index=20&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9ab062ff5a574bc2195&buyboxToken=smartbuybox-shop-v2-28067bc4-7b9e-4a7a-982e-94ed1ad08595-2022-06-24 11:00:15-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:15",
+        "product_sku": "2290964051",
+        "product_name": "iPhone 12 Pro Apple (512GB) Dourado Tela 6,1\" Câmera Tripla 12MP iOS",
+        "product_price_sale": 9069.0,
+        "product_url": "https://www.shoptime.com.br/produto/2290964051?pfm_carac=iphone&pfm_index=21&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5fadca2c1e77494604896810&buyboxToken=smartbuybox-shop-v2-d1bcba11-fc83-434a-b500-8b123cb9f608-2022-06-24 11:00:15-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:15",
+        "product_sku": "3919420781",
+        "product_name": "Apple iPhone 13 512GB iOS 5G Wi-Fi Tela 6.1'' Câmera Dupla 12MP - Azul",
+        "product_price_sale": 8089.1,
+        "product_url": "https://www.shoptime.com.br/produto/3919420781?pfm_carac=iphone&pfm_index=22&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9a8062ff5a574bc192d&buyboxToken=smartbuybox-shop-v2-f1ffa41b-f9e2-4c93-9302-20bfe40cd45d-2022-06-24 11:00:15-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:15",
+        "product_sku": "2290963349",
+        "product_name": "iPhone 12 Mini Apple (256GB) Branco tela 5,4\" Câmera dupla 12MP iOS",
+        "product_price_sale": 5444.1,
+        "product_url": "https://www.shoptime.com.br/produto/2290963349?pfm_carac=iphone&pfm_index=23&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5fadca0f1e77494604894556&buyboxToken=smartbuybox-shop-v2-c379c1a4-6b47-4d9d-909b-cdd3720ccf75-2022-06-24 11:00:15-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:22",
+        "product_sku": "4868800782",
+        "product_name": "iPhone 13 Apple 128GB iOS 5G Wi-Fi Tela 6.1'' Câmera Dupla 12MP - Rosa",
+        "product_price_sale": 5450.0,
+        "product_url": "https://www.shoptime.com.br/produto/4868800782?pfm_carac=iphone&pfm_index=16&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=624cb89d01eed16e39873561"
+      },
+      {
+        "created_at": "2022-06-24 11:00:22",
+        "product_sku": "4864628680",
+        "product_name": "Iphone 13 Estelar 128gb - bra",
+        "product_price_sale": 5489.0,
+        "product_url": "https://www.shoptime.com.br/produto/4864628680?pfm_carac=iphone&pfm_index=17&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=624cb89d01eed16e39873522"
+      },
+      {
+        "created_at": "2022-06-24 11:00:22",
+        "product_sku": "4864625497",
+        "product_name": "iPhone 13 Apple 128GB iOS 5G Wi-Fi Tela 6.1'' Câmera Dupla 12MP - Meia-Noite",
+        "product_price_sale": 5489.0,
+        "product_url": "https://www.shoptime.com.br/produto/4864625497?pfm_carac=iphone&pfm_index=18&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=624cb89e01eed16e39873683"
+      },
+      {
+        "created_at": "2022-06-24 11:00:22",
+        "product_sku": "3919421134",
+        "product_name": "Iphone 13 Pro Azul-sierra 128gb",
+        "product_price_sale": 7099.1,
+        "product_url": "https://www.shoptime.com.br/produto/3919421134?pfm_carac=iphone&pfm_index=19&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9ab062ff5a574bc2188"
+      },
+      {
+        "created_at": "2022-06-24 11:00:22",
+        "product_sku": "4864624161",
+        "product_name": "iPhone 13 Apple 128GB iOS 5G Wi-Fi Tela 6.1'' Câmera Dupla 12MP - Azul",
+        "product_price_sale": 5489.0,
+        "product_url": "https://www.shoptime.com.br/produto/4864624161?pfm_carac=iphone&pfm_index=22&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=624cb89e01eed16e398735c1"
+      },
+      {
+        "created_at": "2022-06-24 11:00:22",
+        "product_sku": "4868801224",
+        "product_name": "iPhone 13 Apple 256GB iOS 5G Wi-Fi Tela 6.1'' Câmera Dupla 12MP - Meia-Noite",
+        "product_price_sale": 6389.0,
+        "product_url": "https://www.shoptime.com.br/produto/4868801224?pfm_carac=iphone&pfm_index=24&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=624cb89c01eed16e398731a3"
+      },
+      {
+        "created_at": "2022-06-24 11:00:25",
+        "product_sku": "3919423383",
+        "product_name": "Iphone 13 Pro Azul-sierra 256gb",
+        "product_price_sale": 7936.1,
+        "product_url": "https://www.shoptime.com.br/produto/3919423383?pfm_carac=iphone&pfm_index=3&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f99e062ff5a574bbf68e"
+      },
+      {
+        "created_at": "2022-06-24 11:00:25",
+        "product_sku": "4868801128",
+        "product_name": "iPhone 13 Apple 256GB iOS 5G Wi-Fi Tela 6.1'' Câmera Dupla 12MP - Estelar",
+        "product_price_sale": 6389.0,
+        "product_url": "https://www.shoptime.com.br/produto/4868801128?pfm_carac=iphone&pfm_index=7&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=624cb89d01eed16e39873340&buyboxToken=smartbuybox-shop-v2-f030b368-d78e-4b9b-a56b-13d461ddbf99-2022-06-24 11:00:24-0300"
+      },
+      {
+        "created_at": "2022-06-24 11:00:25",
+        "product_sku": "3591020985",
+        "product_name": "iPhone 12 Apple 256GB iOS 5G Wi-Fi Tela 6.1'' Câmera 12MP - Roxo",
+        "product_price_sale": 6119.1,
+        "product_url": "https://www.shoptime.com.br/produto/3591020985?pfm_carac=iphone&pfm_index=8&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6139f9c5871ea274bcb2fd5d"
+      },
+      {
+        "created_at": "2022-06-24 11:00:25",
+        "product_sku": "4868800774",
+        "product_name": "iPhone 13 Apple 256GB iOS 5G Wi-Fi Tela 6.1'' Câmera Dupla 12MP - Rosa",
+        "product_price_sale": 6259.05,
+        "product_url": "https://www.shoptime.com.br/produto/4868800774?pfm_carac=iphone&pfm_index=9&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=624cb89d01eed16e3987338f"
+      },
+      {
+        "created_at": "2022-06-24 11:00:25",
+        "product_sku": "3919421741",
+        "product_name": "Apple iPhone 13 Pro 256GB iOS 5G Wi-Fi Tela 6.1'' Câmera Tripla 12MP + Sensor LiDAR - Grafite",
+        "product_price_sale": 7936.1,
+        "product_url": "https://www.shoptime.com.br/produto/3919421741?pfm_carac=iphone&pfm_index=11&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9a7062ff5a574bc15d0"
+      },
+      {
+        "created_at": "2022-06-24 11:00:25",
+        "product_sku": "4878229031",
+        "product_name": "iPhone 13 Apple 128GB iOS 5G Wi-Fi Tela 6.1'' Câmera Dupla 12MP - 'PRODUCT' RED",
+        "product_price_sale": 5489.0,
+        "product_url": "https://www.shoptime.com.br/produto/4878229031?pfm_carac=iphone&pfm_index=12&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=62686b3001eed16e3989e7da"
+      },
+      {
+        "created_at": "2022-06-24 11:00:25",
+        "product_sku": "3919412334",
+        "product_name": "Apple iPhone 13 Pro Max 512GB iOS 5G Wi-Fi Tela 6.7'' Câmera Tripla 12MP + Sensor LiDAR - Dourado",
+        "product_price_sale": 10050.0,
+        "product_url": "https://www.shoptime.com.br/produto/3919412334?pfm_carac=iphone&pfm_index=13&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=618ed6b5062ff5a574126965"
+      },
+      {
+        "created_at": "2022-06-24 11:00:25",
+        "product_sku": "3919414743",
+        "product_name": "Iphone 13 Pro Prateado 256gb",
+        "product_price_sale": 7936.1,
+        "product_url": "https://www.shoptime.com.br/produto/3919414743?pfm_carac=iphone&pfm_index=14&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9b2062ff5a574bc3443"
+      },
+      {
+        "created_at": "2022-06-24 11:00:25",
+        "product_sku": "1613970051",
+        "product_name": "iPhone 11 Apple (256GB) Preto tela 6,1\" Câmera 12MP iOS",
+        "product_price_sale": 5899.0,
+        "product_url": "https://www.shoptime.com.br/produto/1613970051?pfm_carac=iphone&pfm_index=15&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5e8b8304ac4d983c87da4aea"
+      },
+      {
+        "created_at": "2022-06-24 11:00:25",
+        "product_sku": "3919535334",
+        "product_name": "Apple iPhone 13 Mini 256GB iOS 5G Wi-Fi Tela 5.4'' Câmera Dupla 12MP - (PRODUCT)RED",
+        "product_price_sale": 5740.1,
+        "product_url": "https://www.shoptime.com.br/produto/3919535334?pfm_carac=iphone&pfm_index=16&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9b1062ff5a574bc2fcf"
+      },
+      {
+        "created_at": "2022-06-24 11:00:25",
+        "product_sku": "3591020969",
+        "product_name": "iPhone 12 Apple 256GB iOS 5G Wi-Fi Tela 6.1'' Câmera 12MP - Azul",
+        "product_price_sale": 6119.1,
+        "product_url": "https://www.shoptime.com.br/produto/3591020969?pfm_carac=iphone&pfm_index=17&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6139f99f871ea274bcb26d90"
+      },
+      {
+        "created_at": "2022-06-24 11:00:25",
+        "product_sku": "1613970114",
+        "product_name": "iPhone 11 Apple (256GB) Branco tela 6,1\" Câmera 12MP iOS",
+        "product_price_sale": 5899.0,
+        "product_url": "https://www.shoptime.com.br/produto/1613970114?pfm_carac=iphone&pfm_index=18&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5e8b8304ac4d983c87da4dc1"
+      },
+      {
+        "created_at": "2022-06-24 11:00:25",
+        "product_sku": "3919533902",
+        "product_name": "Apple iPhone 13 Pro Max 1TB iOS 5G Wi-Fi Tela 6.7'' Câmera Tripla 12MP + Sensor LiDAR - Dourado",
+        "product_price_sale": 12300.0,
+        "product_url": "https://www.shoptime.com.br/produto/3919533902?pfm_carac=iphone&pfm_index=20&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9af062ff5a574bc2bd8"
+      },
+      {
+        "created_at": "2022-06-24 11:00:25",
+        "product_sku": "3919423922",
+        "product_name": "Apple iPhone 13 Pro 512GB iOS 5G Wi-Fi Tela 6.1'' Câmera Tripla 12MP + Sensor LiDAR - Azul-Sierra",
+        "product_price_sale": 9000.0,
+        "product_url": "https://www.shoptime.com.br/produto/3919423922?pfm_carac=iphone&pfm_index=22&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9b0062ff5a574bc2e88"
+      },
+      {
+        "created_at": "2022-06-24 11:00:25",
+        "product_sku": "3919424319",
+        "product_name": "Iphone 13 Pro Azul-sierra 1tb",
+        "product_price_sale": 14499.0,
+        "product_url": "https://www.shoptime.com.br/produto/3919424319?pfm_carac=iphone&pfm_index=24&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9b7062ff5a574bc43ac"
+      },
+      {
+        "created_at": "2022-06-24 11:00:27",
+        "product_sku": "3919536505",
+        "product_name": "Apple iPhone 13 Pro Max 512GB iOS 5G Wi-Fi Tela 6.7'' Câmera Tripla 12MP + Sensor LiDAR - Azul-Sierra",
+        "product_price_sale": 10676.58,
+        "product_url": "https://www.shoptime.com.br/produto/3919536505?pfm_carac=iphone&pfm_index=3&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=618ed6bb062ff5a57412ad89"
+      },
+      {
+        "created_at": "2022-06-24 11:00:27",
+        "product_sku": "3919412254",
+        "product_name": "Iphone 13 Pro Max Grafite 512gb",
+        "product_price_sale": 10050.0,
+        "product_url": "https://www.shoptime.com.br/produto/3919412254?pfm_carac=iphone&pfm_index=4&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=618ed6b2062ff5a574124a26"
+      },
+      {
+        "created_at": "2022-06-24 11:00:27",
+        "product_sku": "3624889477",
+        "product_name": "iPhone 12 Apple 256GB iOS 5G Wi-Fi Tela 6.1'' Câmera 12MP - Verde",
+        "product_price_sale": 6119.1,
+        "product_url": "https://www.shoptime.com.br/produto/3624889477?pfm_carac=iphone&pfm_index=5&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=613a571d871ea274bce895db"
+      },
+      {
+        "created_at": "2022-06-24 11:00:27",
+        "product_sku": "4864629324",
+        "product_name": "iPhone 13 Apple 256GB iOS 5G Wi-Fi Tela 6.1'' Câmera Dupla 12MP - 'PRODUCT' RED",
+        "product_price_sale": 6259.05,
+        "product_url": "https://www.shoptime.com.br/produto/4864629324?pfm_carac=iphone&pfm_index=6&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=624cb89d01eed16e39873422"
+      },
+      {
+        "created_at": "2022-06-24 11:00:27",
+        "product_sku": "3591020942",
+        "product_name": "iPhone 12 Apple 256GB iOS 5G Wi-Fi Tela 6.1'' Câmera 12MP - (product) RED",
+        "product_price_sale": 6119.1,
+        "product_url": "https://www.shoptime.com.br/produto/3591020942?pfm_carac=iphone&pfm_index=7&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6143a3a5871ea274bce0485d"
+      },
+      {
+        "created_at": "2022-06-24 11:00:27",
+        "product_sku": "3591021101",
+        "product_name": "iPhone 12 Apple 256GB iOS 5G Wi-Fi Tela 6.1'' Câmera 12MP - Preto",
+        "product_price_sale": 6119.1,
+        "product_url": "https://www.shoptime.com.br/produto/3591021101?pfm_carac=iphone&pfm_index=9&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6143a39b871ea274bce00996"
+      },
+      {
+        "created_at": "2022-06-24 11:00:27",
+        "product_sku": "3919423105",
+        "product_name": "Iphone 13 Pro Dourado 512gb",
+        "product_price_sale": 8834.46,
+        "product_url": "https://www.shoptime.com.br/produto/3919423105?pfm_carac=iphone&pfm_index=12&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9ad062ff5a574bc25af"
+      },
+      {
+        "created_at": "2022-06-24 11:00:27",
+        "product_sku": "4807345501",
+        "product_name": "iPhone 13 Pro Apple 512GB iOS 5G Wi-Fi Tela 6.1'' Câmera Tripla 12MP  - Verde-Alpino",
+        "product_price_sale": 8830.87,
+        "product_url": "https://www.shoptime.com.br/produto/4807345501?pfm_carac=iphone&pfm_index=13&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=627ae95d01eed16e394e51bc"
+      },
+      {
+        "created_at": "2022-06-24 11:00:27",
+        "product_sku": "262997787",
+        "product_name": "iPhone 11 Apple (256GB) (PRODUCT) Red Tela 6,1\" Câmera 12MP iOS",
+        "product_price_sale": 5479.0,
+        "product_url": "https://www.shoptime.com.br/produto/262997787?pfm_carac=iphone&pfm_index=14&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5d9fe16eddd019abe44a9c7d"
+      },
+      {
+        "created_at": "2022-06-24 11:00:27",
+        "product_sku": "3919536581",
+        "product_name": "Apple iPhone 13 Pro Max 1TB iOS 5G Wi-Fi Tela 6.7'' Câmera Tripla 12MP + Sensor LiDAR - Azul-Sierra",
+        "product_price_sale": 12300.0,
+        "product_url": "https://www.shoptime.com.br/produto/3919536581?pfm_carac=iphone&pfm_index=16&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9aa062ff5a574bc1d2a"
+      },
+      {
+        "created_at": "2022-06-24 11:00:27",
+        "product_sku": "3202982444",
+        "product_name": "iPhone 12 Mini Apple (256GB) Roxo tela 5,4\" Câmera Dupla 12MP iOS",
+        "product_price_sale": 5444.1,
+        "product_url": "https://www.shoptime.com.br/produto/3202982444?pfm_carac=iphone&pfm_index=17&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=60829e86871ea274bcae032a"
+      },
+      {
+        "created_at": "2022-06-24 11:00:27",
+        "product_sku": "1614307701",
+        "product_name": "iPhone 11 Apple (256GB) Amarelo Tela 6,1\" Câmera 12MP iOS",
+        "product_price_sale": 5029.1,
+        "product_url": "https://www.shoptime.com.br/produto/1614307701?pfm_carac=iphone&pfm_index=18&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5e8b8304ac4d983c87da4acb"
+      },
+      {
+        "created_at": "2022-06-24 11:00:27",
+        "product_sku": "3919414938",
+        "product_name": "Apple iPhone 13 Pro Max 1TB iOS 5G Wi-Fi Tela 6.7'' Câmera Tripla 12MP + Sensor LiDAR - Prateado",
+        "product_price_sale": 12050.0,
+        "product_url": "https://www.shoptime.com.br/produto/3919414938?pfm_carac=iphone&pfm_index=19&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9bd062ff5a574bc5402"
+      },
+      {
+        "created_at": "2022-06-24 11:00:27",
+        "product_sku": "4806804227",
+        "product_name": "Apple iPhone 13 Mini Apple 512GB iOS 5G Wi-Fi Tela 5.4'' Câmera Tripla 12MP  - Verde",
+        "product_price_sale": 7126.1,
+        "product_url": "https://www.shoptime.com.br/produto/4806804227?pfm_carac=iphone&pfm_index=20&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=627ae8d801eed16e393facfa"
+      },
+      {
+        "created_at": "2022-06-24 11:00:27",
+        "product_sku": "3919422452",
+        "product_name": "Iphone 13 Pro Max Grafite 1tb",
+        "product_price_sale": 12050.0,
+        "product_url": "https://www.shoptime.com.br/produto/3919422452?pfm_carac=iphone&pfm_index=21&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=618ed6b9062ff5a5741297b6"
+      },
+      {
+        "created_at": "2022-06-24 11:00:27",
+        "product_sku": "3919423674",
+        "product_name": "Iphone 13 Pro Grafite 1tb",
+        "product_price_sale": 14499.0,
+        "product_url": "https://www.shoptime.com.br/produto/3919423674?pfm_carac=iphone&pfm_index=22&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9b9062ff5a574bc47ee"
+      },
+      {
+        "created_at": "2022-06-24 11:00:27",
+        "product_sku": "4806817554",
+        "product_name": "iPhone SE 3ª Geração Apple 256GB iOS 5G Wi-Fi Tela 4.7'' Câmera Dupla 12MP  - Estelar",
+        "product_price_sale": 5699.0,
+        "product_url": "https://www.shoptime.com.br/produto/4806817554?pfm_carac=iphone&pfm_index=23&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=627a65b101eed16e39a45fd0"
+      },
+      {
+        "created_at": "2022-06-24 11:00:29",
+        "product_sku": "3614407323",
+        "product_name": "iPhone 12 Apple (64GB) Preto Tela 6,1\" 5G Câmera 12MP + 12MP iOS",
+        "product_price_sale": 5578.97,
+        "product_url": "https://www.shoptime.com.br/produto/3614407323?pfm_carac=iphone&pfm_index=1&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=611c21f0871ea274bc5715cb"
+      },
+      {
+        "created_at": "2022-06-24 11:00:29",
+        "product_sku": "4806817247",
+        "product_name": "iPhone 13 Pro Max Apple 1TB iOS 5G Wi-Fi Tela 6.7'' Câmera Tripla 12MP - Verde-alpino",
+        "product_price_sale": 12134.55,
+        "product_url": "https://www.shoptime.com.br/produto/4806817247?pfm_carac=iphone&pfm_index=2&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=627ae96f01eed16e39506f85"
+      },
+      {
+        "created_at": "2022-06-24 11:00:29",
+        "product_sku": "4868801443",
+        "product_name": "iPhone 13 Apple 512GB iOS 5G Wi-Fi Tela 6.1'' Câmera Dupla 12MP - Rosa",
+        "product_price_sale": 8089.1,
+        "product_url": "https://www.shoptime.com.br/produto/4868801443?pfm_carac=iphone&pfm_index=3&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=624cb89c01eed16e398730a1"
+      },
+      {
+        "created_at": "2022-06-24 11:00:29",
+        "product_sku": "4806808877",
+        "product_name": "iPhone 13 Pro Apple 1TB iOS 5G Wi-Fi Tela 6.1'' Câmera Tripla 12MP  - Verde-alpino",
+        "product_price_sale": 11689.1,
+        "product_url": "https://www.shoptime.com.br/produto/4806808877?pfm_carac=iphone&pfm_index=5&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=627ae92c01eed16e3948bdf4"
+      },
+      {
+        "created_at": "2022-06-24 11:00:29",
+        "product_sku": "4806805203",
+        "product_name": "iPhone 13 Pro Apple 256GB iOS 5G Wi-Fi Tela 6.1'' Câmera Tripla 12MP  - Verde-Alpino",
+        "product_price_sale": 10499.0,
+        "product_url": "https://www.shoptime.com.br/produto/4806805203?pfm_carac=iphone&pfm_index=6&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=627ae95501eed16e394d85a2"
+      },
+      {
+        "created_at": "2022-06-24 11:00:29",
+        "product_sku": "3919423033",
+        "product_name": "Iphone 13 Pro Prateado 1tb",
+        "product_price_sale": 14499.0,
+        "product_url": "https://www.shoptime.com.br/produto/3919423033?pfm_carac=iphone&pfm_index=7&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9b5062ff5a574bc3dfd"
+      },
+      {
+        "created_at": "2022-06-24 11:00:29",
+        "product_sku": "4864629421",
+        "product_name": "iPhone 13 Apple 512GB iOS 5G Wi-Fi Tela 6.1'' Câmera Dupla 12MP - Meia-Noite",
+        "product_price_sale": 8089.1,
+        "product_url": "https://www.shoptime.com.br/produto/4864629421?pfm_carac=iphone&pfm_index=8&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=624cb89d01eed16e3987341b"
+      },
+      {
+        "created_at": "2022-06-24 11:00:29",
+        "product_sku": "4864628647",
+        "product_name": "iPhone 13 Apple 512GB iOS 5G Wi-Fi Tela 6.1'' Câmera Dupla 12MP - Estelar",
+        "product_price_sale": 8089.1,
+        "product_url": "https://www.shoptime.com.br/produto/4864628647?pfm_carac=iphone&pfm_index=10&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=624cb89d01eed16e3987341d"
+      },
+      {
+        "created_at": "2022-06-24 11:00:29",
+        "product_sku": "3919424221",
+        "product_name": "Iphone 13 Pro Dourado 1tb",
+        "product_price_sale": 14499.0,
+        "product_url": "https://www.shoptime.com.br/produto/3919424221?pfm_carac=iphone&pfm_index=11&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f9bf062ff5a574bc59a4"
+      },
+      {
+        "created_at": "2022-06-24 11:00:29",
+        "product_sku": "4806807444",
+        "product_name": "iPhone 13 Apple 256GB iOS 5G Wi-Fi Tela 6.1'' Câmera Dupla 12MP - Verde",
+        "product_price_sale": 8599.0,
+        "product_url": "https://www.shoptime.com.br/produto/4806807444?pfm_carac=iphone&pfm_index=12&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6244bcae01eed16e39112b82"
+      },
+      {
+        "created_at": "2022-06-24 11:00:29",
+        "product_sku": "262984038",
+        "product_name": "iPhone 11 Apple (256GB) Verde tela 6,1\" Câmera 12MP iOS",
+        "product_price_sale": 5899.0,
+        "product_url": "https://www.shoptime.com.br/produto/262984038?pfm_carac=iphone&pfm_index=13&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5db1ef57ddd019abe477008f"
+      },
+      {
+        "created_at": "2022-06-24 11:00:29",
+        "product_sku": "360562525",
+        "product_name": "iPhone 11 Apple (256GB) Branco Tela 6,1\" Câmera 12MP iOS",
+        "product_price_sale": 5899.0,
+        "product_url": "https://www.shoptime.com.br/produto/360562525?pfm_carac=iphone&pfm_index=14&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5d9fe16eddd019abe44a9fac"
+      },
+      {
+        "created_at": "2022-06-24 11:00:29",
+        "product_sku": "4868800838",
+        "product_name": "iPhone 13 Apple 512GB iOS 5G Wi-Fi Tela 6.1'' Câmera Dupla 12MP - 'PRODUCT' RED",
+        "product_price_sale": 8088.1,
+        "product_url": "https://www.shoptime.com.br/produto/4868800838?pfm_carac=iphone&pfm_index=15&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=624cb89d01eed16e39873388"
+      },
+      {
+        "created_at": "2022-06-24 11:00:29",
+        "product_sku": "4806813393",
+        "product_name": "iPhone SE 3ª Geração Apple 256GB iOS 5G Wi-Fi Tela 4.7'' Câmera Dupla 12MP - Meia-Noite",
+        "product_price_sale": 5699.0,
+        "product_url": "https://www.shoptime.com.br/produto/4806813393?pfm_carac=iphone&pfm_index=16&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=62716ada01eed16e39adf08c"
+      },
+      {
+        "created_at": "2022-06-24 11:00:29",
+        "product_sku": "2291347011",
+        "product_name": "iPhone 12 Mini Apple (256GB) Verde Tela 5,4\" Câmera Dupla 12MP iOS",
+        "product_price_sale": 5444.1,
+        "product_url": "https://www.shoptime.com.br/produto/2291347011?pfm_carac=iphone&pfm_index=17&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5fadc66e1e7749460484ca34"
+      },
+      {
+        "created_at": "2022-06-24 11:00:29",
+        "product_sku": "262991975",
+        "product_name": "iPhone 11 Apple (256GB) Amarelo Tela 6,1\" Câmera 12MP iOS",
+        "product_price_sale": 5019.1,
+        "product_url": "https://www.shoptime.com.br/produto/262991975?pfm_carac=iphone&pfm_index=18&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5d9fe16eddd019abe44a9f95"
+      },
+      {
+        "created_at": "2022-06-24 11:00:29",
+        "product_sku": "2290966460",
+        "product_name": "iPhone 12 Mini Apple (256GB) (PRODUCT)RED tela 5,4\" Câmera dupla 12MP iOS",
+        "product_price_sale": 5604.05,
+        "product_url": "https://www.shoptime.com.br/produto/2290966460?pfm_carac=iphone&pfm_index=19&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5fadca4a1e77494604898cb1"
+      },
+      {
+        "created_at": "2022-06-24 11:00:29",
+        "product_sku": "2290967008",
+        "product_name": "iPhone 12 Apple (256GB) Verde tela 6,1\" Câmera dupla 12MP iOS",
+        "product_price_sale": 6247.68,
+        "product_url": "https://www.shoptime.com.br/produto/2290967008?pfm_carac=iphone&pfm_index=20&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5fadca4b1e774946048990e6"
+      },
+      {
+        "created_at": "2022-06-24 11:00:29",
+        "product_sku": "3919536361",
+        "product_name": "Apple iPhone 13 Mini 256GB iOS 5G Wi-Fi Tela 5.4'' Câmera Dupla 12MP - Azul",
+        "product_price_sale": 5740.1,
+        "product_url": "https://www.shoptime.com.br/produto/3919536361?pfm_carac=iphone&pfm_index=22&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6168a6a8062ff5a574352cff"
+      },
+      {
+        "created_at": "2022-06-24 11:00:29",
+        "product_sku": "3919535529",
+        "product_name": "Apple iPhone 13 Pro Max 128GB iOS 5G Wi-Fi Tela 6.7'' Câmera Tripla 12MP + Sensor LiDAR - Azul-Sierra",
+        "product_price_sale": 8122.42,
+        "product_url": "https://www.shoptime.com.br/produto/3919535529?pfm_carac=iphone&pfm_index=23&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6169f99e062ff5a574bbf3d7"
+      },
+      {
+        "created_at": "2022-06-24 11:00:29",
+        "product_sku": "134074427",
+        "product_name": "iPhone Xs Prata 256GB IOS12 4G + Wi-fi Câmera 12MP - Apple",
+        "product_price_sale": 8099.0,
+        "product_url": "https://www.shoptime.com.br/produto/134074427?pfm_carac=iphone&pfm_index=24&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=62b32541f2adc6d985a97f64"
+      },
+      {
+        "created_at": "2022-06-24 11:00:33",
+        "product_sku": "4806810969",
+        "product_name": "Apple iPhone 13 Pro Max 512GB iOS 5G Wi-Fi Tela 6.7'' Câmera Tripla 12MP  - Verde-alpino",
+        "product_price_sale": 10157.65,
+        "product_url": "https://www.shoptime.com.br/produto/4806810969?pfm_carac=iphone&pfm_index=2&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=627ae98c01eed16e3953f4e7"
+      },
+      {
+        "created_at": "2022-06-24 11:00:33",
+        "product_sku": "4806809984",
+        "product_name": "iPhone 13 Apple 512GB iOS 5G Wi-Fi Tela 6.1'' Câmera Dupla 12MP - Verde",
+        "product_price_sale": 8089.1,
+        "product_url": "https://www.shoptime.com.br/produto/4806809984?pfm_carac=iphone&pfm_index=3&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=627ae7ed01eed16e3920664b"
+      }
+    ]
+  }
+]
