@@ -112,6 +112,7 @@ class PontofrioSpider(scrapy.Spider):
 
         item = DefaultItem()
         item['created_at'] = str(today)
+        item['product_sku'] = product_item['url'].split('=')[1]
         item['product_name'] = product_item['name']
         item['product_price_sale'] = price
         item['product_url'] = product_item['url']

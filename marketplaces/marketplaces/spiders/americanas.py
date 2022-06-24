@@ -77,8 +77,12 @@ class AmericanasSpider(scrapy.Spider):
         today = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
 
         for card in cards:
+
+            product_sku = card.xpath(self.product_url).get().split('/')[2].split('?')[0]
+
             item = DefaultItem()
             item['created_at'] = str(today)
+            item['product_sku'] = product_sku
             item['product_name'] = card.xpath(self.product_name).get()
             item['product_price_sale'] = card.xpath(self.product_price_sale).get()
             item['product_url'] = url_base + card.xpath(self.product_url).get()
