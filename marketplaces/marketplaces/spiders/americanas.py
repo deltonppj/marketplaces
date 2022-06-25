@@ -11,10 +11,13 @@ from uc_browser.browser_v2 import BrowserV2
 
 from ..items import DefaultItem
 
+PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'output', '{}', '{}'))
+
 
 class AmericanasSpider(scrapy.Spider):
     name = 'americanas'
-    allowed_domains = ['americanas.com.br']
+
+    log.add(PATH.format(name, f'{name}.log'))
 
     def __init__(self, search=None, filter=None, price=None, validate_freight=False, **kwargs):
         super().__init__(**kwargs)
