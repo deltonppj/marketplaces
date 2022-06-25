@@ -2,7 +2,7 @@ from loguru import logger as log
 from datetime import datetime
 
 import scrapy
-# import os
+import os
 
 from scrapy.exceptions import CloseSpider
 

@@ -5,7 +5,7 @@ from datetime import datetime
 import json
 
 import scrapy
-# import os
+import os
 
 from scrapy.exceptions import CloseSpider
 

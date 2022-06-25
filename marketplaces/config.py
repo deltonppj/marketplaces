@@ -19,10 +19,11 @@ SPIDERS = [
     ]
 
 KEYWORDS = [
-    'iphone -p 5000',
-    'iphone 11 -p 3000',
-    'luva de box -p 50',
-    'bicicleta -p 300'
+    'dell g15 -p 4000',
+    # 'iphone -p 5000',
+    # 'iphone 11 -p 3000',
+    # 'luva de box -p 50',
+    # 'bicicleta -p 300'
 ]
 
 VALIDATE_FREIGHT = False
