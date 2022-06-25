@@ -12,7 +12,7 @@ BOT_NAME = 'marketplaces'
 SPIDER_MODULES = ['marketplaces.spiders']
 NEWSPIDER_MODULE = 'marketplaces.spiders'
 
-SCRAPEOPS_API_KEY = '12f7d53c-6829-4494-9840-71ea7faeb658'
+SCRAPEOPS_API_KEY = 'ca6bc96d-ebb5-40a3-bcd3-e09bae02195e'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 # USER_AGENT = 'marketplaces (+http://www.yourdomain.com)'
@@ -26,7 +26,7 @@ CONCURRENT_REQUESTS = 3
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-# DOWNLOAD_DELAY = 3
+DOWNLOAD_DELAY = 1
 # The download delay setting will honor only one of:
 # CONCURRENT_REQUESTS_PER_DOMAIN = 16
 # CONCURRENT_REQUESTS_PER_IP = 16

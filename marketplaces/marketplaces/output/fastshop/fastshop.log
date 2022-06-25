@@ -1,0 +1,23 @@
+2022-06-25 00:51:49.714 | INFO     | __main__:<module>:49 - Iniciando o sistema.
+2022-06-25 00:51:49.770 | INFO     | marketplaces.spiders.fastshop:__init__:43 - Crawler iniciado: fastshop
+2022-06-25 00:51:49.771 | INFO     | marketplaces.spiders.fastshop:__init__:45 - Preço desejado: 5000
+2022-06-25 00:51:49.771 | INFO     | marketplaces.spiders.fastshop:__init__:48 - Validar frete: False
+2022-06-25 00:51:49.771 | INFO     | marketplaces.spiders.fastshop:__init__:56 - Palavra chave informada: iphone
+2022-06-25 00:51:51.063 | INFO     | marketplaces.spiders.fastshop:start_requests:74 - Buscando chave de acesso ao catálogo...
+2022-06-25 00:51:51.064 | INFO     | marketplaces.spiders.fastshop:start_requests:75 - Pagina: https://apigw.fastshop.com.br/product/v0/regionalized/v1/catalog/by-search?terms=iphone&page=1
+2022-06-25 00:51:52.672 | INFO     | marketplaces.spiders.fastshop:parse:124 - Chave de acesso encontrada...
+2022-06-25 00:51:52.673 | INFO     | marketplaces.spiders.fastshop:parse:125 - Pagina: https://apigw.fastshop.com.br/product/v0/regionalized/v1/catalog/by-category?category=4611686018425427199&pageNumber=1
+2022-06-25 00:51:56.112 | DEBUG    | marketplaces.spiders.fastshop:parse_regionalized_products:140 - Produtos encontrados: 12
+2022-06-25 00:51:56.122 | INFO     | marketplaces.spiders.fastshop:parse_regionalized_products:166 - Pagina: 2 - https://apigw.fastshop.com.br/product/v0/regionalized/v1/catalog/by-category?category=4611686018425427199&pageNumber=2
+2022-06-25 00:52:00.020 | INFO     | marketplaces.pipelines:process_item:28 - Um novo item foi processado: iPhone 13 Apple (256GB) Rosa, Tela de 6,1", 5G e Câmera Dupla de 12MP
+2022-06-25 00:52:01.919 | INFO     | marketplaces.pipelines:process_item:28 - Um novo item foi processado: iPhone 13 Apple (256GB) Meia-noite, Tela de 6,1", 5G e Câmera Dupla de 12MP
+2022-06-25 00:52:03.634 | INFO     | marketplaces.pipelines:process_item:28 - Um novo item foi processado: iPhone 13 mini Apple (128GB) Estelar, Tela de 5,4", 5G e Câmera Dupla de 12MP
+2022-06-25 00:52:04.998 | DEBUG    | marketplaces.spiders.fastshop:parse_regionalized_products:140 - Produtos encontrados: 12
+2022-06-25 00:52:05.010 | INFO     | marketplaces.spiders.fastshop:parse_regionalized_products:166 - Pagina: 3 - https://apigw.fastshop.com.br/product/v0/regionalized/v1/catalog/by-category?category=4611686018425427199&pageNumber=3
+2022-06-25 00:52:06.171 | INFO     | marketplaces.pipelines:process_item:28 - Um novo item foi processado: iPhone 12 Apple (128GB) Azul, Tela de 6,1", 5G e Câmera Dupla de 12 MP
+2022-06-25 00:52:07.180 | INFO     | marketplaces.pipelines:process_item:28 - Um novo item foi processado: iPhone 12 Apple (64GB) Branco, Tela de 6,1", 5G e Câmera Dupla de 12 MP
+2022-06-25 00:52:08.377 | INFO     | marketplaces.pipelines:process_item:28 - Um novo item foi processado: iPhone 12 Apple (64GB) Preto, Tela de 6,1", 5G e Câmera Dupla de 12 MP
+2022-06-25 00:52:10.028 | DEBUG    | marketplaces.spiders.fastshop:parse_regionalized_products:140 - Produtos encontrados: 12
+2022-06-25 00:52:10.040 | INFO     | marketplaces.spiders.fastshop:parse_regionalized_products:166 - Pagina: 4 - https://apigw.fastshop.com.br/product/v0/regionalized/v1/catalog/by-category?category=4611686018425427199&pageNumber=4
+2022-06-25 00:52:10.937 | INFO     | marketplaces.pipelines:process_item:28 - Um novo item foi processado: Fone de Ouvido EarPods com Conector Lightning Branco - Apple - MMTN2BZ/A
+2022-06-25 00:52:12.206 | INFO     | marketplaces.pipelines:process_item:28 - Um novo item foi processado: Película Protetora para iPhone X, XS e 11 Pro de Vidro Espelhada Transparente - Laut - LT-IPXPPCI

@@ -5,6 +5,7 @@ from marketplaces.spiders.pontofrio import PontofrioSpider
 from marketplaces.spiders.submarino import SubmarinoSpider
 from marketplaces.spiders.shoptime import ShoptimeSpider
 from marketplaces.spiders.magazineluiza import MagazineluizaSpider
+from marketplaces.spiders.fastshop import FastshopSpider
 
 SPIDERS = [
     AmericanasSpider,
@@ -13,14 +14,15 @@ SPIDERS = [
     PontofrioSpider,
     SubmarinoSpider,
     ShoptimeSpider,
-    MagazineluizaSpider
+    MagazineluizaSpider,
+    FastshopSpider
     ]
 
 KEYWORDS = [
     'iphone -p 5000',
     'iphone 11 -p 3000',
     'luva de box -p 50',
-    'bicicleta infantil aro 16 -p 300'
+    'bicicleta -p 300'
 ]
 
 VALIDATE_FREIGHT = False

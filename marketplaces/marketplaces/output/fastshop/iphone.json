@@ -1,0 +1,281 @@
+[
+  {
+    "freight": null,
+    "size": 39,
+    "products": [
+      {
+        "created_at": "2022-06-25 00:40:26",
+        "product_sku": "AEMLQ63BZAPTO",
+        "product_name": "iPhone 13 Apple (256GB) Meia-noite, Tela de 6,1\", 5G e Câmera Dupla de 12MP",
+        "product_price_sale": 5799.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMLQ63BZAPTO_PRD/iphone-13-apple-256gb-meia-noite-tela-de-61-5g-e-camera-dupla-de-12mp"
+      },
+      {
+        "created_at": "2022-06-25 00:40:31",
+        "product_sku": "AEMLL93BZAAZL",
+        "product_name": "iPhone 13 Pro Max Apple (128GB) Azul Sierra, Tela de 6,7?, 5G e Câmera Pro de 12 MP",
+        "product_price_sale": 6899.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMLL93BZAAZL_PRD/iphone-13-pro-max-apple-128gb-azul-sierra-tela-de-67-5g-e-camera-pro-de-12-mp"
+      },
+      {
+        "created_at": "2022-06-25 00:40:52",
+        "product_sku": "AEMGEC3BZAVRM",
+        "product_name": "iPhone 12 mini 256GB (PRODUCT) RED, 5,4\", 5G e Câmera Dupla de 12MP - MGEC3BZ/A",
+        "product_price_sale": 8148.42,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMGEC3BZAVRM_PRD/iphone-12-mini-256gb-product-red-54-5g-e-camera-dupla-de-12mp-mgec3bza"
+      },
+      {
+        "created_at": "2022-06-25 00:41:49",
+        "product_sku": "AEMLQ63BRAPTO",
+        "product_name": "iPhone 13 Apple (256GB) Meia-noite, Tela de 6,1\", 5G e Câmera Dupla de 12MP",
+        "product_price_sale": 8306.68,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMLQ63BRAPTO_PRD/iphone-13-apple-256gb-meia-noite-tela-de-61-5g-e-camera-dupla-de-12mp"
+      },
+      {
+        "created_at": "2022-06-25 00:41:50",
+        "product_sku": "AEMLPJ3BRAVRM",
+        "product_name": "iPhone 13 Apple (128GB) Vermelho, Tela de 6,1\", 5G e Câmera Dupla de 12MP",
+        "product_price_sale": 5199.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMLPJ3BRAVRM_PRD/iphone-13-apple-128gb-vermelho-tela-de-61-5g-e-camera-dupla-de-12mp"
+      },
+      {
+        "created_at": "2022-06-25 00:42:07",
+        "product_sku": "AEMLQE3BRARSA",
+        "product_name": "iPhone 13 Apple (512GB) Rosa, Tela de 6,1\", 5G e Câmera Dupla de 12MP",
+        "product_price_sale": 7299.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMLQE3BRARSA_PRD/iphone-13-apple-512gb-rosa-tela-de-61-5g-e-camera-dupla-de-12mp"
+      },
+      {
+        "created_at": "2022-06-25 00:42:08",
+        "product_sku": "AEMLPH3BRARSA",
+        "product_name": "iPhone 13 Apple (128GB) Rosa, Tela de 6,1\", 5G e Câmera Dupla de 12 MP",
+        "product_price_sale": 5199.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMLPH3BRARSA_PRD/iphone-13-apple-128gb-rosa-tela-de-61-5g-e-camera-dupla-de-12-mp"
+      },
+      {
+        "created_at": "2022-06-25 00:42:10",
+        "product_sku": "3000843987",
+        "product_name": "Apple iPhone 13 mini (128GB) - Estelar",
+        "product_price_sale": 6772.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/3000843987_PRD/apple-iphone-13-mini-128gb-estelar"
+      },
+      {
+        "created_at": "2022-06-25 00:42:11",
+        "product_sku": "3000843995",
+        "product_name": "Apple iPhone 13 mini (256GB) - Estelar",
+        "product_price_sale": 7953.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/3000843995_PRD/apple-iphone-13-mini-256gb-estelar"
+      },
+      {
+        "created_at": "2022-06-25 00:42:13",
+        "product_sku": "3000844011",
+        "product_name": "Apple iPhone 13 Pro (128GB) - Prateado",
+        "product_price_sale": 9246.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/3000844011_PRD/apple-iphone-13-pro-128gb-prateado"
+      },
+      {
+        "created_at": "2022-06-25 00:42:38",
+        "product_sku": "3000843963",
+        "product_name": "Apple iPhone 13 (128GB) - Meia-noite",
+        "product_price_sale": 7812.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/3000843963_PRD/apple-iphone-13-128gb-meia-noite"
+      },
+      {
+        "created_at": "2022-06-25 00:42:39",
+        "product_sku": "3000843971",
+        "product_name": "Apple iPhone 13 (256GB) - Rosa",
+        "product_price_sale": 8930.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/3000843971_PRD/apple-iphone-13-256gb-rosa"
+      },
+      {
+        "created_at": "2022-06-25 00:42:41",
+        "product_sku": "3000843983",
+        "product_name": "Apple iPhone 13 mini (128GB) - (PRODUCT)RED",
+        "product_price_sale": 6633.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/3000843983_PRD/apple-iphone-13-mini-128gb-productred"
+      },
+      {
+        "created_at": "2022-06-25 00:42:42",
+        "product_sku": "3000844013",
+        "product_name": "Apple iPhone 13 Pro (256GB) - Dourado",
+        "product_price_sale": 10629.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/3000844013_PRD/apple-iphone-13-pro-256gb-dourado"
+      },
+      {
+        "created_at": "2022-06-25 00:42:43",
+        "product_sku": "3000844027",
+        "product_name": "Apple iPhone 13 Pro Max (128GB) - Prateado",
+        "product_price_sale": 9072.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/3000844027_PRD/apple-iphone-13-pro-max-128gb-prateado"
+      },
+      {
+        "created_at": "2022-06-25 00:42:45",
+        "product_sku": "AEMLQ73BRABCO",
+        "product_name": "iPhone 13 Apple (256GB) Estelar, Tela de 6,1\", 5G e Câmera Dupla de 12MP",
+        "product_price_sale": 5499.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMLQ73BRABCO_PRD/iphone-13-apple-256gb-estelar-tela-de-61-5g-e-camera-dupla-de-12mp"
+      },
+      {
+        "created_at": "2022-06-25 00:42:45",
+        "product_sku": "AEMNE43BZAVRD",
+        "product_name": "iPhone 13 Pro Apple (512GB) Verde-Alpino, Tela de 6,1\", 5G e Câmera Tripla de 12MP",
+        "product_price_sale": 8199.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMNE43BZAVRD_PRD/iphone-13-pro-apple-512gb-verde-alpino-tela-de-61-5g-e-camera-tripla-de-12mp"
+      },
+      {
+        "created_at": "2022-06-25 00:42:46",
+        "product_sku": "AEMNE33BZAVRD",
+        "product_name": "iPhone 13 Pro Apple (256GB) Verde-Alpino, Tela de 6,1\", 5G e Câmera Tripla de 12MP",
+        "product_price_sale": 7199.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMNE33BZAVRD_PRD/iphone-13-pro-apple-256gb-verde-alpino-tela-de-61-5g-e-camera-tripla-de-12mp"
+      },
+      {
+        "created_at": "2022-06-25 00:42:47",
+        "product_sku": "AEMNGL3BZAVRD",
+        "product_name": "iPhone 13 Apple (256GB) Verde, Tela de 6,1\", 5G e Câmera Dupla de 12 MP",
+        "product_price_sale": 5499.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMNGL3BZAVRD_PRD/iphone-13-apple-256gb-verde-tela-de-61-5g-e-camera-dupla-de-12-mp"
+      },
+      {
+        "created_at": "2022-06-25 00:42:50",
+        "product_sku": "AEMLPG3BRABCO",
+        "product_name": "iPhone 13 Apple (128GB) Estelar, Tela de 6,1\", 5G e Câmera Dupla de 12MP",
+        "product_price_sale": 5199.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMLPG3BRABCO_PRD/iphone-13-apple-128gb-estelar-tela-de-61-5g-e-camera-dupla-de-12mp"
+      },
+      {
+        "created_at": "2022-06-25 00:42:52",
+        "product_sku": "AEMLQG3BRAAZL",
+        "product_name": "iPhone 13 Apple (512GB) Azul, Tela de 6,1\", 5G e Câmera Dupla de 12MP",
+        "product_price_sale": 7299.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMLQG3BRAAZL_PRD/iphone-13-apple-512gb-azul-tela-de-61-5g-e-camera-dupla-de-12mp"
+      },
+      {
+        "created_at": "2022-06-25 00:42:52",
+        "product_sku": "AEMLPK3BRAAZL",
+        "product_name": "iPhone 13 Apple (128GB) Azul, Tela de 6,1\", 5G e Câmera Dupla de 12 MP",
+        "product_price_sale": 5199.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMLPK3BRAAZL_PRD/iphone-13-apple-128gb-azul-tela-de-61-5g-e-camera-dupla-de-12-mp"
+      },
+      {
+        "created_at": "2022-06-25 00:42:54",
+        "product_sku": "AEMLQA3BRAAZL",
+        "product_name": "iPhone 13 Apple (256GB) Azul, Tela de 6,1, 5G e Câmera Dupla de 12MP",
+        "product_price_sale": 5499.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMLQA3BRAAZL_PRD/iphone-13-apple-256gb-azul-tela-de-61-5g-e-camera-dupla-de-12mp"
+      },
+      {
+        "created_at": "2022-06-25 00:42:55",
+        "product_sku": "AEMLQ93BRAVRM",
+        "product_name": "iPhone 13 Apple (256GB) Vermelho, Tela de 6,1\", 5G e Câmera Dupla de 12MP",
+        "product_price_sale": 5499.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMLQ93BRAVRM_PRD/iphone-13-apple-256gb-vermelho-tela-de-61-5g-e-camera-dupla-de-12mp"
+      },
+      {
+        "created_at": "2022-06-25 00:44:43",
+        "product_sku": "AEMGDD3BZAPTA",
+        "product_name": "iPhone 12 Pro Max 256GB Prateado, com Tela de 6,7\", 5G e Câmera Tripla de 12MP - MGDD3BZ/A",
+        "product_price_sale": 10797.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMGDD3BZAPTA_PRD/iphone-12-pro-max-256gb-prateado-com-tela-de-67-5g-e-camera-tripla-de-12mp-mgdd3bza"
+      },
+      {
+        "created_at": "2022-06-25 00:44:45",
+        "product_sku": "AEMGD93BZADRD",
+        "product_name": "iPhone 12 Pro Max 128GB Dourado, com Tela de 6,7\", 5G e Câmera Tripla de 12MP - MGD93BZ/A",
+        "product_price_sale": 9982.06,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMGD93BZADRD_PRD/iphone-12-pro-max-128gb-dourado-com-tela-de-67-5g-e-camera-tripla-de-12mp-mgd93bza"
+      },
+      {
+        "created_at": "2022-06-25 00:44:46",
+        "product_sku": "AEMGD73BZAGFT",
+        "product_name": "iPhone 12 Pro Max 128GB Grafite, com Tela de 6,7\", 5G e Câmera Tripla de 12MP - MGD73BZ/A",
+        "product_price_sale": 12223.15,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMGD73BZAGFT_PRD/iphone-12-pro-max-128gb-grafite-com-tela-de-67-5g-e-camera-tripla-de-12mp-mgd73bza"
+      },
+      {
+        "created_at": "2022-06-25 00:44:48",
+        "product_sku": "AEMGMU3BZAGFT",
+        "product_name": "iPhone 12 Pro 512GB Grafite, com Tela de 6,1\", 5G e Câmera Tripla de 12MP - MGMU3BZ/A",
+        "product_price_sale": 8983.75,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMGMU3BZAGFT_PRD/iphone-12-pro-512gb-grafite-com-tela-de-61-5g-e-camera-tripla-de-12mp-mgmu3bza"
+      },
+      {
+        "created_at": "2022-06-25 00:44:50",
+        "product_sku": "AEMGMM3BZADRD",
+        "product_name": "iPhone 12 Pro 128GB Dourado, com Tela de 6,1\", 5G e Câmera Tripla de 12MP - MGMM3BZ/A",
+        "product_price_sale": 8963.37,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMGMM3BZADRD_PRD/iphone-12-pro-128gb-dourado-com-tela-de-61-5g-e-camera-tripla-de-12mp-mgmm3bza"
+      },
+      {
+        "created_at": "2022-06-25 00:44:51",
+        "product_sku": "AEMGJJ3BZAVRM",
+        "product_name": "iPhone 12 (PRODUCT) RED, Tela de 6,1\", 5G, 256 GB e Câmera Dupla de 12MP Ultra-angular + 12MP Grande-angular - MGJJ3BZ/A",
+        "product_price_sale": 5907.33,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMGJJ3BZAVRM_PRD/iphone-12-product-red-tela-de-61-5g-256-gb-e-camera-dupla-de-12mp-ultra-angular-12mp-grande-angular-mgjj3bza"
+      },
+      {
+        "created_at": "2022-06-25 00:45:07",
+        "product_sku": "AEMGE33BZAPTO",
+        "product_name": "iPhone 12 mini 128GB Preto, com Tela de 5,4\", 5G e Câmera Dupla de 12MP - MGE33BZ/A",
+        "product_price_sale": 6926.01,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMGE33BZAPTO_PRD/iphone-12-mini-128gb-preto-com-tela-de-54-5g-e-camera-dupla-de-12mp-mge33bza"
+      },
+      {
+        "created_at": "2022-06-25 00:45:08",
+        "product_sku": "AEMGE43BZABCO",
+        "product_name": "iPhone 12 mini 128GB Branco, com Tela de 5,4\", 5G e Câmera Dupla de 12MP - MGE43BZ/A",
+        "product_price_sale": 6926.01,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMGE43BZABCO_PRD/iphone-12-mini-128gb-branco-com-tela-de-54-5g-e-camera-dupla-de-12mp-mge43bza"
+      },
+      {
+        "created_at": "2022-06-25 00:45:11",
+        "product_sku": "AEMGEA3BZABCO",
+        "product_name": "iPhone 12 mini 256GB Branco, Tela de 5,4\", 5G e Câmera Dupla de 12MP - MGEA3BZ/A",
+        "product_price_sale": 8148.42,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMGEA3BZABCO_PRD/iphone-12-mini-256gb-branco-tela-de-54-5g-e-camera-dupla-de-12mp-mgea3bza"
+      },
+      {
+        "created_at": "2022-06-25 00:45:14",
+        "product_sku": "AEMGMW3BZADRD",
+        "product_name": "iPhone 12 Pro 512GB Dourado, com Tela de 6,1\", 5G e Câmera Tripla de 12MP - MGMW3BZ/A",
+        "product_price_sale": 9574.58,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMGMW3BZADRD_PRD/iphone-12-pro-512gb-dourado-com-tela-de-61-5g-e-camera-tripla-de-12mp-mgmw3bza"
+      },
+      {
+        "created_at": "2022-06-25 00:45:15",
+        "product_sku": "AEMLQ83BZARSA",
+        "product_name": "iPhone 13 Apple (256GB) Rosa, Tela de 6,1\", 5G e Câmera Dupla de 12MP",
+        "product_price_sale": 5699.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMLQ83BZARSA_PRD/iphone-13-apple-256gb-rosa-tela-de-61-5g-e-camera-dupla-de-12mp"
+      },
+      {
+        "created_at": "2022-06-25 00:45:16",
+        "product_sku": "AEMLL63BZAGFT",
+        "product_name": "iPhone 13 Pro Max Apple (128GB) Grafite, Tela de 6,7?, 5G e Câmera Pro de 12 MP",
+        "product_price_sale": 6899.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMLL63BZAGFT_PRD/iphone-13-pro-max-apple-128gb-grafite-tela-de-67-5g-e-camera-pro-de-12-mp"
+      },
+      {
+        "created_at": "2022-06-25 00:45:17",
+        "product_sku": "AEMLL83BZADRD",
+        "product_name": "iPhone 13 Pro Max Apple (128GB) Dourado, Tela de 6,7?, 5G e Câmera Pro de 12 MP",
+        "product_price_sale": 6899.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMLL83BZADRD_PRD/iphone-13-pro-max-apple-128gb-dourado-tela-de-67-5g-e-camera-pro-de-12-mp"
+      },
+      {
+        "created_at": "2022-06-25 00:45:19",
+        "product_sku": "AEMLPF3BZAPTO",
+        "product_name": "iPhone 13 Apple (128GB) Meia-Noite, Tela de 6,1\", 5G e Câmera Dupla de 12MP",
+        "product_price_sale": 5199.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMLPF3BZAPTO_PRD/iphone-13-apple-128gb-meia-noite-tela-de-61-5g-e-camera-dupla-de-12mp"
+      },
+      {
+        "created_at": "2022-06-25 00:45:20",
+        "product_sku": "AEMLVP3BZAAZL",
+        "product_name": "iPhone 13 Pro Apple (256GB) Azul-Sierra, Tela de 6,1\", 5G e Câmera Tripla de 12MP",
+        "product_price_sale": 7199.0,
+        "product_url": "https://www.fastshop.com.br/web/p/d/AEMLVP3BZAAZL_PRD/iphone-13-pro-apple-256gb-azul-sierra-tela-de-61-5g-e-camera-tripla-de-12mp"
+      }
+    ]
+  }
+][

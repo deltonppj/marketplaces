@@ -28,7 +28,7 @@ class DefaultPipeline(object):
         log.info(f'Um novo item foi processado: {item["product_name"]}')
         try:
             if (spider.name != 'casasbahia') & (spider.name != 'extra') & \
-                    (spider.name != 'pontofrio') & (spider.name != 'magazineluiza'):
+                    (spider.name != 'pontofrio') & (spider.name != 'magazineluiza') & (spider.name != 'fastshop'):
                 item["product_price_sale"] = float(clean_string_BRL(item["product_price_sale"]).strip())
                 log.info(f'{item["product_name"]}: preço formatado.')
         except BaseException as err:
