@@ -74,6 +74,7 @@ EXTENSIONS = {
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    'marketplaces.pipelines.DefaultPipeline': 300,
+   'marketplaces.pipelines.ShopsmilesPipeline': 400,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

@@ -40,6 +40,7 @@ PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'output', '
 
 class FastshopSpider(scrapy.Spider):
     name = 'fastshop'
+    custom_settings = {'ITEM_PIPELINES': {'marketplaces.pipelines.DefaultPipeline': 300}}
 
     log.add(PATH.format(name, f'{name}.log'))
 

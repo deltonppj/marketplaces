@@ -1,0 +1,148 @@
+[
+  {
+    "freight": null,
+    "size": 20,
+    "products": [
+      {
+        "created_at": "2022-06-27 13:23:48",
+        "product_sku": "3001378761",
+        "product_name": "Notebook Gamer Dell G15-i1100-M30P 15.6\" FHD 11ª Geração Intel Core i5 8GB 512GB SSD NVIDIA RTX 3050 Windows 11",
+        "product_price_sale": 6304.03,
+        "product_url": "www.fastshop.com.br/loja/notebook-gamer-dell-g15-i1100-m30p-156-fhd-11-geracao-intel-core-i5-8gb-512gb-ssd-nvidia-rtx-3050-windows-11-3001378761prd"
+      },
+      {
+        "created_at": "2022-06-27 13:23:52",
+        "product_sku": "3001378747",
+        "product_name": "Notebook Gamer Dell G15-a0500-MM15P 15.6\" FHD AMD Ryzen™ 5 16GB 512GB SSD NVIDIA RTX 3050 Windows 11",
+        "product_price_sale": 6886.03,
+        "product_url": "www.fastshop.com.br/loja/notebook-gamer-dell-g15-a0500-mm15p-156-fhd-amd-ryzen™-5-16gb-512gb-ssd-nvidia-rtx-3050-windows-11-3001378747prd"
+      },
+      {
+        "created_at": "2022-06-27 13:23:53",
+        "product_sku": "3001184854",
+        "product_name": "Notebook Dell Gamer G15 - FHD 120Hz, Ryzen 5 5600H, 32GB, SSD 512GB, RTX 3050, Windows 11",
+        "product_price_sale": 9305.94,
+        "product_url": "www.fastshop.com.br/loja/notebook-dell-gamer-g15---fhd-120hz-ryzen-5-5600h-32gb-ssd-512gb-rtx-3050-windows-11-3001184854prd"
+      },
+      {
+        "created_at": "2022-06-27 13:23:54",
+        "product_sku": "3001184860",
+        "product_name": "Notebook Dell Gamer G15 - Tela 15.6 Full HD 120Hz, i5 10500H, 32GB, SSD 512GB, GTX 1650, Linux",
+        "product_price_sale": 8409.08,
+        "product_url": "www.fastshop.com.br/loja/notebook-dell-gamer-g15---tela-156-full-hd-120hz-i5-10500h-32gb-ssd-512gb-gtx-1650-linux-3001184860prd"
+      },
+      {
+        "created_at": "2022-06-27 13:23:57",
+        "product_sku": "3001184852",
+        "product_name": "Notebook Dell Gamer G15 - FHD 120Hz, Ryzen 5 5600H, 32GB, SSD 1TB, GeForce RTX 3050, Windows 11",
+        "product_price_sale": 11099.66,
+        "product_url": "www.fastshop.com.br/loja/notebook-dell-gamer-g15---fhd-120hz-ryzen-5-5600h-32gb-ssd-1tb-geforce-rtx-3050-windows-11-3001184852prd"
+      },
+      {
+        "created_at": "2022-06-27 13:23:59",
+        "product_sku": "3001378755",
+        "product_name": "Notebook Gamer Dell G15-i1000-M20P 15.6\" FHD 10ª Geração Intel Core i5 8GB 512GB SSD NVIDIA GTX 1650 Windows 11",
+        "product_price_sale": 5237.03,
+        "product_url": "www.fastshop.com.br/loja/notebook-gamer-dell-g15-i1000-m20p-156-fhd-10-geracao-intel-core-i5-8gb-512gb-ssd-nvidia-gtx-1650-windows-11-3001378755prd"
+      },
+      {
+        "created_at": "2022-06-27 13:24:00",
+        "product_sku": "3001378759",
+        "product_name": "Notebook Gamer Dell G15-i1000-U20P 15.6\" FHD 10ª Geração Intel Core i5 8GB 512GB SSD NVIDIA GTX 1650 Linux",
+        "product_price_sale": 5091.53,
+        "product_url": "www.fastshop.com.br/loja/notebook-gamer-dell-g15-i1000-u20p-156-fhd-10-geracao-intel-core-i5-8gb-512gb-ssd-nvidia-gtx-1650-linux-3001378759prd"
+      },
+      {
+        "created_at": "2022-06-27 13:24:01",
+        "product_sku": "3001228866",
+        "product_name": "Notebook Dell Gamer G15 - FHD 120Hz, Ryzen 5 5600H, 64GB, SSD 512GB, GeForce RTX 3050, Windows 11",
+        "product_price_sale": 11323.88,
+        "product_url": "www.fastshop.com.br/loja/notebook-dell-gamer-g15---fhd-120hz-ryzen-5-5600h-64gb-ssd-512gb-geforce-rtx-3050-windows-11-3001228866prd"
+      },
+      {
+        "created_at": "2022-06-27 13:24:02",
+        "product_sku": "3001184950",
+        "product_name": "Kit Notebook Gamer Dell G15-a0500-AM10PBP 15.6\" FHD AMD Ryzen™ 5 8GB 512GB SSD NVIDIA RTX 3050 Windows 11 + Mochila",
+        "product_price_sale": 6790.0,
+        "product_url": "www.fastshop.com.br/loja/kit-notebook-gamer-dell-g15-a0500-am10pbp-156-fhd-amd-ryzen™-5-8gb-512gb-ssd-nvidia-rtx-3050-windows-11--mochila-3001184950prd"
+      },
+      {
+        "created_at": "2022-06-27 13:24:03",
+        "product_sku": "3000964837",
+        "product_name": "Notebook Gamer Dell G15 A0500-MM10P - Ryzen 5, 8GB, SSD 512GB, GeForce RTX 3050, Full HD 120Hz",
+        "product_price_sale": 7735.43,
+        "product_url": "www.fastshop.com.br/loja/notebook-gamer-dell-g15-a0500-mm10p---ryzen-5-8gb-ssd-512gb-geforce-rtx-3050-full-hd-120hz-3000964837prd"
+      },
+      {
+        "created_at": "2022-06-27 13:24:04",
+        "product_sku": "3001378749",
+        "product_name": "Notebook Gamer Dell G15-a0700-MM20P 15.6\" FHD AMD Ryzen™ 7 16GB 512GB SSD NVIDIA RTX 3060 Windows 11",
+        "product_price_sale": 8729.03,
+        "product_url": "www.fastshop.com.br/loja/notebook-gamer-dell-g15-a0700-mm20p-156-fhd-amd-ryzen™-7-16gb-512gb-ssd-nvidia-rtx-3060-windows-11-3001378749prd"
+      },
+      {
+        "created_at": "2022-06-27 13:24:06",
+        "product_sku": "3001228876",
+        "product_name": "Notebook Dell Gamer G15 - Tela 15.6 Full HD 120Hz, i5 10500H, 64GB, SSD 1TB, GTX 1650, Linux",
+        "product_price_sale": 10427.02,
+        "product_url": "www.fastshop.com.br/loja/notebook-dell-gamer-g15---tela-156-full-hd-120hz-i5-10500h-64gb-ssd-1tb-gtx-1650-linux-3001228876prd"
+      },
+      {
+        "created_at": "2022-06-27 13:24:07",
+        "product_sku": "3001378767",
+        "product_name": "Notebook Gamer Dell G15-i1100-M50P 15.6\" FHD 11ª Geração Intel Core i7 16GB 512GB SSD NVIDIA RTX 3060 Windows 11",
+        "product_price_sale": 9311.03,
+        "product_url": "www.fastshop.com.br/loja/notebook-gamer-dell-g15-i1100-m50p-156-fhd-11-geracao-intel-core-i7-16gb-512gb-ssd-nvidia-rtx-3060-windows-11-3001378767prd"
+      },
+      {
+        "created_at": "2022-06-27 13:24:08",
+        "product_sku": "3001228872",
+        "product_name": "Notebook Dell Gamer G15 - Tela 15.6 Full HD 120Hz, i5 10500H, 16GB, SSD 512GB, GTX 1650, Linux",
+        "product_price_sale": 7288.0,
+        "product_url": "www.fastshop.com.br/loja/notebook-dell-gamer-g15---tela-156-full-hd-120hz-i5-10500h-16gb-ssd-512gb-gtx-1650-linux-3001228872prd"
+      },
+      {
+        "created_at": "2022-06-27 13:24:09",
+        "product_sku": "3001228870",
+        "product_name": "Notebook Dell Gamer G15 - Full HD 120Hz, i7 11800H, 64GB, SSD 512GB, GeForce RTX 3060, Windows 11",
+        "product_price_sale": 15023.43,
+        "product_url": "www.fastshop.com.br/loja/notebook-dell-gamer-g15---full-hd-120hz-i7-11800h-64gb-ssd-512gb-geforce-rtx-3060-windows-11-3001228870prd"
+      },
+      {
+        "created_at": "2022-06-27 13:24:10",
+        "product_sku": "3001378757",
+        "product_name": "Notebook Gamer Dell G15-i1000-U10P 15.6\" FHD 10ª Geração Intel Core i5 8GB 256GB SSD NVIDIA GTX 1650 Linux",
+        "product_price_sale": 4703.53,
+        "product_url": "www.fastshop.com.br/loja/notebook-gamer-dell-g15-i1000-u10p-156-fhd-10-geracao-intel-core-i5-8gb-256gb-ssd-nvidia-gtx-1650-linux-3001378757prd"
+      },
+      {
+        "created_at": "2022-06-27 13:24:11",
+        "product_sku": "3001378745",
+        "product_name": "Notebook Gamer Dell G15-a0500-MM10P 15.6\" FHD AMD Ryzen™ 5 8GB 512GB SSD NVIDIA RTX 3050 Windows 11",
+        "product_price_sale": 6304.03,
+        "product_url": "www.fastshop.com.br/loja/notebook-gamer-dell-g15-a0500-mm10p-156-fhd-amd-ryzen™-5-8gb-512gb-ssd-nvidia-rtx-3050-windows-11-3001378745prd"
+      },
+      {
+        "created_at": "2022-06-27 13:24:12",
+        "product_sku": "3000964669",
+        "product_name": "Notebook Dell Gamer G15 - Full HD 120Hz, i7 11800H, 32GB, SSD 512GB, GeForce RTX 3060, Windows 11",
+        "product_price_sale": 13566.03,
+        "product_url": "www.fastshop.com.br/loja/notebook-dell-gamer-g15---full-hd-120hz-i7-11800h-32gb-ssd-512gb-geforce-rtx-3060-windows-11-3000964669prd"
+      },
+      {
+        "created_at": "2022-06-27 13:24:14",
+        "product_sku": "3001378765",
+        "product_name": "Notebook Gamer Dell G15-i1100-M40P 15.6\" FHD 11ª Geração Intel Core i5 16GB 512GB SSD NVIDIA RTX 3050 Windows 11",
+        "product_price_sale": 6886.03,
+        "product_url": "www.fastshop.com.br/loja/notebook-gamer-dell-g15-i1100-m40p-156-fhd-11-geracao-intel-core-i5-16gb-512gb-ssd-nvidia-rtx-3050-windows-11-3001378765prd"
+      },
+      {
+        "created_at": "2022-06-27 13:24:15",
+        "product_sku": "3000964841",
+        "product_name": "Notebook Gamer Dell G15-i1100-M30P - i5 11400H, 8GB, SSD 512GB, GeForce RTX 3050, Full HD 120Hz",
+        "product_price_sale": 8016.7,
+        "product_url": "www.fastshop.com.br/loja/notebook-gamer-dell-g15-i1100-m30p---i5-11400h-8gb-ssd-512gb-geforce-rtx-3050-full-hd-120hz-3000964841prd"
+      }
+    ]
+  }
+]

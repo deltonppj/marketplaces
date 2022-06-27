@@ -2,7 +2,7 @@ from loguru import logger as log
 from datetime import datetime
 
 import scrapy
-# import os
+import os
 
 from scrapy.exceptions import CloseSpider
 
@@ -16,6 +16,7 @@ PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'output', '
 
 class AmericanasSpider(scrapy.Spider):
     name = 'americanas'
+    custom_settings = {'ITEM_PIPELINES': {'marketplaces.pipelines.DefaultPipeline': 300}}
 
     log.add(PATH.format(name, f'{name}.log'))
 

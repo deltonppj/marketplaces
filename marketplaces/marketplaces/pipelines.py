@@ -53,3 +53,5 @@ class DefaultPipeline(object):
         log.info('Crawler finalizado.')
 
 
+class ShopsmilesPipeline(DefaultPipeline):
+    pass
