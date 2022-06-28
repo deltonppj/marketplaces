@@ -1,0 +1,24 @@
+[
+  {
+    "freight": null,
+    "size": 2,
+    "products": [
+      {
+        "created_at": "2022-06-28 17:53:49",
+        "product_sku": "2350208",
+        "product_name": "Notebook Gamer Dell Gamer Dell G15 Intel Core i5 - 8GB 512GB SSD 15,6...",
+        "product_price_sale": 5199.0,
+        "product_gain_miles": "15.597",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=2350208_8&n=Notebook+Gamer+Dell+Gamer+Dell+G15+Intel+Core+i5+-+8GB+512GB+SSD+15%2C6%22+Full+HD+NVIDIA+GTX+1650+4GB&a=true"
+      },
+      {
+        "created_at": "2022-06-28 17:53:49",
+        "product_sku": "2280967",
+        "product_name": "Notebook Dell Inspiron 3000 3501-A70P Intel Core - i7 8GB 256GB SSD 1...",
+        "product_price_sale": 6174.05,
+        "product_gain_miles": "18.522",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=2280967_8&n=Notebook+Dell+Inspiron+3000+3501-A70P+Intel+Core+-+i7+8GB+256GB+SSD+15%2C6%22+Placa+Nvidia+2G+Windows+10&a=true"
+      }
+    ]
+  }
+]

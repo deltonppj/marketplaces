@@ -179,20 +179,22 @@ class FastshopSpider(scrapy.Spider):
     def parse_price(self, response, product_item):
         data = json.loads(response.text)
 
-        try:
-            price = data['result'][0]['products'][0]['skus'][0]['promotions'][0]['value']
-        except:
-            try:
-                price = data['result'][0]['products'][0]['skus'][0]['price']['offerPrice']
-            except:
-                log.debug(product_item['url'])
-                log.error(f'Erro ao acessar preço do produto: {product_item["sku"]}')
+        isPromotionApplied = data['result'][0]['products'][0]['skus'][0]['promotions'][0]['isPromotionApplied']
+        isPrimeApplied = data['result'][0]['products'][0]['skus'][0]['promotions'][0]['isPrimeApplied']
+
+        log.warning(f'isPromotionApplied: {isPromotionApplied}')
+        log.warning(f'isPrimeApplied: {isPrimeApplied}')
+
+        price = data['result'][0]['products'][0]['skus'][0]['promotions'][0]['value']
+
+        if (isPromotionApplied & isPrimeApplied) | (isPromotionApplied is False & isPrimeApplied):
+            price = data['result'][0]['products'][0]['skus'][0]['promotions'][0]['prime']['value']
 
         today = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
 
         item = DefaultItem()
         item['created_at'] = str(today)
-        item['product_sku'] = product_item['sku'].split('_')[0]
+        item['product_sku'] = product_item['sku'] # .split('_')[0]
         item['product_name'] = product_item['name']
         item['product_price_sale'] = price
         item['product_url'] = product_item['url']

@@ -1,0 +1,64 @@
+[
+  {
+    "freight": null,
+    "size": 8,
+    "products": [
+      {
+        "created_at": "2022-06-28 17:25:12",
+        "product_sku": "AEMHDA3BZAPTO_PRD",
+        "product_name": "iPhone 11 Preto, com Tela de 6,1\", 4G, 64 GB e Câmera de 12 MP - MHDA3BZ/A",
+        "product_price_sale": 3055.61,
+        "product_url": "www.fastshop.com.br/loja/iphone-11-preto-64gb-mhda3bz-a-fast"
+      },
+      {
+        "created_at": "2022-06-28 17:25:16",
+        "product_sku": "AEMXE42BZACNZ_PRD",
+        "product_name": "iPad Pro 2° Geração Cinza-espacial com Tela de 11\", 4G, 256 GB e Processador A12z Bionic - MXE42BZ/A",
+        "product_price_sale": 8642.64,
+        "product_url": "www.fastshop.com.br/loja/ipad-pro-cinza-espacial-4g-256gb-mxe42bz-a-fast"
+      },
+      {
+        "created_at": "2022-06-28 17:25:17",
+        "product_sku": "AEMY252BZAPTA_PRD",
+        "product_name": "iPad Pro 2° Geração Prata com Tela de 11\", Wi-Fi, 128 GB e Processador A12z Bionic - MY252BZ/A",
+        "product_price_sale": 9167.11,
+        "product_url": "www.fastshop.com.br/loja/ipad-pro-wi-fi-128gb-prata-my252bz-a-fast"
+      },
+      {
+        "created_at": "2022-06-28 17:25:35",
+        "product_sku": "AEMWLV2BZAVRMB",
+        "product_name": "iPhone 11 (PRODUCT) RED, com Tela de 6,1\", 4G, 64 GB e Câmera de 12 MP - MWLV2BZ/A",
+        "product_price_sale": 4073.71,
+        "product_url": ""
+      },
+      {
+        "created_at": "2022-06-28 17:25:37",
+        "product_sku": "AEMY2V2BZACNZ_PRD",
+        "product_name": "iPad Pro 2° Geração Cinza-espacial com Tela de 11\", 4G, 128 GB e Processador A12z Bionic - MY2V2BZ/A",
+        "product_price_sale": 7682.24,
+        "product_url": "www.fastshop.com.br/loja/ipad-pro-cinza-espacial-4g-128gb-my2v2bz-a-fast"
+      },
+      {
+        "created_at": "2022-06-28 17:25:53",
+        "product_sku": "AEMHDH3BZAPTO_PRD",
+        "product_name": "iPhone 11 Preto, com Tela de 6,1\", 4G, 128 GB e Câmera de 12 MP - MHDH3BZA",
+        "product_price_sale": 3453.51,
+        "product_url": "www.fastshop.com.br/loja/iphone-11-preto-128gb-mhdh3bz-a-fast"
+      },
+      {
+        "created_at": "2022-06-28 17:25:54",
+        "product_sku": "AEMHDC3BZABCO_PRD",
+        "product_name": "iPhone 11 Branco, com Tela de 6,1\", 4G, 64 GB e Câmera de 12 MP - MHDC3BZ/A",
+        "product_price_sale": 3055.61,
+        "product_url": "www.fastshop.com.br/loja/iphone-11-branco-64gb-mhdc3bz-a-fast"
+      },
+      {
+        "created_at": "2022-06-28 17:25:55",
+        "product_sku": "AEMHDJ3BZABCO_PRD",
+        "product_name": "iPhone 11 Branco, com Tela de 6,1\", 4G, 128 GB e Câmera de 12 MP - MHDJ3BZ/A",
+        "product_price_sale": 3453.51,
+        "product_url": "www.fastshop.com.br/loja/iphone-11-branco-128gb-mhdj3bz-a-fast"
+      }
+    ]
+  }
+]
