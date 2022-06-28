@@ -6,6 +6,7 @@ from marketplaces.spiders.submarino import SubmarinoSpider
 from marketplaces.spiders.shoptime import ShoptimeSpider
 from marketplaces.spiders.magazineluiza import MagazineluizaSpider
 from marketplaces.spiders.fastshop import FastshopSpider
+from marketplaces.spiders.shopsmiles import ShopsmilesSpider
 
 SPIDERS = [
     AmericanasSpider,
@@ -15,13 +16,14 @@ SPIDERS = [
     SubmarinoSpider,
     ShoptimeSpider,
     MagazineluizaSpider,
-    FastshopSpider
+    FastshopSpider,
+    ShopsmilesSpider,
     ]
 
 KEYWORDS = [
-    'dell g15 -p 4000',
+    # 'dell g15 -p 4000',
     # 'iphone -p 5000',
-    # 'iphone 11 -p 3000',
+    'iphone 11 -p 3000',
     # 'luva de box -p 50',
     # 'bicicleta -p 300'
 ]

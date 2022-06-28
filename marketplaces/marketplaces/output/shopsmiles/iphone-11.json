@@ -1,0 +1,400 @@
+[
+  {
+    "freight": null,
+    "size": 49,
+    "products": [
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "1556111",
+        "product_name": "iPhone 11 Apple 128GB Preto 6,1\" 12MP iOS -",
+        "product_price_sale": 3869.1,
+        "product_gain_miles": "11.607",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=1556111_8&n=iPhone+11+Apple+128GB+Preto+6%2C1%22+12MP+iOS+-&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "1556105",
+        "product_name": "iPhone 11 Apple 64GB Preto 6,1\" 12MP iOS -",
+        "product_price_sale": 3582.0,
+        "product_gain_miles": "10.746",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=1556105_8&n=iPhone+11+Apple+64GB+Preto+6%2C1%22+12MP+iOS+-&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "1556112",
+        "product_name": "iPhone 11 Apple 128GB Branco 6,1\" 12MP iOS -",
+        "product_price_sale": 4049.1,
+        "product_gain_miles": "12.147",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=1556112_8&n=iPhone+11+Apple+128GB+Branco+6%2C1%22+12MP+iOS+-&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "17750148",
+        "product_name": "iPhone 11 Apple 64GB Preto, Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 3899.0,
+        "product_gain_miles": "11.697",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=7&p=17750148_7&n=iPhone+11+Apple+64GB+Preto%2C+Tela+de+6%2C1%E2%80%9D%2C+C%C3%A2mera+Dupla+de+12MP%2C+iOS&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "2296180",
+        "product_name": "iPhone 11 Apple 64GB Preto 6,1\" 12MP - iOS + Controle Inteligente Uni...",
+        "product_price_sale": 3716.1,
+        "product_gain_miles": "11.148",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=2296180_8&n=iPhone+11+Apple+64GB+Preto+6%2C1%22+12MP+-+iOS+%2B+Controle+Inteligente+Universal&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "1556087",
+        "product_name": "iPhone 11 Apple 64GB Preto 6,1\" 12MP iOS -",
+        "product_price_sale": 3799.0,
+        "product_gain_miles": "11.397",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=1556087_8&n=iPhone+11+Apple+64GB+Preto+6%2C1%22+12MP+iOS+-&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "1556115",
+        "product_name": "iPhone 11 Apple 128GB Roxo 6,1\" 12MP iOS -",
+        "product_price_sale": 4036.55,
+        "product_gain_miles": "12.110",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=1556115_8&n=iPhone+11+Apple+128GB+Roxo+6%2C1%22+12MP+iOS+-&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "1556116",
+        "product_name": "iPhone 11 Apple 128GB Verde 6,1\" 12MP iOS -",
+        "product_price_sale": 3824.1,
+        "product_gain_miles": "11.472",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=1556116_8&n=iPhone+11+Apple+128GB+Verde+6%2C1%22+12MP+iOS+-&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "1556114",
+        "product_name": "iPhone 11 Apple 128GB Amarelo 6,1\" 12MP iOS -",
+        "product_price_sale": 4036.55,
+        "product_gain_miles": "12.110",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=1556114_8&n=iPhone+11+Apple+128GB+Amarelo+6%2C1%22+12MP+iOS+-&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "2297528",
+        "product_name": "iPhone 11 Apple 64GB Branco 6,1\" 12MP - iOS + Microsoft 365 Personal ...",
+        "product_price_sale": 3689.1,
+        "product_gain_miles": "11.067",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=2297528_8&n=iPhone+11+Apple+64GB+Branco+6%2C1%22+12MP+-+iOS+%2B+Microsoft+365+Personal+Office+365+apps+1TB&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "2296178",
+        "product_name": "iPhone 11 Apple 64GB Branco 6,1\" 12MP - iOS + Controle Inteligente Un...",
+        "product_price_sale": 3643.2,
+        "product_gain_miles": "10.930",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=2296178_8&n=iPhone+11+Apple+64GB+Branco+6%2C1%22+12MP+-+iOS+%2B+Controle+Inteligente+Universal&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "17750148",
+        "product_name": "iPhone 11 Apple 64GB Preto, Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 3999.0,
+        "product_gain_miles": "23.994",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=4&p=17750148_4&n=iPhone+11+Apple+64GB+Preto%2C+Tela+de+6%2C1%E2%80%9D%2C+C%C3%A2mera+Dupla+de+12MP%2C+iOS&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "2296194",
+        "product_name": "iPhone 11 Apple 64GB Preto 6,1\" 12MP - iOS + Nest Mini 2ª Geração Sma...",
+        "product_price_sale": 3896.1,
+        "product_gain_miles": "11.688",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=2296194_8&n=iPhone+11+Apple+64GB+Preto+6%2C1%22+12MP+-+iOS+%2B+Nest+Mini+2%C2%AA+Gera%C3%A7%C3%A3o+Smart+Speaker&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "2296191",
+        "product_name": "iPhone 11 Apple 64GB Branco 6,1\" 12MP - iOS + Nest Mini 2ª Geração Sm...",
+        "product_price_sale": 3688.2,
+        "product_gain_miles": "11.065",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=2296191_8&n=iPhone+11+Apple+64GB+Branco+6%2C1%22+12MP+-+iOS+%2B+Nest+Mini+2%C2%AA+Gera%C3%A7%C3%A3o+Smart+Speaker&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "1555624",
+        "product_name": "iPhone 11 Pro Apple 64GB Cinza-espacial 5,8\" 12MP - iOS",
+        "product_price_sale": 5219.99,
+        "product_gain_miles": "15.660",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=1555624_8&n=iPhone+11+Pro+Apple+64GB+Cinza-espacial+5%2C8%22+12MP+-+iOS&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "17750154",
+        "product_name": "iPhone 11 Apple 128GB Preto Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 4299.0,
+        "product_gain_miles": "12.897",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=7&p=17750154_7&n=iPhone+11+Apple+128GB+Preto+Tela+de+6%2C1%E2%80%9D%2C+C%C3%A2mera+Dupla+de+12MP%2C+iOS&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "2296209",
+        "product_name": "iPhone 11 Apple 64GB Branco 6,1\" 12MP - iOS + Nest Mini 2ª geração co...",
+        "product_price_sale": 3896.1,
+        "product_gain_miles": "11.688",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=2296209_8&n=iPhone+11+Apple+64GB+Branco+6%2C1%22+12MP+-+iOS+%2B+Nest+Mini+2%C2%AA+gera%C3%A7%C3%A3o+com+Google+Assistente&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "2296211",
+        "product_name": "iPhone 11 Apple 64GB Preto 6,1\" 12MP - iOS + Nest Mini 2ª Geração Sma...",
+        "product_price_sale": 3896.1,
+        "product_gain_miles": "11.688",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=2296211_8&n=iPhone+11+Apple+64GB+Preto+6%2C1%22+12MP+-+iOS+%2B+Nest+Mini+2%C2%AA+Gera%C3%A7%C3%A3o+Smart+Speaker&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "1556122",
+        "product_name": "iPhone 11 Apple 256GB Verde 6,1\" - Câm. Dupla 12MP iOS",
+        "product_price_sale": 5219.1,
+        "product_gain_miles": "15.657",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=1556122_8&n=iPhone+11+Apple+256GB+Verde+6%2C1%22+-+C%C3%A2m.+Dupla+12MP+iOS&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "1556088",
+        "product_name": "iPhone 11 Apple 64GB Branco 6,1\" 12MP iOS -",
+        "product_price_sale": 3799.0,
+        "product_gain_miles": "11.397",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=1556088_8&n=iPhone+11+Apple+64GB+Branco+6%2C1%22+12MP+iOS+-&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "2297532",
+        "product_name": "iPhone 11 Apple 128GB Preto 6,1\" 12MP - iOS + Microsoft 365 Personal ...",
+        "product_price_sale": 4273.1,
+        "product_gain_miles": "12.819",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=2297532_8&n=iPhone+11+Apple+128GB+Preto+6%2C1%22+12MP+-+iOS+%2B+Microsoft+365+Personal+Office+365+apps+1TB&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "2297349",
+        "product_name": "iPhone 11 Apple 64GB Preto 6,1\" 12MP - iOS + AirPods Apple com Estojo...",
+        "product_price_sale": 4589.09,
+        "product_gain_miles": "13.767",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=2297349_8&n=iPhone+11+Apple+64GB+Preto+6%2C1%22+12MP+-+iOS+%2B+AirPods+Apple+com+Estojo+de+Recarga&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "2297347",
+        "product_name": "iPhone 11 Apple 128GB Branco 6,1\" 12MP - iOS + AirPods Apple com Esto...",
+        "product_price_sale": 5129.09,
+        "product_gain_miles": "15.387",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=2297347_8&n=iPhone+11+Apple+128GB+Branco+6%2C1%22+12MP+-+iOS+%2B+AirPods+Apple+com+Estojo+de+Recarga&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "2297348",
+        "product_name": "iPhone 11 Apple 128GB Preto 6,1\" 12MP - iOS + AirPods Apple com Estoj...",
+        "product_price_sale": 4949.09,
+        "product_gain_miles": "14.847",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=2297348_8&n=iPhone+11+Apple+128GB+Preto+6%2C1%22+12MP+-+iOS+%2B+AirPods+Apple+com+Estojo+de+Recarga&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "2297527",
+        "product_name": "iPhone 11 Apple 64GB Preto 6,1\" 12MP - iOS + Microsoft 365 Personal O...",
+        "product_price_sale": 3689.1,
+        "product_gain_miles": "11.067",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=2297527_8&n=iPhone+11+Apple+64GB+Preto+6%2C1%22+12MP+-+iOS+%2B+Microsoft+365+Personal+Office+365+apps+1TB&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "2297350",
+        "product_name": "iPhone 11 Apple 64GB Branco 6,1\" 12MP - iOS + AirPods Apple com Estoj...",
+        "product_price_sale": 4661.99,
+        "product_gain_miles": "13.986",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=2297350_8&n=iPhone+11+Apple+64GB+Branco+6%2C1%22+12MP+-+iOS+%2B+AirPods+Apple+com+Estojo+de+Recarga&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "2297533",
+        "product_name": "iPhone 11 Apple 128GB Branco 6,1\" 12MP - iOS + Microsoft 365 Personal...",
+        "product_price_sale": 4139.1,
+        "product_gain_miles": "12.417",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=2297533_8&n=iPhone+11+Apple+128GB+Branco+6%2C1%22+12MP+-+iOS+%2B+Microsoft+365+Personal+Office+365+apps+1TB&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "1556120",
+        "product_name": "iPhone 11 Apple 256GB Amarelo 6,1\" 12MP iOS -",
+        "product_price_sale": 5039.1,
+        "product_gain_miles": "15.117",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=1556120_8&n=iPhone+11+Apple+256GB+Amarelo+6%2C1%22+12MP+iOS+-&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "17750149",
+        "product_name": "iPhone 11 Apple 64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 3899.0,
+        "product_gain_miles": "11.697",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=7&p=17750149_7&n=iPhone+11+Apple+64GB+branco%2C+Tela+de+6%2C1%E2%80%9D%2C+C%C3%A2mera+Dupla+de+12MP%2C+iOS&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "17750155",
+        "product_name": "iPhone 11 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 4299.0,
+        "product_gain_miles": "12.897",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=7&p=17750155_7&n=iPhone+11+Apple+128GB+Branco+Tela+de+6%2C1%E2%80%9D%2C+C%C3%A2mera+Dupla+de+12MP%2C+iOS&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "17750150",
+        "product_name": "iPhone 11 Apple 64GB PRODUCT(RED), Tela de 6,1”, Câmera Dupla de 12MP...",
+        "product_price_sale": 3899.0,
+        "product_gain_miles": "11.697",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=7&p=17750150_7&n=iPhone+11+Apple+64GB+PRODUCT%28RED%29%2C+Tela+de+6%2C1%E2%80%9D%2C+C%C3%A2mera+Dupla+de+12MP%2C+iOS&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "17750149",
+        "product_name": "iPhone 11 Apple 64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 3899.0,
+        "product_gain_miles": "23.394",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=4&p=17750149_4&n=iPhone+11+Apple+64GB+branco%2C+Tela+de+6%2C1%E2%80%9D%2C+C%C3%A2mera+Dupla+de+12MP%2C+iOS&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "17750149",
+        "product_name": "iPhone 11 Apple 64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 3749.0,
+        "product_gain_miles": "11.247",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=3&p=17750149_3&n=iPhone+11+Apple+64GB+branco%2C+Tela+de+6%2C1%E2%80%9D%2C+C%C3%A2mera+Dupla+de+12MP%2C+iOS&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "17750148",
+        "product_name": "iPhone 11 Apple 64GB Preto, Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 3749.0,
+        "product_gain_miles": "11.247",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=3&p=17750148_3&n=iPhone+11+Apple+64GB+Preto%2C+Tela+de+6%2C1%E2%80%9D%2C+C%C3%A2mera+Dupla+de+12MP%2C+iOS&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "2296088",
+        "product_name": "iPhone 11 Apple 64GB Branco 6,1\" 12MP - iOS + Tomada Inteligente 10A ...",
+        "product_price_sale": 3671.1,
+        "product_gain_miles": "11.013",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=2296088_8&n=iPhone+11+Apple+64GB+Branco+6%2C1%22+12MP+-+iOS+%2B+Tomada+Inteligente+10A+Wi-Fi+I2GO&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "17750150",
+        "product_name": "iPhone 11 Apple 64GB PRODUCT(RED), Tela de 6,1”, Câmera Dupla de 12MP...",
+        "product_price_sale": 4099.0,
+        "product_gain_miles": "24.594",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=4&p=17750150_4&n=iPhone+11+Apple+64GB+PRODUCT%28RED%29%2C+Tela+de+6%2C1%E2%80%9D%2C+C%C3%A2mera+Dupla+de+12MP%2C+iOS&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "17750154",
+        "product_name": "iPhone 11 Apple 128GB Preto Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 3999.0,
+        "product_gain_miles": "11.997",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=3&p=17750154_3&n=iPhone+11+Apple+128GB+Preto+Tela+de+6%2C1%E2%80%9D%2C+C%C3%A2mera+Dupla+de+12MP%2C+iOS&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "17750152",
+        "product_name": "iPhone 11 Apple 64GB Roxo, Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 3899.0,
+        "product_gain_miles": "11.697",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=7&p=17750152_7&n=iPhone+11+Apple+64GB+Roxo%2C+Tela+de+6%2C1%E2%80%9D%2C+C%C3%A2mera+Dupla+de+12MP%2C+iOS&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "17750154",
+        "product_name": "iPhone 11 Apple 128GB Preto Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 4299.0,
+        "product_gain_miles": "25.794",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=4&p=17750154_4&n=iPhone+11+Apple+128GB+Preto+Tela+de+6%2C1%E2%80%9D%2C+C%C3%A2mera+Dupla+de+12MP%2C+iOS&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "17750155",
+        "product_name": "iPhone 11 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 4299.0,
+        "product_gain_miles": "25.794",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=4&p=17750155_4&n=iPhone+11+Apple+128GB+Branco+Tela+de+6%2C1%E2%80%9D%2C+C%C3%A2mera+Dupla+de+12MP%2C+iOS&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "12667233",
+        "product_name": "iPhone 8 Apple com 128GB, Tela Retina HD de 4,7”, iOS 11, Câmera de 1...",
+        "product_price_sale": 3299.0,
+        "product_gain_miles": "9.897",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=7&p=12667233_7&n=iPhone+8+Apple+com+128GB%2C+Tela+Retina+HD+de+4%2C7%E2%80%9D%2C+iOS+11%2C+C%C3%A2mera+de+12+MP%2C+Resistente+%C3%A0+%C3%81gua%2C+Wi-Fi%2C+4G+LTE+e+NFC+-+Dourado&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "17750155",
+        "product_name": "iPhone 11 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 3999.0,
+        "product_gain_miles": "11.997",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=3&p=17750155_3&n=iPhone+11+Apple+128GB+Branco+Tela+de+6%2C1%E2%80%9D%2C+C%C3%A2mera+Dupla+de+12MP%2C+iOS&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "17750150",
+        "product_name": "iPhone 11 Apple 64GB PRODUCT(RED), Tela de 6,1”, Câmera Dupla de 12MP...",
+        "product_price_sale": 3749.0,
+        "product_gain_miles": "11.247",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=3&p=17750150_3&n=iPhone+11+Apple+64GB+PRODUCT%28RED%29%2C+Tela+de+6%2C1%E2%80%9D%2C+C%C3%A2mera+Dupla+de+12MP%2C+iOS&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "17750152",
+        "product_name": "iPhone 11 Apple 64GB Roxo, Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 3899.0,
+        "product_gain_miles": "11.697",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=4&p=17750152_4&n=iPhone+11+Apple+64GB+Roxo%2C+Tela+de+6%2C1%E2%80%9D%2C+C%C3%A2mera+Dupla+de+12MP%2C+iOS&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "17750152",
+        "product_name": "iPhone 11 Apple 64GB Roxo, Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+        "product_price_sale": 3899.0,
+        "product_gain_miles": "11.697",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=3&p=17750152_3&n=iPhone+11+Apple+64GB+Roxo%2C+Tela+de+6%2C1%E2%80%9D%2C+C%C3%A2mera+Dupla+de+12MP%2C+iOS&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "2296070",
+        "product_name": "iPhone 11 Apple 64GB Branco 6,1\" 12MP - iOS + Lâmpada Inteligente Dim...",
+        "product_price_sale": 3653.1,
+        "product_gain_miles": "10.959",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=2296070_8&n=iPhone+11+Apple+64GB+Branco+6%2C1%22+12MP+-+iOS+%2B+L%C3%A2mpada+Inteligente+Dimeriz%C3%A1vel+10W+Wi-Fi&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "2296090",
+        "product_name": "iPhone 11 Apple 64GB Preto 6,1\" 12MP - iOS + Tomada Inteligente 10A W...",
+        "product_price_sale": 3671.1,
+        "product_gain_miles": "11.013",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=8&p=2296090_8&n=iPhone+11+Apple+64GB+Preto+6%2C1%22+12MP+-+iOS+%2B+Tomada+Inteligente+10A+Wi-Fi+I2GO&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "12667233",
+        "product_name": "iPhone 8 Apple com 128GB, Tela Retina HD de 4,7”, iOS 11, Câmera de 1...",
+        "product_price_sale": 3299.0,
+        "product_gain_miles": "9.897",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=4&p=12667233_4&n=iPhone+8+Apple+com+128GB%2C+Tela+Retina+HD+de+4%2C7%E2%80%9D%2C+iOS+11%2C+C%C3%A2mera+de+12+MP%2C+Resistente+%C3%A0+%C3%81gua%2C+Wi-Fi%2C+4G+LTE+e+NFC+-+Dourado&a=true"
+      },
+      {
+        "created_at": "2022-06-28 02:38:24",
+        "product_sku": "12667233",
+        "product_name": "iPhone 8 Apple com 128GB, Tela Retina HD de 4,7”, iOS 11, Câmera de 1...",
+        "product_price_sale": 3299.0,
+        "product_gain_miles": "9.897",
+        "product_url": "https://www.shoppingsmiles.com.br/smiles/produto.jsf?f=3&p=12667233_3&n=iPhone+8+Apple+com+128GB%2C+Tela+Retina+HD+de+4%2C7%E2%80%9D%2C+iOS+11%2C+C%C3%A2mera+de+12+MP%2C+Resistente+%C3%A0+%C3%81gua%2C+Wi-Fi%2C+4G+LTE+e+NFC+-+Dourado&a=true"
+      }
+    ]
+  }
+]

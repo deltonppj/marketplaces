@@ -12,3 +12,7 @@ class DefaultItem(scrapy.Item):
     product_name = scrapy.Field()
     product_price_sale = scrapy.Field()
     product_url = scrapy.Field()
+
+
+class ShopSmilesItem(DefaultItem):
+    product_gain_miles = scrapy.Field()
