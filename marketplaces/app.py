@@ -9,7 +9,7 @@ from scrapy.crawler import CrawlerRunner
 from scrapy.utils.project import get_project_settings
 from scrapy.utils.log import configure_logging
 
-
+from marketplaces.spiders.redeem import ReedemSpider
 from config import KEYWORDS, SPIDERS, VALIDATE_FREIGHT
 
 
@@ -36,6 +36,8 @@ def crawl():
             price = splited[1].strip()  # price
 
             for spider in SPIDERS:
+                if spider.__name__ == 'ReedemSpider':
+                    price = 0
                 yield runner.crawl(spider, search=search, filter=None, price=price, validate_freight=VALIDATE_FREIGHT)
         reactor.stop()
 

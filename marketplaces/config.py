@@ -7,6 +7,7 @@ from marketplaces.spiders.shoptime import ShoptimeSpider
 from marketplaces.spiders.magazineluiza import MagazineluizaSpider
 from marketplaces.spiders.fastshop import FastshopSpider
 from marketplaces.spiders.shopsmiles import ShopsmilesSpider
+from marketplaces.spiders.redeem import ReedemSpider
 
 SPIDERS = [
     AmericanasSpider,
@@ -18,6 +19,7 @@ SPIDERS = [
     MagazineluizaSpider,
     FastshopSpider,
     ShopsmilesSpider,
+    ReedemSpider,
     ]
 
 KEYWORDS = [

@@ -16,3 +16,8 @@ class DefaultItem(scrapy.Item):
 
 class ShopSmilesItem(DefaultItem):
     product_gain_miles = scrapy.Field()
+
+
+class Redeem(DefaultItem):
+    product_reedem = scrapy.Field()
+
