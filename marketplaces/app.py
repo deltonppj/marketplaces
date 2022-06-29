@@ -33,10 +33,11 @@ def crawl():
         for s in KEYWORDS:
             splited = s.split('-p')
             search = splited[0].strip()  # keyword
-            price = splited[1].strip()  # price
+            #price = splited[1].strip()  # price
 
             for spider in SPIDERS:
-                if spider.__name__ == 'ReedemSpider':
+                price = splited[1].strip()
+                if spider.__name__ == ReedemSpider.__name__:
                     price = 0
                 yield runner.crawl(spider, search=search, filter=None, price=price, validate_freight=VALIDATE_FREIGHT)
         reactor.stop()

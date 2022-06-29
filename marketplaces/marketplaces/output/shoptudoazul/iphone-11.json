@@ -1,0 +1,766 @@
+[
+  [
+    [
+      {
+        "freight": null,
+        "size": 108,
+        "products": [
+          {
+            "created_at": "2022-06-29 16:28:56",
+            "product_sku": "7967",
+            "product_name": "iPhone 11",
+            "product_reedem": "324.554 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/7967/2718992/iphone-11-64gb-branco"
+          },
+          {
+            "created_at": "2022-06-29 16:28:56",
+            "product_sku": "1556141",
+            "product_name": "iPhone 11 Apple 64GB Branco 6,1&quot; 12MP iOS",
+            "product_reedem": "219.799 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/1556141/3168131/iphone-11-apple-64gb-branco-6-1equot-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:28:56",
+            "product_sku": "1556105",
+            "product_name": "iPhone 11 Apple 64GB Preto 6,1&quot; 12MP iOS",
+            "product_reedem": "219.799 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/1556105/3234605/iphone-11-apple-64gb-preto-6-1equot-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:28:56",
+            "product_sku": "1556111",
+            "product_name": "iPhone 11 Apple 128GB Preto 6,1&quot; 12MP iOS",
+            "product_reedem": "248.728 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/1556111/3216931/iphone-11-apple-128gb-preto-6-1equot-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:28:56",
+            "product_sku": "360562533",
+            "product_name": "iPhone 11 Apple (256GB) Branco Tela 6,1\" Câmera 12MP iOS",
+            "product_reedem": "360.349 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/360562533/3671830/iphone-11-apple-256gb-branco-tela-6-1-camera-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:28:56",
+            "product_sku": "262992046",
+            "product_name": "iPhone 11 Apple (256GB) Amarelo Tela 6,1\" Câmera 12MP iOS",
+            "product_reedem": "400.084 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/262992046/3671851/iphone-11-apple-256gb-amarelo-tela-6-1-camera-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:28:56",
+            "product_sku": "1613970093",
+            "product_name": "iPhone 11 Apple (256GB) Preto tela 6,1\" Câmera 12MP iOS",
+            "product_reedem": "408.392 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/1613970093/3486135/iphone-11-apple-256gb-preto-tela-6-1-camera-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:28:56",
+            "product_sku": "1611318026",
+            "product_name": "iPhone 11 Apple (128GB) Preto tela 6,1\" Câmera 12MP iOS",
+            "product_reedem": "297.623 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/1611318026/3487168/iphone-11-apple-128gb-preto-tela-6-1-camera-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:28:56",
+            "product_sku": "1593243429",
+            "product_name": "iPhone 11 Apple (64GB) Verde tela 6,1\" Câmera 12MP iOS",
+            "product_reedem": "263.008 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/1593243429/3466026/iphone-11-apple-64gb-verde-tela-6-1-camera-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:28:56",
+            "product_sku": "1614307808",
+            "product_name": "iPhone 11 Apple (256GB) Amarelo Tela 6,1\" Câmera 12MP iOS",
+            "product_reedem": "361.007 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/1614307808/3486049/iphone-11-apple-256gb-amarelo-tela-6-1-camera-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:28:56",
+            "product_sku": "1593243437",
+            "product_name": "iPhone 11 Apple (64GB) Amarelo Tela 6,1\" Câmera 12MP iOS",
+            "product_reedem": "249.199 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/1593243437/3486592/iphone-11-apple-64gb-amarelo-tela-6-1-camera-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:28:56",
+            "product_sku": "1613970350",
+            "product_name": "iPhone 11 Apple (256GB) Branco tela 6,1\" Câmera 12MP iOS",
+            "product_reedem": "387.973 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/1613970350/3469611/iphone-11-apple-256gb-branco-tela-6-1-camera-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:00",
+            "product_sku": "1614132374",
+            "product_name": "iPhone 11 Apple (64GB) Branco Tela 6,1\" 4G Câmera 12MP iOS",
+            "product_reedem": "263.008 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/1614132374/3483083/iphone-11-apple-64gb-branco-tela-6-1-4g-camera-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:00",
+            "product_sku": "1611315984",
+            "product_name": "iPhone 11 Apple (64GB) Preto Tela 6,1\" 4G Câmera 12MP iOS",
+            "product_reedem": "249.199 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/1611315984/3483045/iphone-11-apple-64gb-preto-tela-6-1-4g-camera-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:00",
+            "product_sku": "262997808",
+            "product_name": "iPhone 11 Apple (256GB) (PRODUCT) Red Tela 6,1\" Câmera 12MP iOS",
+            "product_reedem": "360.349 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/262997808/3691386/iphone-11-apple-256gb-product-red-tela-6-1-camera-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:00",
+            "product_sku": "1611315992",
+            "product_name": "iPhone 11 Apple (64GB) Lilás Tela 6,1\" Câmera 12MP iOS",
+            "product_reedem": "279.207 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/1611315992/3486017/iphone-11-apple-64gb-lilas-tela-6-1-camera-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:00",
+            "product_sku": "262979511",
+            "product_name": "iPhone 11 Apple (64GB) Amarelo Tela 6,1\" Câmera 12MP iOS",
+            "product_reedem": "290.248 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/262979511/3671835/iphone-11-apple-64gb-amarelo-tela-6-1-camera-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:00",
+            "product_sku": "262984273",
+            "product_name": "iPhone 11 Apple (256GB) Verde tela 6,1\" Câmera 12MP iOS",
+            "product_reedem": "360.349 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/262984273/3546459/iphone-11-apple-256gb-verde-tela-6-1-camera-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:00",
+            "product_sku": "1611344822",
+            "product_name": "iPhone 11 Apple (128GB) Amarelo Desbloqueado Tela 6,1\" Câmera Traseira 12MP iOS",
+            "product_reedem": "297.623 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/1611344822/3485926/iphone-11-apple-128gb-amarelo-desbloqueado-tela-6-1-camera-traseira-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:00",
+            "product_sku": "1611344831",
+            "product_name": "iPhone 11 Apple (128GB) (PRODUCT)RED tela 6,1\" Câmera 12MP iOS",
+            "product_reedem": "275.507 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/1611344831/3479246/iphone-11-apple-128gb-product-red-tela-6-1-camera-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:00",
+            "product_sku": "1614132366",
+            "product_name": "iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1\" 4G Wi-Fi Câmera 12MP iOS",
+            "product_reedem": "249.199 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/1614132366/3482873/iphone-11-apple-64gb-product-red-tela-6-1-4g-wi-fi-camera-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:00",
+            "product_sku": "55014771",
+            "product_name": "iPhone 11 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "283.777 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014771/3216718/iphone-11-apple-128gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:00",
+            "product_sku": "55014770",
+            "product_name": "iPhone 11 Apple 128GB Preto Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "283.777 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014770/3244401/iphone-11-apple-128gb-preto-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:00",
+            "product_sku": "55014770",
+            "product_name": "iPhone 11 Apple 128GB Preto Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "283.777 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014770/3174102/iphone-11-apple-128gb-preto-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:02",
+            "product_sku": "55005278",
+            "product_name": "iPhone 11 Apple 64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "269.931 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55005278/3268941/iphone-11-apple-64gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:02",
+            "product_sku": "55014768",
+            "product_name": "iPhone 11 Apple 64GB Roxo, Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "269.931 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014768/3268971/iphone-11-apple-64gb-roxo-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:02",
+            "product_sku": "55014771",
+            "product_name": "iPhone 11 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "297.623 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014771/3174106/iphone-11-apple-128gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:02",
+            "product_sku": "55014778",
+            "product_name": "iPhone 11 Apple 256GB PRODUCT(RED) Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "407.349 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014778/3244302/iphone-11-apple-256gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:02",
+            "product_sku": "55014764",
+            "product_name": "iPhone 11 Apple 64GB Preto, Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "256.431 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014764/3216713/iphone-11-apple-64gb-preto-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:02",
+            "product_sku": "55014770",
+            "product_name": "iPhone 11 Apple 128GB Preto Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "283.777 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014770/3216717/iphone-11-apple-128gb-preto-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:02",
+            "product_sku": "55014764",
+            "product_name": "iPhone 11 Apple 64GB Preto, Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "256.431 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014764/3174088/iphone-11-apple-64gb-preto-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:02",
+            "product_sku": "55014768",
+            "product_name": "iPhone 11 Apple 64GB Roxo, Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "288.826 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014768/3254442/iphone-11-apple-64gb-roxo-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:02",
+            "product_sku": "55014775",
+            "product_name": "iPhone 11 Apple 128GB Verde Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "297.623 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014775/3268979/iphone-11-apple-128gb-verde-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:02",
+            "product_sku": "55014765",
+            "product_name": "iPhone 11 Apple 64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "269.931 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014765/3244397/iphone-11-apple-64gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:02",
+            "product_sku": "55014771",
+            "product_name": "iPhone 11 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "297.623 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014771/3244406/iphone-11-apple-128gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:02",
+            "product_sku": "55014765",
+            "product_name": "iPhone 11 Apple 64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "269.931 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014765/3174093/iphone-11-apple-64gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:03",
+            "product_sku": "55014775",
+            "product_name": "iPhone 11 Apple 128GB Verde Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "297.623 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014775/3268979/iphone-11-apple-128gb-verde-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:03",
+            "product_sku": "55014765",
+            "product_name": "iPhone 11 Apple 64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "269.931 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014765/3244397/iphone-11-apple-64gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:03",
+            "product_sku": "55014771",
+            "product_name": "iPhone 11 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "297.623 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014771/3244406/iphone-11-apple-128gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:03",
+            "product_sku": "55014766",
+            "product_name": "iPhone 11 Apple 64GB PRODUCT(RED), Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "256.431 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014766/3174097/iphone-11-apple-64gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:03",
+            "product_sku": "55014766",
+            "product_name": "iPhone 11 Apple 64GB PRODUCT(RED), Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "283.777 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014766/3244399/iphone-11-apple-64gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:03",
+            "product_sku": "55014778",
+            "product_name": "iPhone 11 Apple 256GB PRODUCT(RED) Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "407.349 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014778/3216722/iphone-11-apple-256gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:03",
+            "product_sku": "55014764",
+            "product_name": "iPhone 11 Apple 64GB Preto, Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "256.431 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014764/3244396/iphone-11-apple-64gb-preto-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:03",
+            "product_sku": "55014765",
+            "product_name": "iPhone 11 Apple 64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "269.931 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014765/3216715/iphone-11-apple-64gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:03",
+            "product_sku": "55014773",
+            "product_name": "iPhone 11 Apple 128GB Amarelo Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "297.623 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014773/3273471/iphone-11-apple-128gb-amarelo-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:03",
+            "product_sku": "55014776",
+            "product_name": "iPhone 11 Apple 256GB Preto Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "380.700 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014776/3244415/iphone-11-apple-256gb-preto-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:03",
+            "product_sku": "55014766",
+            "product_name": "iPhone 11 Apple 64GB PRODUCT(RED), Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "256.431 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014766/3216716/iphone-11-apple-64gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:03",
+            "product_sku": "55014778",
+            "product_name": "iPhone 11 Apple 256GB PRODUCT(RED) Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "407.349 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014778/3174114/iphone-11-apple-256gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:04",
+            "product_sku": "55014778",
+            "product_name": "iPhone 11 Apple 256GB PRODUCT(RED) Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "407.349 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55014778/3174114/iphone-11-apple-256gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:04",
+            "product_sku": "7973",
+            "product_name": "iPhone 11 128GB Roxo",
+            "product_reedem": "355.777 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/7973/2718998/iphone-11-128gb-roxo"
+          },
+          {
+            "created_at": "2022-06-29 16:29:04",
+            "product_sku": "1611324805",
+            "product_name": "iPhone 11 Apple (128GB) Branco tela 6,1\" Câmera 12MP iOS",
+            "product_reedem": "275.507 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/1611324805/3487730/iphone-11-apple-128gb-branco-tela-6-1-camera-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:04",
+            "product_sku": "8744",
+            "product_name": "iPhone 13",
+            "product_reedem": "517.084 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/8744/3129245/apple-iphone-13-128gb-meia-noite"
+          },
+          {
+            "created_at": "2022-06-29 16:29:04",
+            "product_sku": "7837",
+            "product_name": "iPhone 12 Mini",
+            "product_reedem": "406.316 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/7837/2697321/iphone-12-mini-64gb-branco"
+          },
+          {
+            "created_at": "2022-06-29 16:29:04",
+            "product_sku": "8759",
+            "product_name": "iPhone 13 Pro",
+            "product_reedem": "611.239 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/8759/3161288/apple-iphone-13-pro-128gb-grafite"
+          },
+          {
+            "created_at": "2022-06-29 16:29:04",
+            "product_sku": "8716",
+            "product_name": "iPhone 13 Mini",
+            "product_reedem": "443.700 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/8716/3128836/apple-iphone-13-mini-128gb-product-red"
+          },
+          {
+            "created_at": "2022-06-29 16:29:04",
+            "product_sku": "8731",
+            "product_name": "iPhone 13 ProMax",
+            "product_reedem": "692.239 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/8731/3128818/apple-iphone-13-pro-max-128gb-azul-sierra"
+          },
+          {
+            "created_at": "2022-06-29 16:29:04",
+            "product_sku": "2311490",
+            "product_name": "iPhone 12 Apple 256GB - Roxo Tela 6,1&quot; 12MP iOS",
+            "product_reedem": "347.085 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/2311490/3174426/iphone-12-apple-256gb-roxo-tela-6-1equot-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:04",
+            "product_sku": "50005205",
+            "product_name": "iPhone 8 Apple com 128GB, Tela Retina HD de 4,7”, iOS 11, Câmera de 12 MP, Resistente à Água, Wi-Fi, 4G LTE e NFC - Dourado",
+            "product_reedem": "228.392 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/50005205/3811891/iphone-8-apple-com-128gb-tela-retina-hd-de-4-7-ios-11-camera-de-12-mp-resistente-a-agua-wi-fi-4g-lte-e-nfc-dourado"
+          },
+          {
+            "created_at": "2022-06-29 16:29:04",
+            "product_sku": "1556138",
+            "product_name": "iPhone SE Apple 256GB Preto 4,7&quot; 12MP iOS",
+            "product_reedem": "256.084 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/1556138/3166569/iphone-se-apple-256gb-preto-4-7equot-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:04",
+            "product_sku": "1556133",
+            "product_name": "iPhone SE Apple 64GB Branco 4,7&quot; iOS",
+            "product_reedem": "173.514 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/1556133/3169193/iphone-se-apple-64gb-branco-4-7equot-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:06",
+            "product_sku": "1556148",
+            "product_name": "iPhone SE Apple 256GB Preto Tela 4,7&quot; 12 MP - iOS",
+            "product_reedem": "300.799 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/1556148/3176505/iphone-se-apple-256gb-preto-tela-4-7equot-12-mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:06",
+            "product_sku": "55048759",
+            "product_name": "iPhone 13 Apple 128GB Estelar Tela de 6,1”, Câmera Dupla de 12MP",
+            "product_reedem": "415.316 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55048759/3822783/iphone-13-apple-128gb-estelar-tela-de-6-1-camera-dupla-de-12mp"
+          },
+          {
+            "created_at": "2022-06-29 16:29:06",
+            "product_sku": "55048763",
+            "product_name": "iPhone 13 Apple 256GB Estelar Tela de 6,1”, Câmera Dupla de 12MP",
+            "product_reedem": "443.008 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55048763/3823091/iphone-13-apple-256gb-estelar-tela-de-6-1-camera-dupla-de-12mp"
+          },
+          {
+            "created_at": "2022-06-29 16:29:06",
+            "product_sku": "55033606",
+            "product_name": "iPhone 13 Pro Apple 128GB Dourado Tela de 6,1” e Câmera Tripla",
+            "product_reedem": "501.161 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55033606/3342550/iphone-13-pro-apple-128gb-dourado-tela-de-6-1-e-camera-tripla"
+          },
+          {
+            "created_at": "2022-06-29 16:29:06",
+            "product_sku": "55033604",
+            "product_name": "iPhone 13 Pro Apple 128GB Grafite Tela de 6,1” e Câmera Tripla",
+            "product_reedem": "576.986 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55033604/3300087/iphone-13-pro-apple-128gb-grafite-tela-de-6-1-e-camera-tripla"
+          },
+          {
+            "created_at": "2022-06-29 16:29:06",
+            "product_sku": "55033611",
+            "product_name": "iPhone 13 Pro Apple 256GB Dourado Tela de 6,1” e Câmera Tripla",
+            "product_reedem": "598.777 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55033611/3342254/iphone-13-pro-apple-256gb-dourado-tela-de-6-1-e-camera-tripla"
+          },
+          {
+            "created_at": "2022-06-29 16:29:06",
+            "product_sku": "55048768",
+            "product_name": "iPhone 13 Apple 512GB Rosa Tela de 6,1”, Câmera Dupla de 12MP",
+            "product_reedem": "674.026 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55048768/4074739/iphone-13-apple-512gb-rosa-tela-de-6-1-camera-dupla-de-12mp"
+          },
+          {
+            "created_at": "2022-06-29 16:29:06",
+            "product_sku": "55033614",
+            "product_name": "iPhone 13 Pro Apple 512GB Dourado Tela de 6,1” e Câmera Tripla",
+            "product_reedem": "717.731 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55033614/3698485/iphone-13-pro-apple-512gb-dourado-tela-de-6-1-e-camera-tripla"
+          },
+          {
+            "created_at": "2022-06-29 16:29:06",
+            "product_sku": "55033614",
+            "product_name": "iPhone 13 Pro Apple 512GB Dourado Tela de 6,1” e Câmera Tripla",
+            "product_reedem": "717.731 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55033614/3698677/iphone-13-pro-apple-512gb-dourado-tela-de-6-1-e-camera-tripla"
+          },
+          {
+            "created_at": "2022-06-29 16:29:06",
+            "product_sku": "55033617",
+            "product_name": "iPhone 13 Pro Apple 1TB Prateado Tela de 6,1” e Câmera Tripla",
+            "product_reedem": "962.926 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55033617/3823092/iphone-13-pro-apple-1tb-prateado-tela-de-6-1-e-camera-tripla"
+          },
+          {
+            "created_at": "2022-06-29 16:29:06",
+            "product_sku": "1556133",
+            "product_name": "iPhone SE Apple 64GB Branco 4,7&quot; iOS",
+            "product_reedem": "173.514 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/1556133/3169193/iphone-se-apple-64gb-branco-4-7equot-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:06",
+            "product_sku": "50005205",
+            "product_name": "iPhone 8 Apple com 128GB, Tela Retina HD de 4,7”, iOS 11, Câmera de 12 MP, Resistente à Água, Wi-Fi, 4G LTE e NFC - Dourado",
+            "product_reedem": "228.392 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/50005205/3811891/iphone-8-apple-com-128gb-tela-retina-hd-de-4-7-ios-11-camera-de-12-mp-resistente-a-agua-wi-fi-4g-lte-e-nfc-dourado"
+          },
+          {
+            "created_at": "2022-06-29 16:29:07",
+            "product_sku": "55033617",
+            "product_name": "iPhone 13 Pro Apple 1TB Prateado Tela de 6,1” e Câmera Tripla",
+            "product_reedem": "962.926 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55033617/3823092/iphone-13-pro-apple-1tb-prateado-tela-de-6-1-e-camera-tripla"
+          },
+          {
+            "created_at": "2022-06-29 16:29:07",
+            "product_sku": "2255980",
+            "product_name": "iPhone SE Apple 256GB Preto 4,7&quot; 12MP iOS",
+            "product_reedem": "271.871 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/2255980/3162810/iphone-se-apple-256gb-preto-4-7equot-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:07",
+            "product_sku": "55029406",
+            "product_name": "iPhone 12 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "353.008 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55029406/3216790/iphone-12-apple-128gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:07",
+            "product_sku": "55048770",
+            "product_name": "iPhone 13 Apple 128GB (PRODUCT)RED Tela de 6,1”, Câmera Dupla de 12MP",
+            "product_reedem": "394.546 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55048770/3817686/iphone-13-apple-128gb-product-red-tela-de-6-1-camera-dupla-de-12mp"
+          },
+          {
+            "created_at": "2022-06-29 16:29:07",
+            "product_sku": "55048253",
+            "product_name": "iPhone SE Apple (3ª geração) 64 GB - Estelar Tela de 4.7”, Câmera de 12MP",
+            "product_reedem": "235.316 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55048253/3798969/iphone-se-apple-3a-geracao-64-gb-estelar-tela-de-4-7-camera-de-12mp"
+          },
+          {
+            "created_at": "2022-06-29 16:29:07",
+            "product_sku": "55029401",
+            "product_name": "iPhone 12 Apple 64GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "325.316 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55029401/3174336/iphone-12-apple-64gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:07",
+            "product_sku": "55048259",
+            "product_name": "iPhone Apple SE (3ª geração) 256 GB - Estelar Tela de 4.7”, Câmera de 12MP",
+            "product_reedem": "348.828 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55048259/3799168/iphone-apple-se-3a-geracao-256-gb-estelar-tela-de-4-7-camera-de-12mp"
+          },
+          {
+            "created_at": "2022-06-29 16:29:07",
+            "product_sku": "55029409",
+            "product_name": "iPhone 12 Apple 128GB Verde Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "353.008 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55029409/3244490/iphone-12-apple-128gb-verde-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:07",
+            "product_sku": "55029406",
+            "product_name": "iPhone 12 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "353.008 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55029406/3174343/iphone-12-apple-128gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:07",
+            "product_sku": "55048758",
+            "product_name": "iPhone 13 Apple 128GB Meia-noite Tela de 6,1”, Câmera Dupla de 12MP",
+            "product_reedem": "387.623 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55048758/3817534/iphone-13-apple-128gb-meia-noite-tela-de-6-1-camera-dupla-de-12mp"
+          },
+          {
+            "created_at": "2022-06-29 16:29:07",
+            "product_sku": "55048758",
+            "product_name": "iPhone 13 Apple 128GB Meia-noite Tela de 6,1”, Câmera Dupla de 12MP",
+            "product_reedem": "415.316 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55048758/3817577/iphone-13-apple-128gb-meia-noite-tela-de-6-1-camera-dupla-de-12mp"
+          },
+          {
+            "created_at": "2022-06-29 16:29:07",
+            "product_sku": "55029417",
+            "product_name": "iPhone 12 Apple 256GB Roxo Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "466.610 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55029417/3254448/iphone-12-apple-256gb-roxo-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:09",
+            "product_sku": "55029411",
+            "product_name": "iPhone 12 Apple 256GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS",
+            "product_reedem": "466.610 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55029411/3174350/iphone-12-apple-256gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:09",
+            "product_sku": "55048771",
+            "product_name": "iPhone 13 Apple 256GB (PRODUCT)RED Tela de 6,1”, Câmera Dupla de 12MP",
+            "product_reedem": "474.018 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55048771/4076000/iphone-13-apple-256gb-product-red-tela-de-6-1-camera-dupla-de-12mp"
+          },
+          {
+            "created_at": "2022-06-29 16:29:09",
+            "product_sku": "55048268",
+            "product_name": "iPhone 13 mini Apple 512GB Verde Tela de 5,4”, Câmera Dupla de 12MP",
+            "product_reedem": "585.133 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55048268/3799365/iphone-13-mini-apple-512gb-verde-tela-de-5-4-camera-dupla-de-12mp"
+          },
+          {
+            "created_at": "2022-06-29 16:29:09",
+            "product_sku": "55033602",
+            "product_name": "iPhone 13 Apple 512GB (PRODUCT)RED Tela de 6,1”, Câmera Dupla de 12MP",
+            "product_reedem": "629.931 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55033602/3453903/iphone-13-apple-512gb-product-red-tela-de-6-1-camera-dupla-de-12mp"
+          },
+          {
+            "created_at": "2022-06-29 16:29:09",
+            "product_sku": "55048766",
+            "product_name": "iPhone 13 Apple 512GB Meia-noite Tela de 6,1”, Câmera Dupla de 12MP",
+            "product_reedem": "674.026 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55048766/4074737/iphone-13-apple-512gb-meia-noite-tela-de-6-1-camera-dupla-de-12mp"
+          },
+          {
+            "created_at": "2022-06-29 16:29:09",
+            "product_sku": "55033619",
+            "product_name": "iPhone 13 Pro Apple 1TB Azul-Sierra Tela de 6,1” e Câmera Tripla",
+            "product_reedem": "888.849 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55033619/3800682/iphone-13-pro-apple-1tb-azul-sierra-tela-de-6-1-e-camera-tripla"
+          },
+          {
+            "created_at": "2022-06-29 16:29:09",
+            "product_sku": "55048265",
+            "product_name": "iPhone 13 Pro Apple 1TB Verde-alpino Tela de 6,1” e Câmera Tripla",
+            "product_reedem": "1.074.041 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55048265/3798897/iphone-13-pro-apple-1tb-verde-alpino-tela-de-6-1-e-camera-tripla"
+          },
+          {
+            "created_at": "2022-06-29 16:29:09",
+            "product_sku": "50005205",
+            "product_name": "iPhone 8 Apple com 128GB, Tela Retina HD de 4,7”, iOS 11, Câmera de 12 MP, Resistente à Água, Wi-Fi, 4G LTE e NFC - Dourado",
+            "product_reedem": "228.392 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/50005205/3810999/iphone-8-apple-com-128gb-tela-retina-hd-de-4-7-ios-11-camera-de-12-mp-resistente-a-agua-wi-fi-4g-lte-e-nfc-dourado"
+          },
+          {
+            "created_at": "2022-06-29 16:29:09",
+            "product_sku": "50005205",
+            "product_name": "iPhone 8 Apple com 128GB, Tela Retina HD de 4,7”, iOS 11, Câmera de 12 MP, Resistente à Água, Wi-Fi, 4G LTE e NFC - Dourado",
+            "product_reedem": "228.392 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/50005205/3811432/iphone-8-apple-com-128gb-tela-retina-hd-de-4-7-ios-11-camera-de-12-mp-resistente-a-agua-wi-fi-4g-lte-e-nfc-dourado"
+          },
+          {
+            "created_at": "2022-06-29 16:29:09",
+            "product_sku": "1555829",
+            "product_name": "iPhone SE Apple 128GB (PRODUCT)RED 4,7&quot; 12MP iOS",
+            "product_reedem": "195.368 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/1555829/3162421/iphone-se-apple-128gb-product-red-4-7equot-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:09",
+            "product_sku": "2449594072",
+            "product_name": "iPhone SE Apple (256GB) Preto Tela 4,7\" 4G Câmera 12MP iOS",
+            "product_reedem": "276.165 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/2449594072/3486380/iphone-se-apple-256gb-preto-tela-4-7-4g-camera-12mp-ios"
+          },
+          {
+            "created_at": "2022-06-29 16:29:09",
+            "product_sku": "55048763",
+            "product_name": "iPhone 13 Apple 256GB Estelar Tela de 6,1”, Câmera Dupla de 12MP",
+            "product_reedem": "443.008 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55048763/3822449/iphone-13-apple-256gb-estelar-tela-de-6-1-camera-dupla-de-12mp"
+          },
+          {
+            "created_at": "2022-06-29 16:29:11",
+            "product_sku": "55048763",
+            "product_name": "iPhone 13 Apple 256GB Estelar Tela de 6,1”, Câmera Dupla de 12MP",
+            "product_reedem": "443.008 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55048763/3822785/iphone-13-apple-256gb-estelar-tela-de-6-1-camera-dupla-de-12mp"
+          },
+          {
+            "created_at": "2022-06-29 16:29:11",
+            "product_sku": "55048765",
+            "product_name": "iPhone 13 Apple 256GB Azul Tela de 6,1”, Câmera Dupla de 12MP",
+            "product_reedem": "474.018 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55048765/4074471/iphone-13-apple-256gb-azul-tela-de-6-1-camera-dupla-de-12mp"
+          },
+          {
+            "created_at": "2022-06-29 16:29:11",
+            "product_sku": "55048764",
+            "product_name": "iPhone 13 Apple 256GB Rosa Tela de 6,1”, Câmera Dupla de 12MP",
+            "product_reedem": "474.018 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55048764/3824159/iphone-13-apple-256gb-rosa-tela-de-6-1-camera-dupla-de-12mp"
+          },
+          {
+            "created_at": "2022-06-29 16:29:11",
+            "product_sku": "55033604",
+            "product_name": "iPhone 13 Pro Apple 128GB Grafite Tela de 6,1” e Câmera Tripla",
+            "product_reedem": "576.986 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55033604/3300836/iphone-13-pro-apple-128gb-grafite-tela-de-6-1-e-camera-tripla"
+          },
+          {
+            "created_at": "2022-06-29 16:29:11",
+            "product_sku": "55033611",
+            "product_name": "iPhone 13 Pro Apple 256GB Dourado Tela de 6,1” e Câmera Tripla",
+            "product_reedem": "598.777 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55033611/3342427/iphone-13-pro-apple-256gb-dourado-tela-de-6-1-e-camera-tripla"
+          },
+          {
+            "created_at": "2022-06-29 16:29:11",
+            "product_sku": "55033601",
+            "product_name": "iPhone 13 Apple 512GB Rosa Tela de 6,1”, Câmera Dupla de 12MP",
+            "product_reedem": "629.931 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55033601/3453902/iphone-13-apple-512gb-rosa-tela-de-6-1-camera-dupla-de-12mp"
+          },
+          {
+            "created_at": "2022-06-29 16:29:11",
+            "product_sku": "55033601",
+            "product_name": "iPhone 13 Apple 512GB Rosa Tela de 6,1”, Câmera Dupla de 12MP",
+            "product_reedem": "666.618 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55033601/3454118/iphone-13-apple-512gb-rosa-tela-de-6-1-camera-dupla-de-12mp"
+          },
+          {
+            "created_at": "2022-06-29 16:29:11",
+            "product_sku": "55048767",
+            "product_name": "iPhone 13 Apple 512GB Estelar Tela de 6,1”, Câmera Dupla de 12MP",
+            "product_reedem": "674.026 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55048767/4075997/iphone-13-apple-512gb-estelar-tela-de-6-1-camera-dupla-de-12mp"
+          },
+          {
+            "created_at": "2022-06-29 16:29:11",
+            "product_sku": "55048768",
+            "product_name": "iPhone 13 Apple 512GB Rosa Tela de 6,1”, Câmera Dupla de 12MP",
+            "product_reedem": "674.026 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55048768/4074474/iphone-13-apple-512gb-rosa-tela-de-6-1-camera-dupla-de-12mp"
+          },
+          {
+            "created_at": "2022-06-29 16:29:11",
+            "product_sku": "55033614",
+            "product_name": "iPhone 13 Pro Apple 512GB Dourado Tela de 6,1” e Câmera Tripla",
+            "product_reedem": "717.731 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55033614/3698269/iphone-13-pro-apple-512gb-dourado-tela-de-6-1-e-camera-tripla"
+          },
+          {
+            "created_at": "2022-06-29 16:29:11",
+            "product_sku": "55033617",
+            "product_name": "iPhone 13 Pro Apple 1TB Prateado Tela de 6,1” e Câmera Tripla",
+            "product_reedem": "1.074.041 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55033617/3822781/iphone-13-pro-apple-1tb-prateado-tela-de-6-1-e-camera-tripla"
+          },
+          {
+            "created_at": "2022-06-29 16:29:11",
+            "product_sku": "55048254",
+            "product_name": "iPhone Apple SE (3ª geração) 64 GB - (PRODUCT)RED Tela de 4.7”, Câmera de 12MP",
+            "product_reedem": "251.788 ",
+            "product_url": "https://shopping.tudoazul.com/produto/30994/55048254/3798970/iphone-apple-se-3a-geracao-64-gb-product-red-tela-de-4-7-camera-de-12mp"
+          }
+        ]
+      }
+    ][{"freight": null, "size": 108, "products": [{"created_at": "2022-06-29 16:38:12", "product_sku": "7967", "product_name": "iPhone 11", "product_reedem": "324.554 ", "product_url": "https://shopping.tudoazul.com/produto/30994/7967/2718992/iphone-11-64gb-branco"}, {"created_at": "2022-06-29 16:38:12", "product_sku": "1556141", "product_name": "iPhone 11 Apple 64GB Branco 6,1&quot; 12MP iOS", "product_reedem": "219.799 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1556141/3168131/iphone-11-apple-64gb-branco-6-1equot-12mp-ios"}, {"created_at": "2022-06-29 16:38:12", "product_sku": "1556105", "product_name": "iPhone 11 Apple 64GB Preto 6,1&quot; 12MP iOS", "product_reedem": "219.799 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1556105/3234605/iphone-11-apple-64gb-preto-6-1equot-12mp-ios"}, {"created_at": "2022-06-29 16:38:12", "product_sku": "1556111", "product_name": "iPhone 11 Apple 128GB Preto 6,1&quot; 12MP iOS", "product_reedem": "248.728 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1556111/3216931/iphone-11-apple-128gb-preto-6-1equot-12mp-ios"}, {"created_at": "2022-06-29 16:38:12", "product_sku": "360562533", "product_name": "iPhone 11 Apple (256GB) Branco Tela 6,1\" Câmera 12MP iOS", "product_reedem": "360.349 ", "product_url": "https://shopping.tudoazul.com/produto/30994/360562533/3671830/iphone-11-apple-256gb-branco-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:38:12", "product_sku": "262992046", "product_name": "iPhone 11 Apple (256GB) Amarelo Tela 6,1\" Câmera 12MP iOS", "product_reedem": "400.084 ", "product_url": "https://shopping.tudoazul.com/produto/30994/262992046/3671851/iphone-11-apple-256gb-amarelo-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:38:12", "product_sku": "1613970093", "product_name": "iPhone 11 Apple (256GB) Preto tela 6,1\" Câmera 12MP iOS", "product_reedem": "408.392 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1613970093/3486135/iphone-11-apple-256gb-preto-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:38:12", "product_sku": "1611318026", "product_name": "iPhone 11 Apple (128GB) Preto tela 6,1\" Câmera 12MP iOS", "product_reedem": "297.623 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1611318026/3487168/iphone-11-apple-128gb-preto-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:38:12", "product_sku": "1593243429", "product_name": "iPhone 11 Apple (64GB) Verde tela 6,1\" Câmera 12MP iOS", "product_reedem": "263.008 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1593243429/3466026/iphone-11-apple-64gb-verde-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:38:12", "product_sku": "1614307808", "product_name": "iPhone 11 Apple (256GB) Amarelo Tela 6,1\" Câmera 12MP iOS", "product_reedem": "361.007 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1614307808/3486049/iphone-11-apple-256gb-amarelo-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:38:12", "product_sku": "1593243437", "product_name": "iPhone 11 Apple (64GB) Amarelo Tela 6,1\" Câmera 12MP iOS", "product_reedem": "249.199 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1593243437/3486592/iphone-11-apple-64gb-amarelo-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:38:12", "product_sku": "1613970350", "product_name": "iPhone 11 Apple (256GB) Branco tela 6,1\" Câmera 12MP iOS", "product_reedem": "387.973 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1613970350/3469611/iphone-11-apple-256gb-branco-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:38:16", "product_sku": "1614132374", "product_name": "iPhone 11 Apple (64GB) Branco Tela 6,1\" 4G Câmera 12MP iOS", "product_reedem": "263.008 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1614132374/3483083/iphone-11-apple-64gb-branco-tela-6-1-4g-camera-12mp-ios"}, {"created_at": "2022-06-29 16:38:16", "product_sku": "1611315984", "product_name": "iPhone 11 Apple (64GB) Preto Tela 6,1\" 4G Câmera 12MP iOS", "product_reedem": "249.199 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1611315984/3483045/iphone-11-apple-64gb-preto-tela-6-1-4g-camera-12mp-ios"}, {"created_at": "2022-06-29 16:38:16", "product_sku": "262997808", "product_name": "iPhone 11 Apple (256GB) (PRODUCT) Red Tela 6,1\" Câmera 12MP iOS", "product_reedem": "360.349 ", "product_url": "https://shopping.tudoazul.com/produto/30994/262997808/3691386/iphone-11-apple-256gb-product-red-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:38:16", "product_sku": "1611315992", "product_name": "iPhone 11 Apple (64GB) Lilás Tela 6,1\" Câmera 12MP iOS", "product_reedem": "279.207 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1611315992/3486017/iphone-11-apple-64gb-lilas-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:38:16", "product_sku": "262979511", "product_name": "iPhone 11 Apple (64GB) Amarelo Tela 6,1\" Câmera 12MP iOS", "product_reedem": "290.248 ", "product_url": "https://shopping.tudoazul.com/produto/30994/262979511/3671835/iphone-11-apple-64gb-amarelo-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:38:16", "product_sku": "262984273", "product_name": "iPhone 11 Apple (256GB) Verde tela 6,1\" Câmera 12MP iOS", "product_reedem": "360.349 ", "product_url": "https://shopping.tudoazul.com/produto/30994/262984273/3546459/iphone-11-apple-256gb-verde-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:38:16", "product_sku": "1611344822", "product_name": "iPhone 11 Apple (128GB) Amarelo Desbloqueado Tela 6,1\" Câmera Traseira 12MP iOS", "product_reedem": "297.623 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1611344822/3485926/iphone-11-apple-128gb-amarelo-desbloqueado-tela-6-1-camera-traseira-12mp-ios"}, {"created_at": "2022-06-29 16:38:16", "product_sku": "1611344831", "product_name": "iPhone 11 Apple (128GB) (PRODUCT)RED tela 6,1\" Câmera 12MP iOS", "product_reedem": "275.507 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1611344831/3479246/iphone-11-apple-128gb-product-red-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:38:16", "product_sku": "1614132366", "product_name": "iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1\" 4G Wi-Fi Câmera 12MP iOS", "product_reedem": "249.199 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1614132366/3482873/iphone-11-apple-64gb-product-red-tela-6-1-4g-wi-fi-camera-12mp-ios"}, {"created_at": "2022-06-29 16:38:16", "product_sku": "55014771", "product_name": "iPhone 11 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "283.777 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014771/3216718/iphone-11-apple-128gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:16", "product_sku": "55014770", "product_name": "iPhone 11 Apple 128GB Preto Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "283.777 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014770/3244401/iphone-11-apple-128gb-preto-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:16", "product_sku": "55014770", "product_name": "iPhone 11 Apple 128GB Preto Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "283.777 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014770/3174102/iphone-11-apple-128gb-preto-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:19", "product_sku": "55005278", "product_name": "iPhone 11 Apple 64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "269.931 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55005278/3268941/iphone-11-apple-64gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:19", "product_sku": "55014768", "product_name": "iPhone 11 Apple 64GB Roxo, Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "269.931 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014768/3268971/iphone-11-apple-64gb-roxo-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:19", "product_sku": "55014771", "product_name": "iPhone 11 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "297.623 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014771/3174106/iphone-11-apple-128gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:19", "product_sku": "55014778", "product_name": "iPhone 11 Apple 256GB PRODUCT(RED) Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "407.349 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014778/3244302/iphone-11-apple-256gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:19", "product_sku": "55014764", "product_name": "iPhone 11 Apple 64GB Preto, Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "256.431 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014764/3216713/iphone-11-apple-64gb-preto-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:19", "product_sku": "55014770", "product_name": "iPhone 11 Apple 128GB Preto Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "283.777 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014770/3216717/iphone-11-apple-128gb-preto-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:19", "product_sku": "55014764", "product_name": "iPhone 11 Apple 64GB Preto, Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "256.431 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014764/3174088/iphone-11-apple-64gb-preto-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:19", "product_sku": "55014768", "product_name": "iPhone 11 Apple 64GB Roxo, Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "288.826 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014768/3254442/iphone-11-apple-64gb-roxo-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:19", "product_sku": "55014775", "product_name": "iPhone 11 Apple 128GB Verde Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "297.623 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014775/3268979/iphone-11-apple-128gb-verde-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:19", "product_sku": "55014765", "product_name": "iPhone 11 Apple 64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "269.931 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014765/3244397/iphone-11-apple-64gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:19", "product_sku": "55014771", "product_name": "iPhone 11 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "297.623 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014771/3244406/iphone-11-apple-128gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:19", "product_sku": "55014765", "product_name": "iPhone 11 Apple 64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "269.931 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014765/3174093/iphone-11-apple-64gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:21", "product_sku": "55014775", "product_name": "iPhone 11 Apple 128GB Verde Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "297.623 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014775/3268979/iphone-11-apple-128gb-verde-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:21", "product_sku": "55014765", "product_name": "iPhone 11 Apple 64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "269.931 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014765/3244397/iphone-11-apple-64gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:21", "product_sku": "55014771", "product_name": "iPhone 11 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "297.623 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014771/3244406/iphone-11-apple-128gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:21", "product_sku": "55014766", "product_name": "iPhone 11 Apple 64GB PRODUCT(RED), Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "256.431 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014766/3174097/iphone-11-apple-64gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:21", "product_sku": "55014766", "product_name": "iPhone 11 Apple 64GB PRODUCT(RED), Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "283.777 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014766/3244399/iphone-11-apple-64gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:21", "product_sku": "55014778", "product_name": "iPhone 11 Apple 256GB PRODUCT(RED) Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "407.349 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014778/3216722/iphone-11-apple-256gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:21", "product_sku": "55014764", "product_name": "iPhone 11 Apple 64GB Preto, Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "256.431 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014764/3244396/iphone-11-apple-64gb-preto-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:21", "product_sku": "55014765", "product_name": "iPhone 11 Apple 64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "269.931 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014765/3216715/iphone-11-apple-64gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:21", "product_sku": "55014773", "product_name": "iPhone 11 Apple 128GB Amarelo Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "297.623 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014773/3273471/iphone-11-apple-128gb-amarelo-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:21", "product_sku": "55014776", "product_name": "iPhone 11 Apple 256GB Preto Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "380.700 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014776/3244415/iphone-11-apple-256gb-preto-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:21", "product_sku": "55014766", "product_name": "iPhone 11 Apple 64GB PRODUCT(RED), Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "256.431 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014766/3216716/iphone-11-apple-64gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:21", "product_sku": "55014778", "product_name": "iPhone 11 Apple 256GB PRODUCT(RED) Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "407.349 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014778/3174114/iphone-11-apple-256gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:23", "product_sku": "7973", "product_name": "iPhone 11 128GB Roxo", "product_reedem": "355.777 ", "product_url": "https://shopping.tudoazul.com/produto/30994/7973/2718998/iphone-11-128gb-roxo"}, {"created_at": "2022-06-29 16:38:23", "product_sku": "1611324805", "product_name": "iPhone 11 Apple (128GB) Branco tela 6,1\" Câmera 12MP iOS", "product_reedem": "275.507 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1611324805/3487730/iphone-11-apple-128gb-branco-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:38:23", "product_sku": "8744", "product_name": "iPhone 13", "product_reedem": "517.084 ", "product_url": "https://shopping.tudoazul.com/produto/30994/8744/3129245/apple-iphone-13-128gb-meia-noite"}, {"created_at": "2022-06-29 16:38:23", "product_sku": "7837", "product_name": "iPhone 12 Mini", "product_reedem": "406.316 ", "product_url": "https://shopping.tudoazul.com/produto/30994/7837/2697321/iphone-12-mini-64gb-branco"}, {"created_at": "2022-06-29 16:38:23", "product_sku": "8759", "product_name": "iPhone 13 Pro", "product_reedem": "611.239 ", "product_url": "https://shopping.tudoazul.com/produto/30994/8759/3161288/apple-iphone-13-pro-128gb-grafite"}, {"created_at": "2022-06-29 16:38:23", "product_sku": "8716", "product_name": "iPhone 13 Mini", "product_reedem": "443.700 ", "product_url": "https://shopping.tudoazul.com/produto/30994/8716/3128836/apple-iphone-13-mini-128gb-product-red"}, {"created_at": "2022-06-29 16:38:23", "product_sku": "8731", "product_name": "iPhone 13 ProMax", "product_reedem": "692.239 ", "product_url": "https://shopping.tudoazul.com/produto/30994/8731/3128818/apple-iphone-13-pro-max-128gb-azul-sierra"}, {"created_at": "2022-06-29 16:38:23", "product_sku": "2311490", "product_name": "iPhone 12 Apple 256GB - Roxo Tela 6,1&quot; 12MP iOS", "product_reedem": "347.085 ", "product_url": "https://shopping.tudoazul.com/produto/30994/2311490/3174426/iphone-12-apple-256gb-roxo-tela-6-1equot-12mp-ios"}, {"created_at": "2022-06-29 16:38:23", "product_sku": "55048760", "product_name": "iPhone 13 Apple 128GB Rosa Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "415.316 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048760/3823090/iphone-13-apple-128gb-rosa-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:38:23", "product_sku": "55048760", "product_name": "iPhone 13 Apple 128GB Rosa Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "415.316 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048760/3822447/iphone-13-apple-128gb-rosa-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:38:23", "product_sku": "55048764", "product_name": "iPhone 13 Apple 256GB Rosa Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "422.239 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048764/3823814/iphone-13-apple-256gb-rosa-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:38:23", "product_sku": "1556148", "product_name": "iPhone SE Apple 256GB Preto Tela 4,7&quot; 12 MP - iOS", "product_reedem": "300.799 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1556148/3176505/iphone-se-apple-256gb-preto-tela-4-7equot-12-mp-ios"}, {"created_at": "2022-06-29 16:38:24", "product_sku": "55048759", "product_name": "iPhone 13 Apple 128GB Estelar Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "415.316 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048759/3822783/iphone-13-apple-128gb-estelar-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:38:24", "product_sku": "55048763", "product_name": "iPhone 13 Apple 256GB Estelar Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "443.008 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048763/3823091/iphone-13-apple-256gb-estelar-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:38:24", "product_sku": "55033606", "product_name": "iPhone 13 Pro Apple 128GB Dourado Tela de 6,1” e Câmera Tripla", "product_reedem": "501.161 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033606/3342550/iphone-13-pro-apple-128gb-dourado-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:38:24", "product_sku": "55033604", "product_name": "iPhone 13 Pro Apple 128GB Grafite Tela de 6,1” e Câmera Tripla", "product_reedem": "576.986 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033604/3300087/iphone-13-pro-apple-128gb-grafite-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:38:24", "product_sku": "55033611", "product_name": "iPhone 13 Pro Apple 256GB Dourado Tela de 6,1” e Câmera Tripla", "product_reedem": "598.777 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033611/3342254/iphone-13-pro-apple-256gb-dourado-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:38:24", "product_sku": "55048768", "product_name": "iPhone 13 Apple 512GB Rosa Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "674.026 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048768/4074739/iphone-13-apple-512gb-rosa-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:38:24", "product_sku": "55033614", "product_name": "iPhone 13 Pro Apple 512GB Dourado Tela de 6,1” e Câmera Tripla", "product_reedem": "717.731 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033614/3698485/iphone-13-pro-apple-512gb-dourado-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:38:24", "product_sku": "55033614", "product_name": "iPhone 13 Pro Apple 512GB Dourado Tela de 6,1” e Câmera Tripla", "product_reedem": "717.731 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033614/3698677/iphone-13-pro-apple-512gb-dourado-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:38:24", "product_sku": "55033617", "product_name": "iPhone 13 Pro Apple 1TB Prateado Tela de 6,1” e Câmera Tripla", "product_reedem": "962.926 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033617/3823092/iphone-13-pro-apple-1tb-prateado-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:38:24", "product_sku": "1556133", "product_name": "iPhone SE Apple 64GB Branco 4,7&quot; iOS", "product_reedem": "173.514 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1556133/3169193/iphone-se-apple-64gb-branco-4-7equot-ios"}, {"created_at": "2022-06-29 16:38:24", "product_sku": "50005205", "product_name": "iPhone 8 Apple com 128GB, Tela Retina HD de 4,7”, iOS 11, Câmera de 12 MP, Resistente à Água, Wi-Fi, 4G LTE e NFC - Dourado", "product_reedem": "228.392 ", "product_url": "https://shopping.tudoazul.com/produto/30994/50005205/3811891/iphone-8-apple-com-128gb-tela-retina-hd-de-4-7-ios-11-camera-de-12-mp-resistente-a-agua-wi-fi-4g-lte-e-nfc-dourado"}, {"created_at": "2022-06-29 16:38:24", "product_sku": "55029406", "product_name": "iPhone 12 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "353.008 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55029406/3216790/iphone-12-apple-128gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:26", "product_sku": "55033614", "product_name": "iPhone 13 Pro Apple 512GB Dourado Tela de 6,1” e Câmera Tripla", "product_reedem": "717.731 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033614/3698485/iphone-13-pro-apple-512gb-dourado-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:38:26", "product_sku": "55033614", "product_name": "iPhone 13 Pro Apple 512GB Dourado Tela de 6,1” e Câmera Tripla", "product_reedem": "717.731 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033614/3698677/iphone-13-pro-apple-512gb-dourado-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:38:26", "product_sku": "55033617", "product_name": "iPhone 13 Pro Apple 1TB Prateado Tela de 6,1” e Câmera Tripla", "product_reedem": "962.926 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033617/3823092/iphone-13-pro-apple-1tb-prateado-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:38:26", "product_sku": "1555829", "product_name": "iPhone SE Apple 128GB (PRODUCT)RED 4,7&quot; 12MP iOS", "product_reedem": "195.368 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1555829/3162421/iphone-se-apple-128gb-product-red-4-7equot-12mp-ios"}, {"created_at": "2022-06-29 16:38:26", "product_sku": "55029406", "product_name": "iPhone 12 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "353.008 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55029406/3216790/iphone-12-apple-128gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:26", "product_sku": "55048770", "product_name": "iPhone 13 Apple 128GB (PRODUCT)RED Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "394.546 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048770/3817686/iphone-13-apple-128gb-product-red-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:38:26", "product_sku": "55048253", "product_name": "iPhone SE Apple (3ª geração) 64 GB - Estelar Tela de 4.7”, Câmera de 12MP", "product_reedem": "235.316 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048253/3798969/iphone-se-apple-3a-geracao-64-gb-estelar-tela-de-4-7-camera-de-12mp"}, {"created_at": "2022-06-29 16:38:26", "product_sku": "55029401", "product_name": "iPhone 12 Apple 64GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "325.316 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55029401/3174336/iphone-12-apple-64gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:26", "product_sku": "55048259", "product_name": "iPhone Apple SE (3ª geração) 256 GB - Estelar Tela de 4.7”, Câmera de 12MP", "product_reedem": "348.828 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048259/3799168/iphone-apple-se-3a-geracao-256-gb-estelar-tela-de-4-7-camera-de-12mp"}, {"created_at": "2022-06-29 16:38:26", "product_sku": "55029406", "product_name": "iPhone 12 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "353.008 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55029406/3174343/iphone-12-apple-128gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:26", "product_sku": "55048758", "product_name": "iPhone 13 Apple 128GB Meia-noite Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "387.623 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048758/3817534/iphone-13-apple-128gb-meia-noite-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:38:26", "product_sku": "55048758", "product_name": "iPhone 13 Apple 128GB Meia-noite Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "415.316 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048758/3817577/iphone-13-apple-128gb-meia-noite-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:38:28", "product_sku": "55048766", "product_name": "iPhone 13 Apple 512GB Meia-noite Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "674.026 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048766/4074737/iphone-13-apple-512gb-meia-noite-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:38:28", "product_sku": "55033619", "product_name": "iPhone 13 Pro Apple 1TB Azul-Sierra Tela de 6,1” e Câmera Tripla", "product_reedem": "888.849 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033619/3800682/iphone-13-pro-apple-1tb-azul-sierra-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:38:28", "product_sku": "55048265", "product_name": "iPhone 13 Pro Apple 1TB Verde-alpino Tela de 6,1” e Câmera Tripla", "product_reedem": "1.074.041 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048265/3798897/iphone-13-pro-apple-1tb-verde-alpino-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:38:28", "product_sku": "1556138", "product_name": "iPhone SE Apple 256GB Preto 4,7&quot; 12MP iOS", "product_reedem": "256.084 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1556138/3166569/iphone-se-apple-256gb-preto-4-7equot-12mp-ios"}, {"created_at": "2022-06-29 16:38:28", "product_sku": "55048254", "product_name": "iPhone Apple SE (3ª geração) 64 GB - (PRODUCT)RED Tela de 4.7”, Câmera de 12MP", "product_reedem": "251.788 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048254/3798970/iphone-apple-se-3a-geracao-64-gb-product-red-tela-de-4-7-camera-de-12mp"}, {"created_at": "2022-06-29 16:38:28", "product_sku": "55029407", "product_name": "iPhone 12 Apple 128GB Product (Red) Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "317.700 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55029407/3216791/iphone-12-apple-128gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:28", "product_sku": "55048258", "product_name": "iPhone Apple SE (3ª geração) 256 GB - Meia-noite Tela de 4.7”, Câmera de 12MP", "product_reedem": "326.008 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048258/3799361/iphone-apple-se-3a-geracao-256-gb-meia-noite-tela-de-4-7-camera-de-12mp"}, {"created_at": "2022-06-29 16:38:28", "product_sku": "55029402", "product_name": "iPhone 12 Apple 64GB (Product)Red Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "344.326 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55029402/3244483/iphone-12-apple-64gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:28", "product_sku": "55029402", "product_name": "iPhone 12 Apple 64GB (Product)Red Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "348.088 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55029402/3174337/iphone-12-apple-64gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:28", "product_sku": "55048260", "product_name": "iPhone Apple SE (3ª geração) 256 GB - (PRODUCT)RED Tela de 4.7”, Câmera de 12MP", "product_reedem": "348.828 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048260/3798975/iphone-apple-se-3a-geracao-256-gb-product-red-tela-de-4-7-camera-de-12mp"}, {"created_at": "2022-06-29 16:38:28", "product_sku": "55014502", "product_name": "iPhone 12 mini Apple 256GB Verde Tela de 5,4”, Câmera Dupla de 12MP, iOS", "product_reedem": "429.572 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014502/3272079/iphone-12-mini-apple-256gb-verde-tela-de-5-4-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:28", "product_sku": "55014502", "product_name": "iPhone 12 mini Apple 256GB Verde Tela de 5,4”, Câmera Dupla de 12MP, iOS", "product_reedem": "429.572 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014502/3272655/iphone-12-mini-apple-256gb-verde-tela-de-5-4-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:38:30", "product_sku": "55048764", "product_name": "iPhone 13 Apple 256GB Rosa Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "474.018 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048764/3824159/iphone-13-apple-256gb-rosa-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:38:30", "product_sku": "55033604", "product_name": "iPhone 13 Pro Apple 128GB Grafite Tela de 6,1” e Câmera Tripla", "product_reedem": "576.986 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033604/3300836/iphone-13-pro-apple-128gb-grafite-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:38:30", "product_sku": "55033611", "product_name": "iPhone 13 Pro Apple 256GB Dourado Tela de 6,1” e Câmera Tripla", "product_reedem": "598.777 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033611/3342427/iphone-13-pro-apple-256gb-dourado-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:38:30", "product_sku": "55033601", "product_name": "iPhone 13 Apple 512GB Rosa Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "629.931 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033601/3453902/iphone-13-apple-512gb-rosa-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:38:30", "product_sku": "55033601", "product_name": "iPhone 13 Apple 512GB Rosa Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "666.618 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033601/3454118/iphone-13-apple-512gb-rosa-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:38:30", "product_sku": "55048767", "product_name": "iPhone 13 Apple 512GB Estelar Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "674.026 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048767/4075997/iphone-13-apple-512gb-estelar-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:38:30", "product_sku": "55048768", "product_name": "iPhone 13 Apple 512GB Rosa Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "674.026 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048768/4074474/iphone-13-apple-512gb-rosa-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:38:30", "product_sku": "55033614", "product_name": "iPhone 13 Pro Apple 512GB Dourado Tela de 6,1” e Câmera Tripla", "product_reedem": "717.731 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033614/3698269/iphone-13-pro-apple-512gb-dourado-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:38:30", "product_sku": "55033617", "product_name": "iPhone 13 Pro Apple 1TB Prateado Tela de 6,1” e Câmera Tripla", "product_reedem": "1.074.041 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033617/3822781/iphone-13-pro-apple-1tb-prateado-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:38:30", "product_sku": "55048759", "product_name": "iPhone 13 Apple 128GB Estelar Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "415.316 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048759/3823089/iphone-13-apple-128gb-estelar-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:38:30", "product_sku": "55048765", "product_name": "iPhone 13 Apple 256GB Azul Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "474.018 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048765/4074736/iphone-13-apple-256gb-azul-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:38:30", "product_sku": "55033606", "product_name": "iPhone 13 Pro Apple 128GB Dourado Tela de 6,1” e Câmera Tripla", "product_reedem": "501.161 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033606/3342250/iphone-13-pro-apple-128gb-dourado-tela-de-6-1-e-camera-tripla"}]}][[{"freight": null, "size": 108, "products": [{"created_at": "2022-06-29 16:41:11", "product_sku": "7967", "product_name": "iPhone 11", "product_reedem": "324.554 ", "product_url": "https://shopping.tudoazul.com/produto/30994/7967/2718992/iphone-11-64gb-branco"}, {"created_at": "2022-06-29 16:41:11", "product_sku": "1556141", "product_name": "iPhone 11 Apple 64GB Branco 6,1&quot; 12MP iOS", "product_reedem": "219.799 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1556141/3168131/iphone-11-apple-64gb-branco-6-1equot-12mp-ios"}, {"created_at": "2022-06-29 16:41:11", "product_sku": "1556105", "product_name": "iPhone 11 Apple 64GB Preto 6,1&quot; 12MP iOS", "product_reedem": "219.799 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1556105/3234605/iphone-11-apple-64gb-preto-6-1equot-12mp-ios"}, {"created_at": "2022-06-29 16:41:11", "product_sku": "1556111", "product_name": "iPhone 11 Apple 128GB Preto 6,1&quot; 12MP iOS", "product_reedem": "248.728 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1556111/3216931/iphone-11-apple-128gb-preto-6-1equot-12mp-ios"}, {"created_at": "2022-06-29 16:41:11", "product_sku": "360562533", "product_name": "iPhone 11 Apple (256GB) Branco Tela 6,1\" Câmera 12MP iOS", "product_reedem": "360.349 ", "product_url": "https://shopping.tudoazul.com/produto/30994/360562533/3671830/iphone-11-apple-256gb-branco-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:41:11", "product_sku": "262992046", "product_name": "iPhone 11 Apple (256GB) Amarelo Tela 6,1\" Câmera 12MP iOS", "product_reedem": "400.084 ", "product_url": "https://shopping.tudoazul.com/produto/30994/262992046/3671851/iphone-11-apple-256gb-amarelo-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:41:11", "product_sku": "1613970093", "product_name": "iPhone 11 Apple (256GB) Preto tela 6,1\" Câmera 12MP iOS", "product_reedem": "408.392 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1613970093/3486135/iphone-11-apple-256gb-preto-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:41:11", "product_sku": "1611318026", "product_name": "iPhone 11 Apple (128GB) Preto tela 6,1\" Câmera 12MP iOS", "product_reedem": "297.623 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1611318026/3487168/iphone-11-apple-128gb-preto-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:41:11", "product_sku": "1593243429", "product_name": "iPhone 11 Apple (64GB) Verde tela 6,1\" Câmera 12MP iOS", "product_reedem": "263.008 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1593243429/3466026/iphone-11-apple-64gb-verde-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:41:11", "product_sku": "1614307808", "product_name": "iPhone 11 Apple (256GB) Amarelo Tela 6,1\" Câmera 12MP iOS", "product_reedem": "361.007 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1614307808/3486049/iphone-11-apple-256gb-amarelo-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:41:11", "product_sku": "1593243437", "product_name": "iPhone 11 Apple (64GB) Amarelo Tela 6,1\" Câmera 12MP iOS", "product_reedem": "249.199 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1593243437/3486592/iphone-11-apple-64gb-amarelo-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:41:11", "product_sku": "1613970350", "product_name": "iPhone 11 Apple (256GB) Branco tela 6,1\" Câmera 12MP iOS", "product_reedem": "387.973 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1613970350/3469611/iphone-11-apple-256gb-branco-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:41:16", "product_sku": "1614132374", "product_name": "iPhone 11 Apple (64GB) Branco Tela 6,1\" 4G Câmera 12MP iOS", "product_reedem": "263.008 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1614132374/3483083/iphone-11-apple-64gb-branco-tela-6-1-4g-camera-12mp-ios"}, {"created_at": "2022-06-29 16:41:16", "product_sku": "1611315984", "product_name": "iPhone 11 Apple (64GB) Preto Tela 6,1\" 4G Câmera 12MP iOS", "product_reedem": "249.199 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1611315984/3483045/iphone-11-apple-64gb-preto-tela-6-1-4g-camera-12mp-ios"}, {"created_at": "2022-06-29 16:41:16", "product_sku": "262997808", "product_name": "iPhone 11 Apple (256GB) (PRODUCT) Red Tela 6,1\" Câmera 12MP iOS", "product_reedem": "360.349 ", "product_url": "https://shopping.tudoazul.com/produto/30994/262997808/3691386/iphone-11-apple-256gb-product-red-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:41:16", "product_sku": "1611315992", "product_name": "iPhone 11 Apple (64GB) Lilás Tela 6,1\" Câmera 12MP iOS", "product_reedem": "279.207 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1611315992/3486017/iphone-11-apple-64gb-lilas-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:41:16", "product_sku": "262979511", "product_name": "iPhone 11 Apple (64GB) Amarelo Tela 6,1\" Câmera 12MP iOS", "product_reedem": "290.248 ", "product_url": "https://shopping.tudoazul.com/produto/30994/262979511/3671835/iphone-11-apple-64gb-amarelo-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:41:16", "product_sku": "262984273", "product_name": "iPhone 11 Apple (256GB) Verde tela 6,1\" Câmera 12MP iOS", "product_reedem": "360.349 ", "product_url": "https://shopping.tudoazul.com/produto/30994/262984273/3546459/iphone-11-apple-256gb-verde-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:41:16", "product_sku": "1611344822", "product_name": "iPhone 11 Apple (128GB) Amarelo Desbloqueado Tela 6,1\" Câmera Traseira 12MP iOS", "product_reedem": "297.623 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1611344822/3485926/iphone-11-apple-128gb-amarelo-desbloqueado-tela-6-1-camera-traseira-12mp-ios"}, {"created_at": "2022-06-29 16:41:16", "product_sku": "1611344831", "product_name": "iPhone 11 Apple (128GB) (PRODUCT)RED tela 6,1\" Câmera 12MP iOS", "product_reedem": "275.507 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1611344831/3479246/iphone-11-apple-128gb-product-red-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:41:16", "product_sku": "1614132366", "product_name": "iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1\" 4G Wi-Fi Câmera 12MP iOS", "product_reedem": "249.199 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1614132366/3482873/iphone-11-apple-64gb-product-red-tela-6-1-4g-wi-fi-camera-12mp-ios"}, {"created_at": "2022-06-29 16:41:16", "product_sku": "55014771", "product_name": "iPhone 11 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "283.777 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014771/3216718/iphone-11-apple-128gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:16", "product_sku": "55014770", "product_name": "iPhone 11 Apple 128GB Preto Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "283.777 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014770/3244401/iphone-11-apple-128gb-preto-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:16", "product_sku": "55014770", "product_name": "iPhone 11 Apple 128GB Preto Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "283.777 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014770/3174102/iphone-11-apple-128gb-preto-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:18", "product_sku": "55005278", "product_name": "iPhone 11 Apple 64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "269.931 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55005278/3268941/iphone-11-apple-64gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:18", "product_sku": "55014768", "product_name": "iPhone 11 Apple 64GB Roxo, Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "269.931 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014768/3268971/iphone-11-apple-64gb-roxo-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:18", "product_sku": "55014771", "product_name": "iPhone 11 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "297.623 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014771/3174106/iphone-11-apple-128gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:18", "product_sku": "55014778", "product_name": "iPhone 11 Apple 256GB PRODUCT(RED) Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "407.349 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014778/3244302/iphone-11-apple-256gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:18", "product_sku": "55014764", "product_name": "iPhone 11 Apple 64GB Preto, Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "256.431 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014764/3216713/iphone-11-apple-64gb-preto-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:18", "product_sku": "55014770", "product_name": "iPhone 11 Apple 128GB Preto Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "283.777 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014770/3216717/iphone-11-apple-128gb-preto-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:18", "product_sku": "55014764", "product_name": "iPhone 11 Apple 64GB Preto, Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "256.431 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014764/3174088/iphone-11-apple-64gb-preto-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:18", "product_sku": "55014768", "product_name": "iPhone 11 Apple 64GB Roxo, Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "288.826 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014768/3254442/iphone-11-apple-64gb-roxo-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:18", "product_sku": "55014775", "product_name": "iPhone 11 Apple 128GB Verde Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "297.623 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014775/3268979/iphone-11-apple-128gb-verde-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:18", "product_sku": "55014765", "product_name": "iPhone 11 Apple 64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "269.931 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014765/3244397/iphone-11-apple-64gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:18", "product_sku": "55014771", "product_name": "iPhone 11 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "297.623 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014771/3244406/iphone-11-apple-128gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:18", "product_sku": "55014765", "product_name": "iPhone 11 Apple 64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "269.931 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014765/3174093/iphone-11-apple-64gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:20", "product_sku": "55014775", "product_name": "iPhone 11 Apple 128GB Verde Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "297.623 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014775/3268979/iphone-11-apple-128gb-verde-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:20", "product_sku": "55014765", "product_name": "iPhone 11 Apple 64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "269.931 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014765/3244397/iphone-11-apple-64gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:20", "product_sku": "55014771", "product_name": "iPhone 11 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "297.623 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014771/3244406/iphone-11-apple-128gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:20", "product_sku": "55014766", "product_name": "iPhone 11 Apple 64GB PRODUCT(RED), Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "256.431 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014766/3174097/iphone-11-apple-64gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:20", "product_sku": "55014766", "product_name": "iPhone 11 Apple 64GB PRODUCT(RED), Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "283.777 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014766/3244399/iphone-11-apple-64gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:20", "product_sku": "55014778", "product_name": "iPhone 11 Apple 256GB PRODUCT(RED) Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "407.349 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014778/3216722/iphone-11-apple-256gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:20", "product_sku": "55014764", "product_name": "iPhone 11 Apple 64GB Preto, Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "256.431 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014764/3244396/iphone-11-apple-64gb-preto-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:20", "product_sku": "55014765", "product_name": "iPhone 11 Apple 64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "269.931 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014765/3216715/iphone-11-apple-64gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:20", "product_sku": "55014773", "product_name": "iPhone 11 Apple 128GB Amarelo Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "297.623 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014773/3273471/iphone-11-apple-128gb-amarelo-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:20", "product_sku": "55014776", "product_name": "iPhone 11 Apple 256GB Preto Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "380.700 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014776/3244415/iphone-11-apple-256gb-preto-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:20", "product_sku": "55014766", "product_name": "iPhone 11 Apple 64GB PRODUCT(RED), Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "256.431 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014766/3216716/iphone-11-apple-64gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:20", "product_sku": "55014778", "product_name": "iPhone 11 Apple 256GB PRODUCT(RED) Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "407.349 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014778/3174114/iphone-11-apple-256gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:22", "product_sku": "7973", "product_name": "iPhone 11 128GB Roxo", "product_reedem": "355.777 ", "product_url": "https://shopping.tudoazul.com/produto/30994/7973/2718998/iphone-11-128gb-roxo"}, {"created_at": "2022-06-29 16:41:22", "product_sku": "1611324805", "product_name": "iPhone 11 Apple (128GB) Branco tela 6,1\" Câmera 12MP iOS", "product_reedem": "275.507 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1611324805/3487730/iphone-11-apple-128gb-branco-tela-6-1-camera-12mp-ios"}, {"created_at": "2022-06-29 16:41:22", "product_sku": "8744", "product_name": "iPhone 13", "product_reedem": "517.084 ", "product_url": "https://shopping.tudoazul.com/produto/30994/8744/3129245/apple-iphone-13-128gb-meia-noite"}, {"created_at": "2022-06-29 16:41:22", "product_sku": "7837", "product_name": "iPhone 12 Mini", "product_reedem": "406.316 ", "product_url": "https://shopping.tudoazul.com/produto/30994/7837/2697321/iphone-12-mini-64gb-branco"}, {"created_at": "2022-06-29 16:41:22", "product_sku": "8759", "product_name": "iPhone 13 Pro", "product_reedem": "611.239 ", "product_url": "https://shopping.tudoazul.com/produto/30994/8759/3161288/apple-iphone-13-pro-128gb-grafite"}, {"created_at": "2022-06-29 16:41:22", "product_sku": "8716", "product_name": "iPhone 13 Mini", "product_reedem": "443.700 ", "product_url": "https://shopping.tudoazul.com/produto/30994/8716/3128836/apple-iphone-13-mini-128gb-product-red"}, {"created_at": "2022-06-29 16:41:22", "product_sku": "8731", "product_name": "iPhone 13 ProMax", "product_reedem": "692.239 ", "product_url": "https://shopping.tudoazul.com/produto/30994/8731/3128818/apple-iphone-13-pro-max-128gb-azul-sierra"}, {"created_at": "2022-06-29 16:41:22", "product_sku": "2311490", "product_name": "iPhone 12 Apple 256GB - Roxo Tela 6,1&quot; 12MP iOS", "product_reedem": "347.085 ", "product_url": "https://shopping.tudoazul.com/produto/30994/2311490/3174426/iphone-12-apple-256gb-roxo-tela-6-1equot-12mp-ios"}, {"created_at": "2022-06-29 16:41:22", "product_sku": "55048760", "product_name": "iPhone 13 Apple 128GB Rosa Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "415.316 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048760/3823090/iphone-13-apple-128gb-rosa-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:41:22", "product_sku": "55048760", "product_name": "iPhone 13 Apple 128GB Rosa Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "415.316 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048760/3822447/iphone-13-apple-128gb-rosa-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:41:22", "product_sku": "55048764", "product_name": "iPhone 13 Apple 256GB Rosa Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "422.239 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048764/3823814/iphone-13-apple-256gb-rosa-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:41:22", "product_sku": "1556148", "product_name": "iPhone SE Apple 256GB Preto Tela 4,7&quot; 12 MP - iOS", "product_reedem": "300.799 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1556148/3176505/iphone-se-apple-256gb-preto-tela-4-7equot-12-mp-ios"}, {"created_at": "2022-06-29 16:41:24", "product_sku": "55048759", "product_name": "iPhone 13 Apple 128GB Estelar Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "415.316 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048759/3822783/iphone-13-apple-128gb-estelar-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:41:24", "product_sku": "55048763", "product_name": "iPhone 13 Apple 256GB Estelar Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "443.008 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048763/3823091/iphone-13-apple-256gb-estelar-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:41:24", "product_sku": "55033606", "product_name": "iPhone 13 Pro Apple 128GB Dourado Tela de 6,1” e Câmera Tripla", "product_reedem": "501.161 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033606/3342550/iphone-13-pro-apple-128gb-dourado-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:41:24", "product_sku": "55033604", "product_name": "iPhone 13 Pro Apple 128GB Grafite Tela de 6,1” e Câmera Tripla", "product_reedem": "576.986 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033604/3300087/iphone-13-pro-apple-128gb-grafite-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:41:24", "product_sku": "55033611", "product_name": "iPhone 13 Pro Apple 256GB Dourado Tela de 6,1” e Câmera Tripla", "product_reedem": "598.777 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033611/3342254/iphone-13-pro-apple-256gb-dourado-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:41:24", "product_sku": "55048768", "product_name": "iPhone 13 Apple 512GB Rosa Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "674.026 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048768/4074739/iphone-13-apple-512gb-rosa-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:41:24", "product_sku": "55033614", "product_name": "iPhone 13 Pro Apple 512GB Dourado Tela de 6,1” e Câmera Tripla", "product_reedem": "717.731 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033614/3698485/iphone-13-pro-apple-512gb-dourado-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:41:24", "product_sku": "55033614", "product_name": "iPhone 13 Pro Apple 512GB Dourado Tela de 6,1” e Câmera Tripla", "product_reedem": "717.731 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033614/3698677/iphone-13-pro-apple-512gb-dourado-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:41:24", "product_sku": "55033617", "product_name": "iPhone 13 Pro Apple 1TB Prateado Tela de 6,1” e Câmera Tripla", "product_reedem": "962.926 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033617/3823092/iphone-13-pro-apple-1tb-prateado-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:41:24", "product_sku": "1556133", "product_name": "iPhone SE Apple 64GB Branco 4,7&quot; iOS", "product_reedem": "173.514 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1556133/3169193/iphone-se-apple-64gb-branco-4-7equot-ios"}, {"created_at": "2022-06-29 16:41:24", "product_sku": "50005205", "product_name": "iPhone 8 Apple com 128GB, Tela Retina HD de 4,7”, iOS 11, Câmera de 12 MP, Resistente à Água, Wi-Fi, 4G LTE e NFC - Dourado", "product_reedem": "228.392 ", "product_url": "https://shopping.tudoazul.com/produto/30994/50005205/3811891/iphone-8-apple-com-128gb-tela-retina-hd-de-4-7-ios-11-camera-de-12-mp-resistente-a-agua-wi-fi-4g-lte-e-nfc-dourado"}, {"created_at": "2022-06-29 16:41:24", "product_sku": "55029406", "product_name": "iPhone 12 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "353.008 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55029406/3216790/iphone-12-apple-128gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:25", "product_sku": "55033614", "product_name": "iPhone 13 Pro Apple 512GB Dourado Tela de 6,1” e Câmera Tripla", "product_reedem": "717.731 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033614/3698485/iphone-13-pro-apple-512gb-dourado-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:41:25", "product_sku": "55033614", "product_name": "iPhone 13 Pro Apple 512GB Dourado Tela de 6,1” e Câmera Tripla", "product_reedem": "717.731 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033614/3698677/iphone-13-pro-apple-512gb-dourado-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:41:25", "product_sku": "55033617", "product_name": "iPhone 13 Pro Apple 1TB Prateado Tela de 6,1” e Câmera Tripla", "product_reedem": "962.926 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033617/3823092/iphone-13-pro-apple-1tb-prateado-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:41:25", "product_sku": "1555829", "product_name": "iPhone SE Apple 128GB (PRODUCT)RED 4,7&quot; 12MP iOS", "product_reedem": "195.368 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1555829/3162421/iphone-se-apple-128gb-product-red-4-7equot-12mp-ios"}, {"created_at": "2022-06-29 16:41:25", "product_sku": "55029406", "product_name": "iPhone 12 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "353.008 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55029406/3216790/iphone-12-apple-128gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:25", "product_sku": "55048770", "product_name": "iPhone 13 Apple 128GB (PRODUCT)RED Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "394.546 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048770/3817686/iphone-13-apple-128gb-product-red-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:41:25", "product_sku": "55048253", "product_name": "iPhone SE Apple (3ª geração) 64 GB - Estelar Tela de 4.7”, Câmera de 12MP", "product_reedem": "235.316 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048253/3798969/iphone-se-apple-3a-geracao-64-gb-estelar-tela-de-4-7-camera-de-12mp"}, {"created_at": "2022-06-29 16:41:25", "product_sku": "55029401", "product_name": "iPhone 12 Apple 64GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "325.316 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55029401/3174336/iphone-12-apple-64gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:25", "product_sku": "55048259", "product_name": "iPhone Apple SE (3ª geração) 256 GB - Estelar Tela de 4.7”, Câmera de 12MP", "product_reedem": "348.828 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048259/3799168/iphone-apple-se-3a-geracao-256-gb-estelar-tela-de-4-7-camera-de-12mp"}, {"created_at": "2022-06-29 16:41:25", "product_sku": "55029406", "product_name": "iPhone 12 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "353.008 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55029406/3174343/iphone-12-apple-128gb-branco-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:25", "product_sku": "55048758", "product_name": "iPhone 13 Apple 128GB Meia-noite Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "387.623 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048758/3817534/iphone-13-apple-128gb-meia-noite-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:41:25", "product_sku": "55048758", "product_name": "iPhone 13 Apple 128GB Meia-noite Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "415.316 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048758/3817577/iphone-13-apple-128gb-meia-noite-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55048766", "product_name": "iPhone 13 Apple 512GB Meia-noite Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "674.026 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048766/4074737/iphone-13-apple-512gb-meia-noite-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55033619", "product_name": "iPhone 13 Pro Apple 1TB Azul-Sierra Tela de 6,1” e Câmera Tripla", "product_reedem": "888.849 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033619/3800682/iphone-13-pro-apple-1tb-azul-sierra-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55048265", "product_name": "iPhone 13 Pro Apple 1TB Verde-alpino Tela de 6,1” e Câmera Tripla", "product_reedem": "1.074.041 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048265/3798897/iphone-13-pro-apple-1tb-verde-alpino-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "1556138", "product_name": "iPhone SE Apple 256GB Preto 4,7&quot; 12MP iOS", "product_reedem": "256.084 ", "product_url": "https://shopping.tudoazul.com/produto/30994/1556138/3166569/iphone-se-apple-256gb-preto-4-7equot-12mp-ios"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55048254", "product_name": "iPhone Apple SE (3ª geração) 64 GB - (PRODUCT)RED Tela de 4.7”, Câmera de 12MP", "product_reedem": "251.788 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048254/3798970/iphone-apple-se-3a-geracao-64-gb-product-red-tela-de-4-7-camera-de-12mp"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55029407", "product_name": "iPhone 12 Apple 128GB Product (Red) Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "317.700 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55029407/3216791/iphone-12-apple-128gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55048258", "product_name": "iPhone Apple SE (3ª geração) 256 GB - Meia-noite Tela de 4.7”, Câmera de 12MP", "product_reedem": "326.008 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048258/3799361/iphone-apple-se-3a-geracao-256-gb-meia-noite-tela-de-4-7-camera-de-12mp"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55029402", "product_name": "iPhone 12 Apple 64GB (Product)Red Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "344.326 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55029402/3244483/iphone-12-apple-64gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55029402", "product_name": "iPhone 12 Apple 64GB (Product)Red Tela de 6,1”, Câmera Dupla de 12MP, iOS", "product_reedem": "348.088 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55029402/3174337/iphone-12-apple-64gb-product-red-tela-de-6-1-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55048260", "product_name": "iPhone Apple SE (3ª geração) 256 GB - (PRODUCT)RED Tela de 4.7”, Câmera de 12MP", "product_reedem": "348.828 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048260/3798975/iphone-apple-se-3a-geracao-256-gb-product-red-tela-de-4-7-camera-de-12mp"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55014502", "product_name": "iPhone 12 mini Apple 256GB Verde Tela de 5,4”, Câmera Dupla de 12MP, iOS", "product_reedem": "429.572 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014502/3272079/iphone-12-mini-apple-256gb-verde-tela-de-5-4-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55014502", "product_name": "iPhone 12 mini Apple 256GB Verde Tela de 5,4”, Câmera Dupla de 12MP, iOS", "product_reedem": "429.572 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55014502/3272655/iphone-12-mini-apple-256gb-verde-tela-de-5-4-camera-dupla-de-12mp-ios"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55048764", "product_name": "iPhone 13 Apple 256GB Rosa Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "474.018 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048764/3824159/iphone-13-apple-256gb-rosa-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55033604", "product_name": "iPhone 13 Pro Apple 128GB Grafite Tela de 6,1” e Câmera Tripla", "product_reedem": "576.986 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033604/3300836/iphone-13-pro-apple-128gb-grafite-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55033611", "product_name": "iPhone 13 Pro Apple 256GB Dourado Tela de 6,1” e Câmera Tripla", "product_reedem": "598.777 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033611/3342427/iphone-13-pro-apple-256gb-dourado-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55033601", "product_name": "iPhone 13 Apple 512GB Rosa Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "629.931 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033601/3453902/iphone-13-apple-512gb-rosa-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55033601", "product_name": "iPhone 13 Apple 512GB Rosa Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "666.618 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033601/3454118/iphone-13-apple-512gb-rosa-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55048767", "product_name": "iPhone 13 Apple 512GB Estelar Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "674.026 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048767/4075997/iphone-13-apple-512gb-estelar-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55048768", "product_name": "iPhone 13 Apple 512GB Rosa Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "674.026 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048768/4074474/iphone-13-apple-512gb-rosa-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55033614", "product_name": "iPhone 13 Pro Apple 512GB Dourado Tela de 6,1” e Câmera Tripla", "product_reedem": "717.731 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033614/3698269/iphone-13-pro-apple-512gb-dourado-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55033617", "product_name": "iPhone 13 Pro Apple 1TB Prateado Tela de 6,1” e Câmera Tripla", "product_reedem": "1.074.041 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033617/3822781/iphone-13-pro-apple-1tb-prateado-tela-de-6-1-e-camera-tripla"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55048759", "product_name": "iPhone 13 Apple 128GB Estelar Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "415.316 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048759/3823089/iphone-13-apple-128gb-estelar-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55048765", "product_name": "iPhone 13 Apple 256GB Azul Tela de 6,1”, Câmera Dupla de 12MP", "product_reedem": "474.018 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55048765/4074736/iphone-13-apple-256gb-azul-tela-de-6-1-camera-dupla-de-12mp"}, {"created_at": "2022-06-29 16:41:26", "product_sku": "55033606", "product_name": "iPhone 13 Pro Apple 128GB Dourado Tela de 6,1” e Câmera Tripla", "product_reedem": "501.161 ", "product_url": "https://shopping.tudoazul.com/produto/30994/55033606/3342250/iphone-13-pro-apple-128gb-dourado-tela-de-6-1-e-camera-tripla"}]}][

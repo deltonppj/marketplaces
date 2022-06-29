@@ -16,7 +16,7 @@ from urllib.parse import urlparse
 from uc_browser.browser_v2 import BrowserV2
 from selenium.webdriver.common.by import By
 
-from ..items import Redeem
+from ..items import RedeemItem
 from ..utils import slug
 
 '''
@@ -110,7 +110,7 @@ class ReedemSpider(scrapy.Spider):
             product_discount = card.xpath(self.product_discount).get()
             product_reedem = float(product_price_miles) - float(product_discount)
 
-            item = Redeem()
+            item = RedeemItem()
             item['created_at'] = str(today)
             item['product_sku'] = card.xpath(self.product_url).get().split('&p=')[1].split('&n=')[0].split('_')[
                 0]  # Split para pegar o sku do produto # noqa
