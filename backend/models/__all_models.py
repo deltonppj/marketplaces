@@ -1,0 +1,3 @@
+from models.loja_model import LojaModel
+from models.produto_model import ProdutoModel
+from models.programa_pontos_model import ProgramaPontosModels

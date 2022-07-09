@@ -4,7 +4,7 @@ from sqlalchemy import Column, Integer, String
 
 
 class LojaModel(settings.DBBaseModel):
-    __tablename__ = 'lojas'
+    __tablename__: str = 'lojas'
 
     id: int = Column(Integer, primary_key=True, autoincrement=True)
-    nome: str = Column(String(100), nullable=False)
+    nome: str = Column(String(100), nullable=False, uniuque=True)
