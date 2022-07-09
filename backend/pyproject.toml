@@ -16,6 +16,7 @@ pytz = "^2022.1"
 passlib = "^1.7.4"
 python-multipart = "^0.0.5"
 pydantic = {version = "^1.9.1", extras = ["email"]}
+loguru = "^0.6.0"
 
 [tool.poetry.dev-dependencies]
 
