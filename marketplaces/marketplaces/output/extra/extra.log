@@ -10288,3 +10288,25 @@
 2022-07-10 15:29:09.607 | INFO     | __main__:create_marketplaces_on_db:55 - Reedem criado com sucesso!
 2022-07-10 15:29:09.609 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Shoptudoazul no banco de dados.
 2022-07-10 15:29:09.625 | INFO     | __main__:create_marketplaces_on_db:55 - Shoptudoazul criado com sucesso!
+2022-07-10 19:15:28.343 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Americanas no banco de dados.
+2022-07-10 19:15:28.417 | INFO     | __main__:create_marketplaces_on_db:55 - Americanas criado com sucesso!
+2022-07-10 19:15:28.420 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Casasbahia no banco de dados.
+2022-07-10 19:15:28.442 | INFO     | __main__:create_marketplaces_on_db:55 - Casasbahia criado com sucesso!
+2022-07-10 19:15:28.443 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Extra no banco de dados.
+2022-07-10 19:15:28.459 | INFO     | __main__:create_marketplaces_on_db:55 - Extra criado com sucesso!
+2022-07-10 19:15:28.460 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Pontofrio no banco de dados.
+2022-07-10 19:15:28.476 | INFO     | __main__:create_marketplaces_on_db:55 - Pontofrio criado com sucesso!
+2022-07-10 19:15:28.477 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Submarino no banco de dados.
+2022-07-10 19:15:28.492 | INFO     | __main__:create_marketplaces_on_db:55 - Submarino criado com sucesso!
+2022-07-10 19:15:28.494 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Shoptime no banco de dados.
+2022-07-10 19:15:28.508 | INFO     | __main__:create_marketplaces_on_db:55 - Shoptime criado com sucesso!
+2022-07-10 19:15:28.510 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Magazineluiza no banco de dados.
+2022-07-10 19:15:28.526 | INFO     | __main__:create_marketplaces_on_db:55 - Magazineluiza criado com sucesso!
+2022-07-10 19:15:28.527 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Fastshop no banco de dados.
+2022-07-10 19:15:28.543 | INFO     | __main__:create_marketplaces_on_db:55 - Fastshop criado com sucesso!
+2022-07-10 19:15:28.544 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Shopsmiles no banco de dados.
+2022-07-10 19:15:28.560 | INFO     | __main__:create_marketplaces_on_db:55 - Shopsmiles criado com sucesso!
+2022-07-10 19:15:28.561 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Reedem no banco de dados.
+2022-07-10 19:15:28.576 | INFO     | __main__:create_marketplaces_on_db:55 - Reedem criado com sucesso!
+2022-07-10 19:15:28.577 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Shoptudoazul no banco de dados.
+2022-07-10 19:15:28.591 | INFO     | __main__:create_marketplaces_on_db:55 - Shoptudoazul criado com sucesso!
