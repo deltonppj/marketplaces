@@ -1,6 +1,8 @@
 from typing import Optional
+from typing import List
 
 from pydantic import BaseModel as SCBaseModel
+from schemas.produto_schema import ProdutoSchema
 
 
 class LojaSchema(SCBaseModel):
@@ -9,3 +11,7 @@ class LojaSchema(SCBaseModel):
 
     class Config:
         orm_mode = True
+
+
+class LojaSchemaProduto(SCBaseModel):
+    produtos: Optional[List[ProdutoSchema]]
