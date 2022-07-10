@@ -6,7 +6,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.future import select
 
 from models.loja_model import LojaModel
-from schema.loja_schema import LojaSchema
+from schemas.loja_schema import LojaSchema
 from core.deps import get_session
 
 router = APIRouter()
@@ -66,7 +66,7 @@ async def delete_loja(loja_id: int, db: AsyncSession = Depends(get_session)):
         result = await session.execute(query)
         loja_del: LojaModel = result.scalar_one_or_none()
 
-        if loja_atual:
+        if loja_del:
             await session.delete(loja_del)
             await session.commit()
 

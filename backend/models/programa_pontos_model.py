@@ -1,17 +1,33 @@
-from core.configs import settings
+from datetime import datetime
+from typing import List
 
-from sqlalchemy import Column, Integer, String, Float, ForeignKey
-from sqlalchemy.orm import relationship
+from core.configs import settings
 
 from models.loja_model import LojaModel
 
+from sqlalchemy import Column, Integer, String, ForeignKey, Float, DateTime
+from sqlalchemy import Table
+from sqlalchemy.orm import relationship
 
-class ProgramaPontosModels(settings.DBBaseModel):
+# Uma loja tem vários programas de pontos
+loja_programa_pontos = Table(
+    'loja_programa_pontos',
+    settings.DBBaseModel.metadata,
+    Column('id', Integer, primary_key=True, autoincrement=True),
+    Column('CreatedAt', DateTime, default=datetime.now, index=True),
+    Column('id_loja', Integer, ForeignKey('lojas.id')),
+    Column('id_programas_pontos', Integer, ForeignKey('programas_pontos.id')),
+    Column('preco_por_real', Float, nullable=False),
+)
+
+
+class ProgramaPontosModel(settings.DBBaseModel):
     __tablename__: str = 'programas_pontos'
 
     id: int = Column(Integer, primary_key=True, autoincrement=True)
-    id_loja: int = Column(Integer, ForeignKey('lojas.id'))
-    loja_model: LojaModel = relationship('LojaModel', lazy='joined')
-
     nome: str = Column(String(100), nullable=False, unique=True)
-    pontos_por_real: float = Column(Float, nullable=False)
+
+    lojas: List[LojaModel] = relationship('LojaModel',
+                                          secondary=loja_programa_pontos,
+                                          backref='loja_model',
+                                          lazy='dynamic')
