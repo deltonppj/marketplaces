@@ -11,10 +11,10 @@ class ProdutoModel(settings.DBBaseModel):
     __tablename__: str = 'produtos'
 
     id: int = Column(Integer, primary_key=True, autoincrement=True)
-    sku: str = Column(String(100), nullable=False)
+    product_sku: str = Column(String(100), nullable=False)
     created_at: datetime = Column(DateTime, default=datetime.now, index=True)
-    name: str = Column(String(100), nullable=False, unique=True)
-    price: float = Column(Float, nullable=False)
-    url: str = Column(String(100), nullable=False)
+    product_name: str = Column(String(250), nullable=False)
+    product_price_sale: float = Column(Float, nullable=False)
+    product_url: str = Column(String(250), nullable=False)
     id_loja: int = Column(Integer, ForeignKey('lojas.id'))
     loja_model: LojaModel = relationship(LojaModel, back_populates='produtos', lazy='joined')

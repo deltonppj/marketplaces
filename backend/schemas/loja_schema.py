@@ -13,5 +13,5 @@ class LojaSchema(SCBaseModel):
         orm_mode = True
 
 
-class LojaSchemaProduto(SCBaseModel):
+class LojaSchemaProduto(LojaSchema):
     produtos: Optional[List[ProdutoSchema]]

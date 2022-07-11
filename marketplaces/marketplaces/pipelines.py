@@ -1,6 +1,10 @@
+import json
 import os
 from loguru import logger as log
 from scrapy.exporters import JsonItemExporter
+from itemadapter import ItemAdapter
+import requests
+import re
 
 from .utils import clean_string_BRL, create_dirs, slug
 
@@ -35,7 +39,7 @@ class DefaultPipeline(object):
             log.error(f'Ocorreu um erro ao tentar converter o preço do produto: {item["product_price_sale"]}')
             log.error(err)
 
-        log.debug(f'{item["product_name"]}: preço: {item["product_price_sale"]}')
+        #log.debug(f'{item["product_name"]}: preço: {item["product_price_sale"]}')
         if (item["product_price_sale"] > float(spider.price)) & (spider.freight != -1):
             self.products.append(item)
 
@@ -48,10 +52,24 @@ class DefaultPipeline(object):
             'products': self.products
 
         }
+
+        self.to_db(items=output, spider=spider)
         self.exporter.export_item(output)
         self.exporter.finish_exporting()
         self.fp.close()
         log.info('Crawler finalizado.')
+
+    def to_db(self, items, spider):
+        log.info(f'Salvando os dados no banco de dados.')
+        api_url = 'http://localhost:8000/api/v1/produtos/'
+        headers = {'Content-Type': 'application/json'}
+        for item in items['products']:
+            item.pop('created_at', None)
+            remove = 'Spider'
+            name = re.sub(remove, '', spider.__class__.__name__)
+            item.update({'id_loja': name})
+            response = requests.post(api_url, data=json.dumps(ItemAdapter(item).asdict()), headers=headers)
+            log.info(f'{response.status_code}: {response.text}')
 
 
 class ShopsmilesPipeline(DefaultPipeline):
@@ -72,6 +90,7 @@ class ReedemPipeline(DefaultPipeline):
             'products': self.products
 
         }
+        self.to_db(items=output, spider=spider)
         self.exporter.export_item(output)
         self.exporter.finish_exporting()
         self.fp.close()

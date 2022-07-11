@@ -29,7 +29,7 @@ async def get_lojas(db: AsyncSession = Depends(get_session)):
     async with db as session:
         query = select(LojaModel)
         result = await session.execute(query)
-        lojas: List[LojaModel] = result.scalars().all()
+        lojas: List[LojaModel] = result.scalars().unique().all()
         return lojas
 
 
