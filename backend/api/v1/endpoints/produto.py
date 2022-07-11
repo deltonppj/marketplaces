@@ -23,7 +23,10 @@ async def post_produto(produto: ProdutoSchemaLoja, db: AsyncSession = Depends(ge
         loja: LojaModel = result.scalars().unique().one_or_none()
 
         if loja:
-            novo_produto = ProdutoModel(id_loja=loja.id, product_sku=produto.product_sku, product_name=produto.product_name, product_price_sale=produto.product_price_sale,
+            novo_produto = ProdutoModel(id_loja=loja.id,
+                                        product_sku=produto.product_sku,
+                                        product_name=produto.product_name,
+                                        product_price_sale=produto.product_price_sale,
                                         product_url=produto.product_url)
             session.add(novo_produto)
             await session.commit()
@@ -35,7 +38,7 @@ async def post_produto(produto: ProdutoSchemaLoja, db: AsyncSession = Depends(ge
 
 # Listar todos os produtos
 @router.get('/', response_model=List[ProdutoSchemaLoja])
-async def get_produtos(db: AsyncSession = Depends(get_session), limit: int = 20, offset: int = 0):
+async def get_produtos(db: AsyncSession = Depends(get_session), limit: int = 5, offset: int = 0):
     async with db as session:
         query = select(ProdutoModel)
         result = await session.execute(query)
