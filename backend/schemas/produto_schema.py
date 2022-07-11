@@ -19,3 +19,10 @@ class ProdutoSchema(SCBaseModel):
 
 class ProdutoSchemaLoja(ProdutoSchema):
     id_loja: str
+
+
+class ProdutoSchemaUrl(SCBaseModel):
+    product_url: str
+
+    class Config:
+        orm_mode = True

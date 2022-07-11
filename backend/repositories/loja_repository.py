@@ -31,6 +31,13 @@ class LojaRepository:
             loja: LojaModel = result.scalars().unique().one_or_none()
             return loja
 
+    async def get_loja_by_nome(self, nome: str):
+        async with self.db as session:
+            query = select(LojaModel).filter(LojaModel.nome.ilike(f'%{nome}%'))
+            result = await session.execute(query)
+            loja: LojaModel = result.scalars().unique().one_or_none()
+            return loja
+
     async def update_loja(self, loja_id: int, loja: LojaSchema):
         async with self.db as session:
             query = select(LojaModel).filter(LojaModel.id == loja_id)

@@ -14,16 +14,16 @@ from loguru import logger as log
 
 SPIDERS = [
     AmericanasSpider,
-    CasasbahiaSpider,
-    ExtraSpider,
-    PontofrioSpider,
-    SubmarinoSpider,
-    ShoptimeSpider,
-    MagazineluizaSpider,
-    FastshopSpider,
-    ShopsmilesSpider,
-    ReedemSpider,
-    ShoptudoazulSpider
+    # CasasbahiaSpider,
+    # ExtraSpider,
+    # PontofrioSpider,
+    # SubmarinoSpider,
+    # ShoptimeSpider,
+    # MagazineluizaSpider,
+    # FastshopSpider,
+    # ShopsmilesSpider,
+    # ReedemSpider,
+    # ShoptudoazulSpider
 ]
 
 KEYWORDS = [
