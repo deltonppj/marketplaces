@@ -16,5 +16,6 @@ class ProdutoModel(settings.DBBaseModel):
     product_name: str = Column(String(250), nullable=False)
     product_price_sale: float = Column(Float, nullable=False)
     product_url: str = Column(String(250), nullable=False)
+
     id_loja: int = Column(Integer, ForeignKey('lojas.id'))
-    loja_model: LojaModel = relationship(LojaModel, back_populates='produtos', lazy='joined')
+    loja_model: LojaModel = relationship('LojaModel', back_populates='produtos', lazy='joined')

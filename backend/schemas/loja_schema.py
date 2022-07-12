@@ -15,3 +15,10 @@ class LojaSchema(SCBaseModel):
 
 class LojaSchemaProduto(LojaSchema):
     produtos: Optional[List[ProdutoSchemaUrl]]
+
+
+class LojaNomeSchema(SCBaseModel):
+    nome: str
+
+    class Config:
+        orm_mode = True
