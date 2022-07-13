@@ -37,6 +37,7 @@ class ReadProdutoSchema(SCBaseModel):
     product_name: str
     product_price_sale: float
     product_url: str
+    id_loja: Optional[int]
 
     class Config:
         orm_mode = True

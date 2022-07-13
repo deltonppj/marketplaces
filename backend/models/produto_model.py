@@ -21,5 +21,4 @@ class ProdutoModel(settings.DBBaseModel):
     loja_model: LojaModel = relationship(
         'LojaModel',
         back_populates='produtos',
-        uselist=True,
         lazy='joined')

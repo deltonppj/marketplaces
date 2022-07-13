@@ -3,7 +3,6 @@ from typing import List
 from fastapi import APIRouter, HTTPException, Depends, status, Response
 
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy.future import select
 
 from models.produto_model import ProdutoModel
 from repositories.produto_repository import ProdutoRepository
