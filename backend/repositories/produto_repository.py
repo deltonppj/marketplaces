@@ -1,5 +1,6 @@
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.future import select
+from sqlalchemy import and_
 
 from models.produto_model import ProdutoModel
 from schemas.produto_schema import ProdutoSchema, CreateProdutoSchema
@@ -46,12 +47,13 @@ class ProdutoRepository:
         async with self.db as session:
             query = select(ProdutoModel).filter(ProdutoModel.product_sku == sku)
             result = await session.execute(query)
-            produto: ProdutoModel = result.scalars().unique().one_or_none()
+            produto: ProdutoModel = result.scalars().unique().all()
             return produto
 
     async def get_produto_by_nome(self, name: str, limit: int = 10, offset: int = 0):
         async with self.db as session:
-            query = select(ProdutoModel).filter(ProdutoModel.product_name.ilike(f'%{name}%'))
+            name = name.split(' ')
+            query = select(ProdutoModel).filter(and_(*[ProdutoModel.product_name.ilike('%' + nome + '%') for nome in name]))
             result = await session.execute(query)
             produto: ProdutoModel = result.scalars().unique().all()
             return produto[offset:offset + limit]

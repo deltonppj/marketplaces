@@ -13277,3 +13277,455 @@
 2022-07-12 09:28:02.972 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":15,"id_loja":"1","product_sku":"1614307701","created_at":"2022-07-12T09:28:02.965155","product_name":"iPhone 11 Apple (256GB) Amarelo Tela 6,1\" Câmera 12MP iOS","product_price_sale":5499.0,"product_url":"https://www.americanas.com.br/produto/1614307701?pfm_carac=iphone-11&pfm_index=20&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5e8b830279bf8430cb9e9b48"}
 2022-07-12 09:28:02.998 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":16,"id_loja":"1","product_sku":"360562525","created_at":"2022-07-12T09:28:02.988659","product_name":"iPhone 11 Apple (256GB) Branco Tela 6,1\" Câmera 12MP iOS","product_price_sale":5899.0,"product_url":"https://www.americanas.com.br/produto/360562525?pfm_carac=iphone-11&pfm_index=22&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5d9fdfca752195a972049551"}
 2022-07-12 09:28:03.005 | INFO     | marketplaces.pipelines:close_spider:60 - Crawler finalizado.
+2022-07-12 16:17:25.428 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Americanas no banco de dados.
+2022-07-12 16:17:25.597 | INFO     | __main__:create_marketplaces_on_db:55 - Americanas criado com sucesso!
+2022-07-12 16:18:41.128 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Americanas no banco de dados.
+2022-07-12 16:18:41.268 | INFO     | __main__:create_marketplaces_on_db:55 - Americanas criado com sucesso!
+2022-07-12 16:18:41.269 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Casasbahia no banco de dados.
+2022-07-12 16:18:41.293 | INFO     | __main__:create_marketplaces_on_db:55 - Casasbahia criado com sucesso!
+2022-07-12 16:18:41.295 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Extra no banco de dados.
+2022-07-12 16:18:41.317 | INFO     | __main__:create_marketplaces_on_db:55 - Extra criado com sucesso!
+2022-07-12 16:18:41.319 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Pontofrio no banco de dados.
+2022-07-12 16:18:41.341 | INFO     | __main__:create_marketplaces_on_db:55 - Pontofrio criado com sucesso!
+2022-07-12 16:18:41.342 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Submarino no banco de dados.
+2022-07-12 16:18:41.365 | INFO     | __main__:create_marketplaces_on_db:55 - Submarino criado com sucesso!
+2022-07-12 16:18:41.368 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Shoptime no banco de dados.
+2022-07-12 16:18:41.391 | INFO     | __main__:create_marketplaces_on_db:55 - Shoptime criado com sucesso!
+2022-07-12 16:18:41.392 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Magazineluiza no banco de dados.
+2022-07-12 16:18:41.417 | INFO     | __main__:create_marketplaces_on_db:55 - Magazineluiza criado com sucesso!
+2022-07-12 16:18:41.419 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Fastshop no banco de dados.
+2022-07-12 16:18:41.446 | INFO     | __main__:create_marketplaces_on_db:55 - Fastshop criado com sucesso!
+2022-07-12 16:18:41.448 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Shopsmiles no banco de dados.
+2022-07-12 16:18:41.470 | INFO     | __main__:create_marketplaces_on_db:55 - Shopsmiles criado com sucesso!
+2022-07-12 16:18:41.472 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Reedem no banco de dados.
+2022-07-12 16:18:41.496 | INFO     | __main__:create_marketplaces_on_db:55 - Reedem criado com sucesso!
+2022-07-12 16:18:41.498 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Shoptudoazul no banco de dados.
+2022-07-12 16:18:41.521 | INFO     | __main__:create_marketplaces_on_db:55 - Shoptudoazul criado com sucesso!
+2022-07-12 16:19:49.399 | INFO     | __main__:<module>:52 - Iniciando o sistema.
+2022-07-12 16:19:49.558 | INFO     | marketplaces.spiders.americanas:__init__:25 - Crawler iniciado: americanas
+2022-07-12 16:19:49.559 | INFO     | marketplaces.spiders.americanas:__init__:27 - Preço desejado: 3000
+2022-07-12 16:19:49.560 | INFO     | marketplaces.spiders.americanas:__init__:30 - Validar frete: False
+2022-07-12 16:19:49.561 | INFO     | marketplaces.spiders.americanas:__init__:36 - Palavra chave informada: iphone 11
+2022-07-12 16:19:49.561 | INFO     | marketplaces.spiders.americanas:__init__:44 - Filtro configurado: ?filter=%7B"id"%3A"loja"%2C"value"%3A"1p%7CAmericanas%7Cb2w.loja"%2C"fixed"%3Afalse%7D&sortBy=relevance
+2022-07-12 16:19:51.498 | INFO     | marketplaces.spiders.americanas:start_requests:67 - Acessando...
+2022-07-12 16:19:51.499 | INFO     | marketplaces.spiders.americanas:start_requests:68 - Pagina: https://americanas.com.br/busca/iphone 11?filter=%7B"id"%3A"loja"%2C"value"%3A"1p%7CAmericanas%7Cb2w.loja"%2C"fixed"%3Afalse%7D&sortBy=relevance&limit=24&offset=0
+2022-07-12 16:20:06.792 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Branco Tela 6,1" 4G Câmera 12MP iOS
+2022-07-12 16:20:06.891 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Branco Tela 6,1" 4G Câmera 12MP iOS: preço formatado.
+2022-07-12 16:20:06.902 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Preto Tela 6,1" 4G Câmera 12MP iOS
+2022-07-12 16:20:06.903 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Preto Tela 6,1" 4G Câmera 12MP iOS: preço formatado.
+2022-07-12 16:20:06.906 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Preto tela 6,1" Câmera 12MP iOS
+2022-07-12 16:20:06.907 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Preto tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:20:06.910 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Verde tela 6,1" Câmera 12MP iOS
+2022-07-12 16:20:06.911 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Verde tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:20:06.914 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1" 4G Wi-Fi Câmera 12MP iOS
+2022-07-12 16:20:06.915 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1" 4G Wi-Fi Câmera 12MP iOS: preço formatado.
+2022-07-12 16:20:06.917 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Verde Tela 6,1" Câmera Traseira 12MP iOS
+2022-07-12 16:20:06.918 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Verde Tela 6,1" Câmera Traseira 12MP iOS: preço formatado.
+2022-07-12 16:20:06.920 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) (PRODUCT)RED tela 6,1" Câmera 12MP iOS
+2022-07-12 16:20:06.921 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) (PRODUCT)RED tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:20:06.924 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Amarelo Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:20:06.925 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Amarelo Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:20:06.927 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Amarelo Desbloqueado Tela 6,1" Câmera Traseira 12MP iOS
+2022-07-12 16:20:06.928 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Amarelo Desbloqueado Tela 6,1" Câmera Traseira 12MP iOS: preço formatado.
+2022-07-12 16:20:06.930 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Preto tela 6,1" Câmera 12MP iOS
+2022-07-12 16:20:06.932 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Preto tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:20:06.934 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Branco Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:20:06.935 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Branco Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:20:06.937 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) (PRODUCT) Red Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:20:06.938 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) (PRODUCT) Red Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:20:06.940 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Preto tela 6,1" Câmera 12MP iOS
+2022-07-12 16:20:06.941 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Preto tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:20:06.944 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Branco tela 6,1" Câmera 12MP iOS
+2022-07-12 16:20:06.945 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Branco tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:20:06.947 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Branco Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:20:06.948 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Branco Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:20:06.950 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Preto tela 6,1" Câmera dupla 12MP iOS
+2022-07-12 16:20:06.951 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Preto tela 6,1" Câmera dupla 12MP iOS: preço formatado.
+2022-07-12 16:20:06.953 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Amarelo Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:20:06.954 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Amarelo Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:20:06.956 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: USADO: iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1" 4G Wi-Fi Câmera 12MP iOS
+2022-07-12 16:20:06.957 | INFO     | marketplaces.pipelines:process_item:37 - USADO: iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1" 4G Wi-Fi Câmera 12MP iOS: preço formatado.
+2022-07-12 16:20:06.959 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Branco tela 6,1" Câmera 12MP iOS
+2022-07-12 16:20:06.960 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Branco tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:20:06.962 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Amarelo Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:20:06.963 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Amarelo Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:20:06.965 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Verde tela 6,1" Câmera 12MP iOS
+2022-07-12 16:20:06.966 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Verde tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:20:06.969 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Branco Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:20:06.970 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Branco Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:20:06.972 | INFO     | marketplaces.spiders.americanas:parse:102 - Pagina: https://americanas.com.br/busca/iphone 11?filter=%7B"id"%3A"loja"%2C"value"%3A"1p%7CAmericanas%7Cb2w.loja"%2C"fixed"%3Afalse%7D&sortBy=relevance&limit=24&offset=24
+2022-07-12 16:20:15.444 | INFO     | marketplaces.pipelines:to_db:63 - Salvando os dados no banco de dados.
+2022-07-12 16:20:16.307 | INFO     | marketplaces.pipelines:to_db:72 - 422: {"detail":[{"loc":["body","loja_nome"],"msg":"field required","type":"value_error.missing"}]}
+2022-07-12 16:20:16.925 | INFO     | marketplaces.pipelines:to_db:72 - 422: {"detail":[{"loc":["body","loja_nome"],"msg":"field required","type":"value_error.missing"}]}
+2022-07-12 16:20:17.028 | INFO     | marketplaces.pipelines:to_db:72 - 422: {"detail":[{"loc":["body","loja_nome"],"msg":"field required","type":"value_error.missing"}]}
+2022-07-12 16:20:17.036 | INFO     | marketplaces.pipelines:to_db:72 - 422: {"detail":[{"loc":["body","loja_nome"],"msg":"field required","type":"value_error.missing"}]}
+2022-07-12 16:20:17.046 | INFO     | marketplaces.pipelines:to_db:72 - 422: {"detail":[{"loc":["body","loja_nome"],"msg":"field required","type":"value_error.missing"}]}
+2022-07-12 16:20:17.060 | INFO     | marketplaces.pipelines:to_db:72 - 422: {"detail":[{"loc":["body","loja_nome"],"msg":"field required","type":"value_error.missing"}]}
+2022-07-12 16:20:17.071 | INFO     | marketplaces.pipelines:to_db:72 - 422: {"detail":[{"loc":["body","loja_nome"],"msg":"field required","type":"value_error.missing"}]}
+2022-07-12 16:20:17.094 | INFO     | marketplaces.pipelines:to_db:72 - 422: {"detail":[{"loc":["body","loja_nome"],"msg":"field required","type":"value_error.missing"}]}
+2022-07-12 16:20:17.133 | INFO     | marketplaces.pipelines:to_db:72 - 422: {"detail":[{"loc":["body","loja_nome"],"msg":"field required","type":"value_error.missing"}]}
+2022-07-12 16:20:17.142 | INFO     | marketplaces.pipelines:to_db:72 - 422: {"detail":[{"loc":["body","loja_nome"],"msg":"field required","type":"value_error.missing"}]}
+2022-07-12 16:20:17.151 | INFO     | marketplaces.pipelines:to_db:72 - 422: {"detail":[{"loc":["body","loja_nome"],"msg":"field required","type":"value_error.missing"}]}
+2022-07-12 16:20:17.160 | INFO     | marketplaces.pipelines:to_db:72 - 422: {"detail":[{"loc":["body","loja_nome"],"msg":"field required","type":"value_error.missing"}]}
+2022-07-12 16:20:17.169 | INFO     | marketplaces.pipelines:to_db:72 - 422: {"detail":[{"loc":["body","loja_nome"],"msg":"field required","type":"value_error.missing"}]}
+2022-07-12 16:20:17.190 | INFO     | marketplaces.pipelines:to_db:72 - 422: {"detail":[{"loc":["body","loja_nome"],"msg":"field required","type":"value_error.missing"}]}
+2022-07-12 16:20:17.203 | INFO     | marketplaces.pipelines:to_db:72 - 422: {"detail":[{"loc":["body","loja_nome"],"msg":"field required","type":"value_error.missing"}]}
+2022-07-12 16:20:17.220 | INFO     | marketplaces.pipelines:to_db:72 - 422: {"detail":[{"loc":["body","loja_nome"],"msg":"field required","type":"value_error.missing"}]}
+2022-07-12 16:20:17.245 | INFO     | marketplaces.pipelines:to_db:72 - 422: {"detail":[{"loc":["body","loja_nome"],"msg":"field required","type":"value_error.missing"}]}
+2022-07-12 16:20:17.257 | INFO     | marketplaces.pipelines:to_db:72 - 422: {"detail":[{"loc":["body","loja_nome"],"msg":"field required","type":"value_error.missing"}]}
+2022-07-12 16:20:17.267 | INFO     | marketplaces.pipelines:to_db:72 - 422: {"detail":[{"loc":["body","loja_nome"],"msg":"field required","type":"value_error.missing"}]}
+2022-07-12 16:20:17.277 | INFO     | marketplaces.pipelines:to_db:72 - 422: {"detail":[{"loc":["body","loja_nome"],"msg":"field required","type":"value_error.missing"}]}
+2022-07-12 16:20:17.287 | INFO     | marketplaces.pipelines:to_db:72 - 422: {"detail":[{"loc":["body","loja_nome"],"msg":"field required","type":"value_error.missing"}]}
+2022-07-12 16:20:17.296 | INFO     | marketplaces.pipelines:to_db:72 - 422: {"detail":[{"loc":["body","loja_nome"],"msg":"field required","type":"value_error.missing"}]}
+2022-07-12 16:20:17.324 | INFO     | marketplaces.pipelines:close_spider:60 - Crawler finalizado.
+2022-07-12 16:20:20.019 | INFO     | marketplaces.spiders.casasbahia:__init__:28 - Crawler iniciado: casasbahia
+2022-07-12 16:20:20.293 | INFO     | marketplaces.spiders.casasbahia:__init__:30 - Preço desejado: 3000
+2022-07-12 16:20:20.317 | INFO     | marketplaces.spiders.casasbahia:__init__:33 - Validar frete: False
+2022-07-12 16:20:20.319 | INFO     | marketplaces.spiders.casasbahia:__init__:39 - Palavra chave informada: iphone 11
+2022-07-12 16:20:20.320 | INFO     | marketplaces.spiders.casasbahia:__init__:47 - Filtro configurado: ?resultsPerPage=20&terms=iphone 11&filter=d%3A1136148%3A1136150&page=1&salesChannel=desktop&apiKey=casasbahia
+2022-07-12 16:20:23.652 | INFO     | marketplaces.spiders.casasbahia:start_requests:62 - Acessando...
+2022-07-12 16:20:23.816 | INFO     | marketplaces.spiders.casasbahia:start_requests:63 - Pagina: 1 - https://prd-api-partner.viavarejo.com.br/api/search?resultsPerPage=20&terms=iphone 11&filter=d%3A1136148%3A1136150&page=1&salesChannel=desktop&apiKey=casasbahia
+2022-07-12 16:20:27.382 | DEBUG    | marketplaces.spiders.casasbahia:parse:74 - Produtos encontrados: 12
+2022-07-12 16:20:30.640 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple 64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS
+2022-07-12 16:21:19.559 | INFO     | __main__:<module>:52 - Iniciando o sistema.
+2022-07-12 16:21:20.671 | INFO     | marketplaces.spiders.americanas:__init__:25 - Crawler iniciado: americanas
+2022-07-12 16:21:20.722 | INFO     | marketplaces.spiders.americanas:__init__:27 - Preço desejado: 3000
+2022-07-12 16:21:20.726 | INFO     | marketplaces.spiders.americanas:__init__:30 - Validar frete: False
+2022-07-12 16:21:20.734 | INFO     | marketplaces.spiders.americanas:__init__:36 - Palavra chave informada: iphone 11
+2022-07-12 16:21:20.736 | INFO     | marketplaces.spiders.americanas:__init__:44 - Filtro configurado: ?filter=%7B"id"%3A"loja"%2C"value"%3A"1p%7CAmericanas%7Cb2w.loja"%2C"fixed"%3Afalse%7D&sortBy=relevance
+2022-07-12 16:21:23.768 | INFO     | marketplaces.spiders.americanas:start_requests:67 - Acessando...
+2022-07-12 16:21:23.771 | INFO     | marketplaces.spiders.americanas:start_requests:68 - Pagina: https://americanas.com.br/busca/iphone 11?filter=%7B"id"%3A"loja"%2C"value"%3A"1p%7CAmericanas%7Cb2w.loja"%2C"fixed"%3Afalse%7D&sortBy=relevance&limit=24&offset=0
+2022-07-12 16:21:40.114 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Branco Tela 6,1" 4G Câmera 12MP iOS
+2022-07-12 16:21:40.116 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Branco Tela 6,1" 4G Câmera 12MP iOS: preço formatado.
+2022-07-12 16:21:40.118 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Preto Tela 6,1" 4G Câmera 12MP iOS
+2022-07-12 16:21:40.120 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Preto Tela 6,1" 4G Câmera 12MP iOS: preço formatado.
+2022-07-12 16:21:40.126 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Preto tela 6,1" Câmera 12MP iOS
+2022-07-12 16:21:40.127 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Preto tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:21:40.129 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Verde tela 6,1" Câmera 12MP iOS
+2022-07-12 16:21:40.131 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Verde tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:21:40.133 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1" 4G Wi-Fi Câmera 12MP iOS
+2022-07-12 16:21:40.135 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1" 4G Wi-Fi Câmera 12MP iOS: preço formatado.
+2022-07-12 16:21:40.137 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Verde Tela 6,1" Câmera Traseira 12MP iOS
+2022-07-12 16:21:40.139 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Verde Tela 6,1" Câmera Traseira 12MP iOS: preço formatado.
+2022-07-12 16:21:40.160 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) (PRODUCT)RED tela 6,1" Câmera 12MP iOS
+2022-07-12 16:21:40.162 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) (PRODUCT)RED tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:21:40.165 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Amarelo Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:21:40.167 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Amarelo Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:21:40.170 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Amarelo Desbloqueado Tela 6,1" Câmera Traseira 12MP iOS
+2022-07-12 16:21:40.172 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Amarelo Desbloqueado Tela 6,1" Câmera Traseira 12MP iOS: preço formatado.
+2022-07-12 16:21:40.175 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Preto tela 6,1" Câmera 12MP iOS
+2022-07-12 16:21:40.176 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Preto tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:21:40.180 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Branco Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:21:40.181 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Branco Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:21:40.184 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) (PRODUCT) Red Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:21:40.185 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) (PRODUCT) Red Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:21:40.187 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Preto tela 6,1" Câmera 12MP iOS
+2022-07-12 16:21:40.188 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Preto tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:21:40.190 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Branco tela 6,1" Câmera 12MP iOS
+2022-07-12 16:21:40.191 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Branco tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:21:40.194 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Branco Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:21:40.196 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Branco Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:21:40.198 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Preto tela 6,1" Câmera dupla 12MP iOS
+2022-07-12 16:21:40.199 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Preto tela 6,1" Câmera dupla 12MP iOS: preço formatado.
+2022-07-12 16:21:40.202 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Amarelo Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:21:40.202 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Amarelo Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:21:40.204 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: USADO: iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1" 4G Wi-Fi Câmera 12MP iOS
+2022-07-12 16:21:40.205 | INFO     | marketplaces.pipelines:process_item:37 - USADO: iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1" 4G Wi-Fi Câmera 12MP iOS: preço formatado.
+2022-07-12 16:21:40.207 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Branco tela 6,1" Câmera 12MP iOS
+2022-07-12 16:21:40.208 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Branco tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:21:40.211 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Amarelo Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:21:40.212 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Amarelo Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:21:40.214 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Verde tela 6,1" Câmera 12MP iOS
+2022-07-12 16:21:40.215 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Verde tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:21:40.217 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Branco Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:21:40.218 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Branco Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:21:40.220 | INFO     | marketplaces.spiders.americanas:parse:102 - Pagina: https://americanas.com.br/busca/iphone 11?filter=%7B"id"%3A"loja"%2C"value"%3A"1p%7CAmericanas%7Cb2w.loja"%2C"fixed"%3Afalse%7D&sortBy=relevance&limit=24&offset=24
+2022-07-12 16:21:48.130 | INFO     | marketplaces.pipelines:to_db:63 - Salvando os dados no banco de dados.
+2022-07-12 16:21:49.247 | INFO     | marketplaces.spiders.casasbahia:__init__:28 - Crawler iniciado: casasbahia
+2022-07-12 16:21:49.248 | INFO     | marketplaces.spiders.casasbahia:__init__:30 - Preço desejado: 3000
+2022-07-12 16:21:49.249 | INFO     | marketplaces.spiders.casasbahia:__init__:33 - Validar frete: False
+2022-07-12 16:21:49.250 | INFO     | marketplaces.spiders.casasbahia:__init__:39 - Palavra chave informada: iphone 11
+2022-07-12 16:21:49.251 | INFO     | marketplaces.spiders.casasbahia:__init__:47 - Filtro configurado: ?resultsPerPage=20&terms=iphone 11&filter=d%3A1136148%3A1136150&page=1&salesChannel=desktop&apiKey=casasbahia
+2022-07-12 16:21:50.228 | INFO     | marketplaces.spiders.casasbahia:start_requests:62 - Acessando...
+2022-07-12 16:21:50.229 | INFO     | marketplaces.spiders.casasbahia:start_requests:63 - Pagina: 1 - https://prd-api-partner.viavarejo.com.br/api/search?resultsPerPage=20&terms=iphone 11&filter=d%3A1136148%3A1136150&page=1&salesChannel=desktop&apiKey=casasbahia
+2022-07-12 16:21:51.397 | DEBUG    | marketplaces.spiders.casasbahia:parse:74 - Produtos encontrados: 12
+2022-07-12 16:21:52.565 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 8 Apple com 128GB, Tela Retina HD de 4,7”, iOS 11, Câmera de 12 MP, Resistente à Água, Wi-Fi, 4G LTE e NFC - Dourado
+2022-07-12 16:21:56.302 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple 128GB PRODUCT(RED Tela de 6,1”, Câmera Dupla de 12MP, iOS
+2022-07-12 16:21:58.508 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple 256GB PRODUCT(RED) Tela de 6,1”, Câmera Dupla de 12MP, iOS
+2022-07-12 16:21:59.927 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Pro Apple 256GB Dourado Tela de 5,8”, Câmera Tripla de 12MP, iOS
+2022-07-12 16:22:01.155 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Pro Apple 64GB Verde meia-noite Tela de 5,8”, Câmera Tripla de 12MP, iOS
+2022-07-12 16:22:02.537 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple 128GB PRODUCT(RED Tela de 6,1”, Câmera Dupla de 12MP, iOS
+2022-07-12 16:23:05.247 | INFO     | __main__:<module>:52 - Iniciando o sistema.
+2022-07-12 16:23:06.925 | INFO     | marketplaces.spiders.americanas:__init__:25 - Crawler iniciado: americanas
+2022-07-12 16:23:07.049 | INFO     | marketplaces.spiders.americanas:__init__:27 - Preço desejado: 3000
+2022-07-12 16:23:07.050 | INFO     | marketplaces.spiders.americanas:__init__:30 - Validar frete: False
+2022-07-12 16:23:07.051 | INFO     | marketplaces.spiders.americanas:__init__:36 - Palavra chave informada: iphone 11
+2022-07-12 16:23:07.052 | INFO     | marketplaces.spiders.americanas:__init__:44 - Filtro configurado: ?filter=%7B"id"%3A"loja"%2C"value"%3A"1p%7CAmericanas%7Cb2w.loja"%2C"fixed"%3Afalse%7D&sortBy=relevance
+2022-07-12 16:23:09.862 | INFO     | marketplaces.spiders.americanas:start_requests:67 - Acessando...
+2022-07-12 16:23:09.868 | INFO     | marketplaces.spiders.americanas:start_requests:68 - Pagina: https://americanas.com.br/busca/iphone 11?filter=%7B"id"%3A"loja"%2C"value"%3A"1p%7CAmericanas%7Cb2w.loja"%2C"fixed"%3Afalse%7D&sortBy=relevance&limit=24&offset=0
+2022-07-12 16:23:25.221 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Branco Tela 6,1" 4G Câmera 12MP iOS
+2022-07-12 16:23:25.239 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Branco Tela 6,1" 4G Câmera 12MP iOS: preço formatado.
+2022-07-12 16:23:25.243 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Preto Tela 6,1" 4G Câmera 12MP iOS
+2022-07-12 16:23:25.244 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Preto Tela 6,1" 4G Câmera 12MP iOS: preço formatado.
+2022-07-12 16:23:25.248 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Preto tela 6,1" Câmera 12MP iOS
+2022-07-12 16:23:25.250 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Preto tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:23:25.254 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Verde tela 6,1" Câmera 12MP iOS
+2022-07-12 16:23:25.255 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Verde tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:23:25.258 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1" 4G Wi-Fi Câmera 12MP iOS
+2022-07-12 16:23:25.260 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1" 4G Wi-Fi Câmera 12MP iOS: preço formatado.
+2022-07-12 16:23:25.263 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Verde Tela 6,1" Câmera Traseira 12MP iOS
+2022-07-12 16:23:25.265 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Verde Tela 6,1" Câmera Traseira 12MP iOS: preço formatado.
+2022-07-12 16:23:25.268 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) (PRODUCT)RED tela 6,1" Câmera 12MP iOS
+2022-07-12 16:23:25.270 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) (PRODUCT)RED tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:23:25.274 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Amarelo Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:23:25.275 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Amarelo Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:23:25.277 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Amarelo Desbloqueado Tela 6,1" Câmera Traseira 12MP iOS
+2022-07-12 16:23:25.279 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Amarelo Desbloqueado Tela 6,1" Câmera Traseira 12MP iOS: preço formatado.
+2022-07-12 16:23:25.282 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Preto tela 6,1" Câmera 12MP iOS
+2022-07-12 16:23:25.283 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Preto tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:23:25.287 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Branco Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:23:25.288 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Branco Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:23:25.292 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) (PRODUCT) Red Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:23:25.293 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) (PRODUCT) Red Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:23:25.297 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Preto tela 6,1" Câmera 12MP iOS
+2022-07-12 16:23:25.298 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Preto tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:23:25.302 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Branco tela 6,1" Câmera 12MP iOS
+2022-07-12 16:23:25.304 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Branco tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:23:25.307 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Branco Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:23:25.309 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Branco Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:23:25.312 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Preto tela 6,1" Câmera dupla 12MP iOS
+2022-07-12 16:23:25.314 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Preto tela 6,1" Câmera dupla 12MP iOS: preço formatado.
+2022-07-12 16:23:25.317 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Amarelo Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:23:25.319 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Amarelo Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:23:25.334 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: USADO: iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1" 4G Wi-Fi Câmera 12MP iOS
+2022-07-12 16:23:25.341 | INFO     | marketplaces.pipelines:process_item:37 - USADO: iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1" 4G Wi-Fi Câmera 12MP iOS: preço formatado.
+2022-07-12 16:23:25.353 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Branco tela 6,1" Câmera 12MP iOS
+2022-07-12 16:23:25.356 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Branco tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:23:25.361 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Amarelo Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:23:25.364 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Amarelo Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:23:25.368 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Verde tela 6,1" Câmera 12MP iOS
+2022-07-12 16:23:25.370 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Verde tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:23:25.374 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Branco Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:23:25.376 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Branco Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:23:25.380 | INFO     | marketplaces.spiders.americanas:parse:102 - Pagina: https://americanas.com.br/busca/iphone 11?filter=%7B"id"%3A"loja"%2C"value"%3A"1p%7CAmericanas%7Cb2w.loja"%2C"fixed"%3Afalse%7D&sortBy=relevance&limit=24&offset=24
+2022-07-12 16:23:30.568 | INFO     | marketplaces.pipelines:to_db:63 - Salvando os dados no banco de dados.
+2022-07-12 16:23:31.880 | INFO     | marketplaces.spiders.casasbahia:__init__:28 - Crawler iniciado: casasbahia
+2022-07-12 16:23:31.887 | INFO     | marketplaces.spiders.casasbahia:__init__:30 - Preço desejado: 3000
+2022-07-12 16:23:31.892 | INFO     | marketplaces.spiders.casasbahia:__init__:33 - Validar frete: False
+2022-07-12 16:23:31.893 | INFO     | marketplaces.spiders.casasbahia:__init__:39 - Palavra chave informada: iphone 11
+2022-07-12 16:23:31.894 | INFO     | marketplaces.spiders.casasbahia:__init__:47 - Filtro configurado: ?resultsPerPage=20&terms=iphone 11&filter=d%3A1136148%3A1136150&page=1&salesChannel=desktop&apiKey=casasbahia
+2022-07-12 16:23:32.967 | INFO     | marketplaces.spiders.casasbahia:start_requests:62 - Acessando...
+2022-07-12 16:23:32.972 | INFO     | marketplaces.spiders.casasbahia:start_requests:63 - Pagina: 1 - https://prd-api-partner.viavarejo.com.br/api/search?resultsPerPage=20&terms=iphone 11&filter=d%3A1136148%3A1136150&page=1&salesChannel=desktop&apiKey=casasbahia
+2022-07-12 16:24:50.915 | INFO     | __main__:<module>:52 - Iniciando o sistema.
+2022-07-12 16:24:51.081 | INFO     | marketplaces.spiders.americanas:__init__:25 - Crawler iniciado: americanas
+2022-07-12 16:24:51.082 | INFO     | marketplaces.spiders.americanas:__init__:27 - Preço desejado: 3000
+2022-07-12 16:24:51.084 | INFO     | marketplaces.spiders.americanas:__init__:30 - Validar frete: False
+2022-07-12 16:24:51.085 | INFO     | marketplaces.spiders.americanas:__init__:36 - Palavra chave informada: iphone 11
+2022-07-12 16:24:51.087 | INFO     | marketplaces.spiders.americanas:__init__:44 - Filtro configurado: ?filter=%7B"id"%3A"loja"%2C"value"%3A"1p%7CAmericanas%7Cb2w.loja"%2C"fixed"%3Afalse%7D&sortBy=relevance
+2022-07-12 16:24:53.121 | INFO     | marketplaces.spiders.americanas:start_requests:67 - Acessando...
+2022-07-12 16:24:53.126 | INFO     | marketplaces.spiders.americanas:start_requests:68 - Pagina: https://americanas.com.br/busca/iphone 11?filter=%7B"id"%3A"loja"%2C"value"%3A"1p%7CAmericanas%7Cb2w.loja"%2C"fixed"%3Afalse%7D&sortBy=relevance&limit=24&offset=0
+2022-07-12 16:25:08.490 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Branco Tela 6,1" 4G Câmera 12MP iOS
+2022-07-12 16:25:08.511 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Branco Tela 6,1" 4G Câmera 12MP iOS: preço formatado.
+2022-07-12 16:25:08.516 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Preto Tela 6,1" 4G Câmera 12MP iOS
+2022-07-12 16:25:08.518 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Preto Tela 6,1" 4G Câmera 12MP iOS: preço formatado.
+2022-07-12 16:25:08.521 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Preto tela 6,1" Câmera 12MP iOS
+2022-07-12 16:25:08.523 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Preto tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:25:08.527 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Verde tela 6,1" Câmera 12MP iOS
+2022-07-12 16:25:08.529 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Verde tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:25:08.532 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1" 4G Wi-Fi Câmera 12MP iOS
+2022-07-12 16:25:08.534 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1" 4G Wi-Fi Câmera 12MP iOS: preço formatado.
+2022-07-12 16:25:08.537 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Verde Tela 6,1" Câmera Traseira 12MP iOS
+2022-07-12 16:25:08.539 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Verde Tela 6,1" Câmera Traseira 12MP iOS: preço formatado.
+2022-07-12 16:25:08.543 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) (PRODUCT)RED tela 6,1" Câmera 12MP iOS
+2022-07-12 16:25:08.545 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) (PRODUCT)RED tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:25:08.549 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Amarelo Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:25:08.551 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Amarelo Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:25:08.556 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Amarelo Desbloqueado Tela 6,1" Câmera Traseira 12MP iOS
+2022-07-12 16:25:08.558 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Amarelo Desbloqueado Tela 6,1" Câmera Traseira 12MP iOS: preço formatado.
+2022-07-12 16:25:08.561 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Preto tela 6,1" Câmera 12MP iOS
+2022-07-12 16:25:08.562 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Preto tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:25:08.571 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Branco Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:25:08.573 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Branco Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:25:08.576 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) (PRODUCT) Red Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:25:08.577 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) (PRODUCT) Red Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:25:08.581 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Preto tela 6,1" Câmera 12MP iOS
+2022-07-12 16:25:08.582 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Preto tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:25:08.586 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Branco tela 6,1" Câmera 12MP iOS
+2022-07-12 16:25:08.587 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Branco tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:25:08.591 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Branco Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:25:08.593 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Branco Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:25:08.596 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Preto tela 6,1" Câmera dupla 12MP iOS
+2022-07-12 16:25:08.598 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Preto tela 6,1" Câmera dupla 12MP iOS: preço formatado.
+2022-07-12 16:25:08.601 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Amarelo Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:25:08.602 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Amarelo Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:25:08.606 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: USADO: iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1" 4G Wi-Fi Câmera 12MP iOS
+2022-07-12 16:25:08.607 | INFO     | marketplaces.pipelines:process_item:37 - USADO: iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1" 4G Wi-Fi Câmera 12MP iOS: preço formatado.
+2022-07-12 16:25:08.609 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Branco tela 6,1" Câmera 12MP iOS
+2022-07-12 16:25:08.610 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Branco tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:25:08.625 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Amarelo Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:25:08.626 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Amarelo Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:25:08.629 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Verde tela 6,1" Câmera 12MP iOS
+2022-07-12 16:25:08.631 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Verde tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:25:08.642 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Branco Tela 6,1" Câmera 12MP iOS
+2022-07-12 16:25:08.643 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Branco Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 16:25:08.645 | INFO     | marketplaces.spiders.americanas:parse:102 - Pagina: https://americanas.com.br/busca/iphone 11?filter=%7B"id"%3A"loja"%2C"value"%3A"1p%7CAmericanas%7Cb2w.loja"%2C"fixed"%3Afalse%7D&sortBy=relevance&limit=24&offset=24
+2022-07-12 16:25:14.397 | INFO     | marketplaces.pipelines:to_db:63 - Salvando os dados no banco de dados.
+2022-07-12 16:25:14.622 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":3,"id_loja":3,"product_sku":"1614132251","created_at":"2022-07-12T16:25:14.602215","product_name":"iPhone 11 Apple (64GB) Branco Tela 6,1\" 4G Câmera 12MP iOS","product_price_sale":3382.1,"product_url":"https://www.americanas.com.br/produto/1614132251?pfm_carac=iphone-11&pfm_index=1&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6014043e0c070442666aa03e"}
+2022-07-12 16:25:14.655 | INFO     | marketplaces.pipelines:to_db:72 - 500: Internal Server Error
+2022-07-12 16:25:14.705 | INFO     | marketplaces.pipelines:to_db:72 - 500: Internal Server Error
+2022-07-12 16:25:14.730 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":4,"id_loja":3,"product_sku":"1593243234","created_at":"2022-07-12T16:25:14.722957","product_name":"iPhone 11 Apple (64GB) Verde tela 6,1\" Câmera 12MP iOS","product_price_sale":3382.1,"product_url":"https://www.americanas.com.br/produto/1593243234?pfm_carac=iphone-11&pfm_index=4&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5e8b830279bf8430cb9e9ca0"}
+2022-07-12 16:25:14.763 | INFO     | marketplaces.pipelines:to_db:72 - 500: Internal Server Error
+2022-07-12 16:25:14.785 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":5,"id_loja":3,"product_sku":"1613299439","created_at":"2022-07-12T16:25:14.779237","product_name":"iPhone 11 Apple (128GB) Verde Tela 6,1\" Câmera Traseira 12MP iOS","product_price_sale":3859.1,"product_url":"https://www.americanas.com.br/produto/1613299439?pfm_carac=iphone-11&pfm_index=6&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5e8dbdb679bf8430cbaf737b"}
+2022-07-12 16:25:14.808 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":6,"id_loja":3,"product_sku":"1611344814","created_at":"2022-07-12T16:25:14.798226","product_name":"iPhone 11 Apple (128GB) (PRODUCT)RED tela 6,1\" Câmera 12MP iOS","product_price_sale":3859.1,"product_url":"https://www.americanas.com.br/produto/1611344814?pfm_carac=iphone-11&pfm_index=7&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5e8b830279bf8430cb9e991b"}
+2022-07-12 16:25:14.828 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":7,"id_loja":3,"product_sku":"1593243162","created_at":"2022-07-12T16:25:14.820988","product_name":"iPhone 11 Apple (64GB) Amarelo Tela 6,1\" Câmera 12MP iOS","product_price_sale":3422.19,"product_url":"https://www.americanas.com.br/produto/1593243162?pfm_carac=iphone-11&pfm_index=8&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5e8b830279bf8430cb9e993e"}
+2022-07-12 16:25:14.848 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":8,"id_loja":3,"product_sku":"1611344785","created_at":"2022-07-12T16:25:14.841277","product_name":"iPhone 11 Apple (128GB) Amarelo Desbloqueado Tela 6,1\" Câmera Traseira 12MP iOS","product_price_sale":3859.1,"product_url":"https://www.americanas.com.br/produto/1611344785?pfm_carac=iphone-11&pfm_index=9&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5e8b830279bf8430cb9e9e15"}
+2022-07-12 16:25:14.862 | INFO     | marketplaces.pipelines:to_db:72 - 500: Internal Server Error
+2022-07-12 16:25:14.880 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":10,"id_loja":3,"product_sku":"338824980","created_at":"2022-07-12T16:25:14.874488","product_name":"iPhone 11 Apple (128GB) Branco Tela 6,1\" Câmera 12MP iOS","product_price_sale":3859.1,"product_url":"https://www.americanas.com.br/produto/338824980?pfm_carac=iphone-11&pfm_index=11&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5d9fdfca752195a972049248"}
+2022-07-12 16:25:14.894 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":11,"id_loja":3,"product_sku":"262997787","created_at":"2022-07-12T16:25:14.889791","product_name":"iPhone 11 Apple (256GB) (PRODUCT) Red Tela 6,1\" Câmera 12MP iOS","product_price_sale":5479.0,"product_url":"https://www.americanas.com.br/produto/262997787?pfm_carac=iphone-11&pfm_index=12&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5d9fdfcb752195a97204981c"}
+2022-07-12 16:25:14.911 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":12,"id_loja":3,"product_sku":"1613970051","created_at":"2022-07-12T16:25:14.905379","product_name":"iPhone 11 Apple (256GB) Preto tela 6,1\" Câmera 12MP iOS","product_price_sale":5499.0,"product_url":"https://www.americanas.com.br/produto/1613970051?pfm_carac=iphone-11&pfm_index=13&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5e8b830279bf8430cb9e9aa0"}
+2022-07-12 16:25:14.929 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":13,"id_loja":3,"product_sku":"1613970114","created_at":"2022-07-12T16:25:14.923648","product_name":"iPhone 11 Apple (256GB) Branco tela 6,1\" Câmera 12MP iOS","product_price_sale":5499.0,"product_url":"https://www.americanas.com.br/produto/1613970114?pfm_carac=iphone-11&pfm_index=14&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5e8b830279bf8430cb9e9b4b"}
+2022-07-12 16:25:14.946 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":14,"id_loja":3,"product_sku":"338829625","created_at":"2022-07-12T16:25:14.941236","product_name":"iPhone 11 Apple (64GB) Branco Tela 6,1\" Câmera 12MP iOS","product_price_sale":3382.1,"product_url":"https://www.americanas.com.br/produto/338829625?pfm_carac=iphone-11&pfm_index=15&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5d9fdfca752195a9720493a0"}
+2022-07-12 16:25:14.963 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":15,"id_loja":3,"product_sku":"338918556","created_at":"2022-07-12T16:25:14.958144","product_name":"iPhone 11 Apple (128GB) Preto tela 6,1\" Câmera dupla 12MP iOS","product_price_sale":3859.1,"product_url":"https://www.americanas.com.br/produto/338918556?pfm_carac=iphone-11&pfm_index=16&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5d9fdfcb752195a97204a0ce"}
+2022-07-12 16:25:15.004 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":16,"id_loja":3,"product_sku":"262991975","created_at":"2022-07-12T16:25:14.986359","product_name":"iPhone 11 Apple (256GB) Amarelo Tela 6,1\" Câmera 12MP iOS","product_price_sale":5160.22,"product_url":"https://www.americanas.com.br/produto/262991975?pfm_carac=iphone-11&pfm_index=17&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5d9fe006752195a97204c131"}
+2022-07-12 16:25:15.026 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":17,"id_loja":3,"product_sku":"4234088210","created_at":"2022-07-12T16:25:15.020472","product_name":"USADO: iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1\" 4G Wi-Fi Câmera 12MP iOS","product_price_sale":3199.99,"product_url":"https://www.americanas.com.br/produto/4234088210?pfm_carac=iphone-11&pfm_index=18&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=62be63152376eb9c721bd685"}
+2022-07-12 16:25:15.048 | INFO     | marketplaces.pipelines:to_db:72 - 500: Internal Server Error
+2022-07-12 16:25:15.074 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":19,"id_loja":3,"product_sku":"1614307701","created_at":"2022-07-12T16:25:15.067532","product_name":"iPhone 11 Apple (256GB) Amarelo Tela 6,1\" Câmera 12MP iOS","product_price_sale":5499.0,"product_url":"https://www.americanas.com.br/produto/1614307701?pfm_carac=iphone-11&pfm_index=20&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5e8b830279bf8430cb9e9b48"}
+2022-07-12 16:25:15.105 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":20,"id_loja":3,"product_sku":"262984038","created_at":"2022-07-12T16:25:15.096308","product_name":"iPhone 11 Apple (256GB) Verde tela 6,1\" Câmera 12MP iOS","product_price_sale":5899.0,"product_url":"https://www.americanas.com.br/produto/262984038?pfm_carac=iphone-11&pfm_index=21&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5db1ef5660de01a83eb3dc98"}
+2022-07-12 16:25:15.135 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":21,"id_loja":3,"product_sku":"360562525","created_at":"2022-07-12T16:25:15.129996","product_name":"iPhone 11 Apple (256GB) Branco Tela 6,1\" Câmera 12MP iOS","product_price_sale":5899.0,"product_url":"https://www.americanas.com.br/produto/360562525?pfm_carac=iphone-11&pfm_index=22&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5d9fdfca752195a972049551"}
+2022-07-12 16:25:15.138 | INFO     | marketplaces.pipelines:close_spider:60 - Crawler finalizado.
+2022-07-12 16:25:16.313 | INFO     | marketplaces.spiders.casasbahia:__init__:28 - Crawler iniciado: casasbahia
+2022-07-12 16:25:16.315 | INFO     | marketplaces.spiders.casasbahia:__init__:30 - Preço desejado: 3000
+2022-07-12 16:25:16.318 | INFO     | marketplaces.spiders.casasbahia:__init__:33 - Validar frete: False
+2022-07-12 16:25:16.320 | INFO     | marketplaces.spiders.casasbahia:__init__:39 - Palavra chave informada: iphone 11
+2022-07-12 16:25:16.323 | INFO     | marketplaces.spiders.casasbahia:__init__:47 - Filtro configurado: ?resultsPerPage=20&terms=iphone 11&filter=d%3A1136148%3A1136150&page=1&salesChannel=desktop&apiKey=casasbahia
+2022-07-12 16:25:17.261 | INFO     | marketplaces.spiders.casasbahia:start_requests:62 - Acessando...
+2022-07-12 16:25:17.263 | INFO     | marketplaces.spiders.casasbahia:start_requests:63 - Pagina: 1 - https://prd-api-partner.viavarejo.com.br/api/search?resultsPerPage=20&terms=iphone 11&filter=d%3A1136148%3A1136150&page=1&salesChannel=desktop&apiKey=casasbahia
+2022-07-12 17:12:12.538 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Americanas no banco de dados.
+2022-07-12 17:12:12.580 | INFO     | __main__:create_marketplaces_on_db:55 - Americanas criado com sucesso!
+2022-07-12 17:12:12.586 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Casasbahia no banco de dados.
+2022-07-12 17:12:12.638 | INFO     | __main__:create_marketplaces_on_db:55 - Casasbahia criado com sucesso!
+2022-07-12 17:12:12.641 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Extra no banco de dados.
+2022-07-12 17:12:12.781 | INFO     | __main__:create_marketplaces_on_db:55 - Extra criado com sucesso!
+2022-07-12 17:12:12.786 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Pontofrio no banco de dados.
+2022-07-12 17:12:12.868 | INFO     | __main__:create_marketplaces_on_db:55 - Pontofrio criado com sucesso!
+2022-07-12 17:12:12.894 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Submarino no banco de dados.
+2022-07-12 17:12:12.948 | INFO     | __main__:create_marketplaces_on_db:55 - Submarino criado com sucesso!
+2022-07-12 17:12:12.951 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Shoptime no banco de dados.
+2022-07-12 17:12:12.991 | INFO     | __main__:create_marketplaces_on_db:55 - Shoptime criado com sucesso!
+2022-07-12 17:12:12.994 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Magazineluiza no banco de dados.
+2022-07-12 17:12:13.087 | INFO     | __main__:create_marketplaces_on_db:55 - Magazineluiza criado com sucesso!
+2022-07-12 17:12:13.092 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Fastshop no banco de dados.
+2022-07-12 17:12:13.149 | INFO     | __main__:create_marketplaces_on_db:55 - Fastshop criado com sucesso!
+2022-07-12 17:12:13.152 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Shopsmiles no banco de dados.
+2022-07-12 17:12:13.219 | INFO     | __main__:create_marketplaces_on_db:55 - Shopsmiles criado com sucesso!
+2022-07-12 17:12:13.223 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Reedem no banco de dados.
+2022-07-12 17:12:13.349 | INFO     | __main__:create_marketplaces_on_db:55 - Reedem criado com sucesso!
+2022-07-12 17:12:13.352 | INFO     | __main__:create_marketplaces_on_db:49 - Criando Shoptudoazul no banco de dados.
+2022-07-12 17:12:13.391 | INFO     | __main__:create_marketplaces_on_db:55 - Shoptudoazul criado com sucesso!
+2022-07-12 17:14:13.156 | INFO     | __main__:<module>:52 - Iniciando o sistema.
+2022-07-12 17:14:13.490 | INFO     | marketplaces.spiders.americanas:__init__:25 - Crawler iniciado: americanas
+2022-07-12 17:14:13.496 | INFO     | marketplaces.spiders.americanas:__init__:27 - Preço desejado: 3000
+2022-07-12 17:14:13.497 | INFO     | marketplaces.spiders.americanas:__init__:30 - Validar frete: False
+2022-07-12 17:14:13.498 | INFO     | marketplaces.spiders.americanas:__init__:36 - Palavra chave informada: iphone 11
+2022-07-12 17:14:13.499 | INFO     | marketplaces.spiders.americanas:__init__:44 - Filtro configurado: ?filter=%7B"id"%3A"loja"%2C"value"%3A"1p%7CAmericanas%7Cb2w.loja"%2C"fixed"%3Afalse%7D&sortBy=relevance
+2022-07-12 17:14:16.171 | INFO     | marketplaces.spiders.americanas:start_requests:67 - Acessando...
+2022-07-12 17:14:16.175 | INFO     | marketplaces.spiders.americanas:start_requests:68 - Pagina: https://americanas.com.br/busca/iphone 11?filter=%7B"id"%3A"loja"%2C"value"%3A"1p%7CAmericanas%7Cb2w.loja"%2C"fixed"%3Afalse%7D&sortBy=relevance&limit=24&offset=0
+2022-07-12 17:14:31.406 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Branco Tela 6,1" 4G Câmera 12MP iOS
+2022-07-12 17:14:31.413 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Branco Tela 6,1" 4G Câmera 12MP iOS: preço formatado.
+2022-07-12 17:14:31.421 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Preto Tela 6,1" 4G Câmera 12MP iOS
+2022-07-12 17:14:31.425 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Preto Tela 6,1" 4G Câmera 12MP iOS: preço formatado.
+2022-07-12 17:14:31.430 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Preto tela 6,1" Câmera 12MP iOS
+2022-07-12 17:14:31.434 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Preto tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 17:14:31.445 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Verde tela 6,1" Câmera 12MP iOS
+2022-07-12 17:14:31.448 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Verde tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 17:14:31.459 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1" 4G Wi-Fi Câmera 12MP iOS
+2022-07-12 17:14:31.463 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1" 4G Wi-Fi Câmera 12MP iOS: preço formatado.
+2022-07-12 17:14:31.475 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Verde Tela 6,1" Câmera Traseira 12MP iOS
+2022-07-12 17:14:31.478 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Verde Tela 6,1" Câmera Traseira 12MP iOS: preço formatado.
+2022-07-12 17:14:31.487 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) (PRODUCT)RED tela 6,1" Câmera 12MP iOS
+2022-07-12 17:14:31.493 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) (PRODUCT)RED tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 17:14:31.500 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Amarelo Tela 6,1" Câmera 12MP iOS
+2022-07-12 17:14:31.503 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Amarelo Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 17:14:31.512 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Amarelo Desbloqueado Tela 6,1" Câmera Traseira 12MP iOS
+2022-07-12 17:14:31.524 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Amarelo Desbloqueado Tela 6,1" Câmera Traseira 12MP iOS: preço formatado.
+2022-07-12 17:14:31.533 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Preto tela 6,1" Câmera 12MP iOS
+2022-07-12 17:14:31.538 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Preto tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 17:14:31.572 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Branco Tela 6,1" Câmera 12MP iOS
+2022-07-12 17:14:31.576 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Branco Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 17:14:31.621 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) (PRODUCT) Red Tela 6,1" Câmera 12MP iOS
+2022-07-12 17:14:31.630 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) (PRODUCT) Red Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 17:14:31.664 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Preto tela 6,1" Câmera 12MP iOS
+2022-07-12 17:14:31.718 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Preto tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 17:14:31.745 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Branco tela 6,1" Câmera 12MP iOS
+2022-07-12 17:14:31.748 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Branco tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 17:14:31.755 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (64GB) Branco Tela 6,1" Câmera 12MP iOS
+2022-07-12 17:14:31.757 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (64GB) Branco Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 17:14:31.774 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Preto tela 6,1" Câmera dupla 12MP iOS
+2022-07-12 17:14:31.776 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Preto tela 6,1" Câmera dupla 12MP iOS: preço formatado.
+2022-07-12 17:14:31.794 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Amarelo Tela 6,1" Câmera 12MP iOS
+2022-07-12 17:14:31.797 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Amarelo Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 17:14:31.826 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: USADO: iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1" 4G Wi-Fi Câmera 12MP iOS
+2022-07-12 17:14:31.831 | INFO     | marketplaces.pipelines:process_item:37 - USADO: iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1" 4G Wi-Fi Câmera 12MP iOS: preço formatado.
+2022-07-12 17:14:31.843 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (128GB) Branco tela 6,1" Câmera 12MP iOS
+2022-07-12 17:14:31.846 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (128GB) Branco tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 17:14:31.856 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Amarelo Tela 6,1" Câmera 12MP iOS
+2022-07-12 17:14:31.863 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Amarelo Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 17:14:31.872 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Verde tela 6,1" Câmera 12MP iOS
+2022-07-12 17:14:31.875 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Verde tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 17:14:31.902 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple (256GB) Branco Tela 6,1" Câmera 12MP iOS
+2022-07-12 17:14:31.906 | INFO     | marketplaces.pipelines:process_item:37 - iPhone 11 Apple (256GB) Branco Tela 6,1" Câmera 12MP iOS: preço formatado.
+2022-07-12 17:14:31.930 | INFO     | marketplaces.spiders.americanas:parse:102 - Pagina: https://americanas.com.br/busca/iphone 11?filter=%7B"id"%3A"loja"%2C"value"%3A"1p%7CAmericanas%7Cb2w.loja"%2C"fixed"%3Afalse%7D&sortBy=relevance&limit=24&offset=24
+2022-07-12 17:14:35.764 | INFO     | marketplaces.pipelines:to_db:63 - Salvando os dados no banco de dados.
+2022-07-12 17:14:35.899 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":1,"id_loja":1,"product_sku":"1614132251","created_at":"2022-07-12T17:14:35.853181","product_name":"iPhone 11 Apple (64GB) Branco Tela 6,1\" 4G Câmera 12MP iOS","product_price_sale":3382.1,"product_url":"https://www.americanas.com.br/produto/1614132251?pfm_carac=iphone-11&pfm_index=1&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6014043e0c070442666aa03e"}
+2022-07-12 17:14:36.010 | INFO     | marketplaces.pipelines:to_db:72 - 500: Internal Server Error
+2022-07-12 17:14:36.231 | INFO     | marketplaces.pipelines:to_db:72 - 500: Internal Server Error
+2022-07-12 17:14:36.330 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":2,"id_loja":1,"product_sku":"1593243234","created_at":"2022-07-12T17:14:36.303549","product_name":"iPhone 11 Apple (64GB) Verde tela 6,1\" Câmera 12MP iOS","product_price_sale":3382.1,"product_url":"https://www.americanas.com.br/produto/1593243234?pfm_carac=iphone-11&pfm_index=4&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5e8b830279bf8430cb9e9ca0"}
+2022-07-12 17:14:36.381 | INFO     | marketplaces.pipelines:to_db:72 - 500: Internal Server Error
+2022-07-12 17:14:36.459 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":3,"id_loja":1,"product_sku":"1613299439","created_at":"2022-07-12T17:14:36.443421","product_name":"iPhone 11 Apple (128GB) Verde Tela 6,1\" Câmera Traseira 12MP iOS","product_price_sale":3859.1,"product_url":"https://www.americanas.com.br/produto/1613299439?pfm_carac=iphone-11&pfm_index=6&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5e8dbdb679bf8430cbaf737b"}
+2022-07-12 17:14:36.552 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":4,"id_loja":1,"product_sku":"1611344814","created_at":"2022-07-12T17:14:36.532345","product_name":"iPhone 11 Apple (128GB) (PRODUCT)RED tela 6,1\" Câmera 12MP iOS","product_price_sale":3859.1,"product_url":"https://www.americanas.com.br/produto/1611344814?pfm_carac=iphone-11&pfm_index=7&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5e8b830279bf8430cb9e991b"}
+2022-07-12 17:14:36.626 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":5,"id_loja":1,"product_sku":"1593243162","created_at":"2022-07-12T17:14:36.612093","product_name":"iPhone 11 Apple (64GB) Amarelo Tela 6,1\" Câmera 12MP iOS","product_price_sale":3422.19,"product_url":"https://www.americanas.com.br/produto/1593243162?pfm_carac=iphone-11&pfm_index=8&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5e8b830279bf8430cb9e993e"}
+2022-07-12 17:14:36.679 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":6,"id_loja":1,"product_sku":"1611344785","created_at":"2022-07-12T17:14:36.667288","product_name":"iPhone 11 Apple (128GB) Amarelo Desbloqueado Tela 6,1\" Câmera Traseira 12MP iOS","product_price_sale":3859.1,"product_url":"https://www.americanas.com.br/produto/1611344785?pfm_carac=iphone-11&pfm_index=9&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5e8b830279bf8430cb9e9e15"}
+2022-07-12 17:14:36.723 | INFO     | marketplaces.pipelines:to_db:72 - 500: Internal Server Error
+2022-07-12 17:14:36.785 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":8,"id_loja":1,"product_sku":"338824980","created_at":"2022-07-12T17:14:36.766727","product_name":"iPhone 11 Apple (128GB) Branco Tela 6,1\" Câmera 12MP iOS","product_price_sale":3859.1,"product_url":"https://www.americanas.com.br/produto/338824980?pfm_carac=iphone-11&pfm_index=11&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5d9fdfca752195a972049248"}
+2022-07-12 17:14:36.830 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":9,"id_loja":1,"product_sku":"262997787","created_at":"2022-07-12T17:14:36.816881","product_name":"iPhone 11 Apple (256GB) (PRODUCT) Red Tela 6,1\" Câmera 12MP iOS","product_price_sale":5479.0,"product_url":"https://www.americanas.com.br/produto/262997787?pfm_carac=iphone-11&pfm_index=12&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5d9fdfcb752195a97204981c"}
+2022-07-12 17:14:36.872 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":10,"id_loja":1,"product_sku":"1613970051","created_at":"2022-07-12T17:14:36.851999","product_name":"iPhone 11 Apple (256GB) Preto tela 6,1\" Câmera 12MP iOS","product_price_sale":5499.0,"product_url":"https://www.americanas.com.br/produto/1613970051?pfm_carac=iphone-11&pfm_index=13&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5e8b830279bf8430cb9e9aa0"}
+2022-07-12 17:14:36.983 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":11,"id_loja":1,"product_sku":"1613970114","created_at":"2022-07-12T17:14:36.930060","product_name":"iPhone 11 Apple (256GB) Branco tela 6,1\" Câmera 12MP iOS","product_price_sale":5499.0,"product_url":"https://www.americanas.com.br/produto/1613970114?pfm_carac=iphone-11&pfm_index=14&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5e8b830279bf8430cb9e9b4b"}
+2022-07-12 17:14:37.110 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":12,"id_loja":1,"product_sku":"338829625","created_at":"2022-07-12T17:14:37.070764","product_name":"iPhone 11 Apple (64GB) Branco Tela 6,1\" Câmera 12MP iOS","product_price_sale":3382.1,"product_url":"https://www.americanas.com.br/produto/338829625?pfm_carac=iphone-11&pfm_index=15&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5d9fdfca752195a9720493a0"}
+2022-07-12 17:14:37.374 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":13,"id_loja":1,"product_sku":"338918556","created_at":"2022-07-12T17:14:37.342335","product_name":"iPhone 11 Apple (128GB) Preto tela 6,1\" Câmera dupla 12MP iOS","product_price_sale":3859.1,"product_url":"https://www.americanas.com.br/produto/338918556?pfm_carac=iphone-11&pfm_index=16&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5d9fdfcb752195a97204a0ce"}
+2022-07-12 17:14:37.408 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":14,"id_loja":1,"product_sku":"262991975","created_at":"2022-07-12T17:14:37.397031","product_name":"iPhone 11 Apple (256GB) Amarelo Tela 6,1\" Câmera 12MP iOS","product_price_sale":5160.22,"product_url":"https://www.americanas.com.br/produto/262991975?pfm_carac=iphone-11&pfm_index=17&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5d9fe006752195a97204c131"}
+2022-07-12 17:14:37.436 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":15,"id_loja":1,"product_sku":"4234088210","created_at":"2022-07-12T17:14:37.427860","product_name":"USADO: iPhone 11 Apple (64GB) (PRODUCT)RED Tela 6,1\" 4G Wi-Fi Câmera 12MP iOS","product_price_sale":3199.99,"product_url":"https://www.americanas.com.br/produto/4234088210?pfm_carac=iphone-11&pfm_index=18&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=62be63152376eb9c721bd685"}
+2022-07-12 17:14:37.479 | INFO     | marketplaces.pipelines:to_db:72 - 500: Internal Server Error
+2022-07-12 17:14:37.561 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":17,"id_loja":1,"product_sku":"1614307701","created_at":"2022-07-12T17:14:37.530407","product_name":"iPhone 11 Apple (256GB) Amarelo Tela 6,1\" Câmera 12MP iOS","product_price_sale":5499.0,"product_url":"https://www.americanas.com.br/produto/1614307701?pfm_carac=iphone-11&pfm_index=20&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5e8b830279bf8430cb9e9b48"}
+2022-07-12 17:14:37.696 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":18,"id_loja":1,"product_sku":"262984038","created_at":"2022-07-12T17:14:37.670920","product_name":"iPhone 11 Apple (256GB) Verde tela 6,1\" Câmera 12MP iOS","product_price_sale":5899.0,"product_url":"https://www.americanas.com.br/produto/262984038?pfm_carac=iphone-11&pfm_index=21&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5db1ef5660de01a83eb3dc98"}
+2022-07-12 17:14:37.810 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":19,"id_loja":1,"product_sku":"360562525","created_at":"2022-07-12T17:14:37.786988","product_name":"iPhone 11 Apple (256GB) Branco Tela 6,1\" Câmera 12MP iOS","product_price_sale":5899.0,"product_url":"https://www.americanas.com.br/produto/360562525?pfm_carac=iphone-11&pfm_index=22&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5d9fdfca752195a972049551"}
+2022-07-12 17:14:37.825 | INFO     | marketplaces.pipelines:close_spider:60 - Crawler finalizado.
+2022-07-12 17:14:39.082 | INFO     | marketplaces.spiders.casasbahia:__init__:28 - Crawler iniciado: casasbahia
+2022-07-12 17:14:39.100 | INFO     | marketplaces.spiders.casasbahia:__init__:30 - Preço desejado: 3000
+2022-07-12 17:14:39.103 | INFO     | marketplaces.spiders.casasbahia:__init__:33 - Validar frete: False
+2022-07-12 17:14:39.105 | INFO     | marketplaces.spiders.casasbahia:__init__:39 - Palavra chave informada: iphone 11
+2022-07-12 17:14:39.109 | INFO     | marketplaces.spiders.casasbahia:__init__:47 - Filtro configurado: ?resultsPerPage=20&terms=iphone 11&filter=d%3A1136148%3A1136150&page=1&salesChannel=desktop&apiKey=casasbahia
+2022-07-12 17:14:40.168 | INFO     | marketplaces.spiders.casasbahia:start_requests:62 - Acessando...
+2022-07-12 17:14:40.173 | INFO     | marketplaces.spiders.casasbahia:start_requests:63 - Pagina: 1 - https://prd-api-partner.viavarejo.com.br/api/search?resultsPerPage=20&terms=iphone 11&filter=d%3A1136148%3A1136150&page=1&salesChannel=desktop&apiKey=casasbahia
+2022-07-12 17:14:42.861 | DEBUG    | marketplaces.spiders.casasbahia:parse:74 - Produtos encontrados: 12
+2022-07-12 17:14:44.257 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple 64GB Preto, Tela de 6,1”, Câmera Dupla de 12MP, iOS
+2022-07-12 17:14:50.345 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple 64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS
+2022-07-12 17:14:53.518 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple 256GB PRODUCT(RED) Tela de 6,1”, Câmera Dupla de 12MP, iOS
+2022-07-12 17:14:55.525 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 8 Apple com 128GB, Tela Retina HD de 4,7”, iOS 11, Câmera de 12 MP, Resistente à Água, Wi-Fi, 4G LTE e NFC - Dourado
+2022-07-12 17:14:56.949 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Pro Apple 256GB Dourado Tela de 5,8”, Câmera Tripla de 12MP, iOS
+2022-07-12 17:14:58.268 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Pro Apple 64GB Verde meia-noite Tela de 5,8”, Câmera Tripla de 12MP, iOS
+2022-07-12 17:14:59.910 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple 128GB PRODUCT(RED Tela de 6,1”, Câmera Dupla de 12MP, iOS
+2022-07-12 17:15:01.118 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple 64GB PRODUCT(RED), Tela de 6,1”, Câmera Dupla de 12MP, iOS
+2022-07-12 17:15:02.054 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS
+2022-07-12 17:15:03.659 | INFO     | marketplaces.pipelines:process_item:32 - Um novo item foi processado: iPhone 11 Apple 128GB Preto Tela de 6,1”, Câmera Dupla de 12MP, iOS
+2022-07-12 17:15:03.672 | INFO     | marketplaces.pipelines:to_db:63 - Salvando os dados no banco de dados.
+2022-07-12 17:15:03.721 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":20,"id_loja":2,"product_sku":"55014764","created_at":"2022-07-12T17:15:03.702947","product_name":"iPhone 11 Apple 64GB Preto, Tela de 6,1”, Câmera Dupla de 12MP, iOS","product_price_sale":3392.1,"product_url":"https://www.casasbahia.com.br/Telefones-Celulares/Smartphones/iPhone/iphone-11-apple-64gb-preto-tela-de-61-camera-dupla-de-12mp-ios-55014764.html?IdSku=55014764"}
+2022-07-12 17:15:03.948 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":21,"id_loja":2,"product_sku":"55014765","created_at":"2022-07-12T17:15:03.935573","product_name":"iPhone 11 Apple 64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS","product_price_sale":3392.1,"product_url":"https://www.casasbahia.com.br/Telefones-Celulares/Smartphones/iPhone/iphone-11-apple-64gb-branco-tela-de-61-camera-dupla-de-12mp-ios-55014765.html?IdSku=55014765"}
+2022-07-12 17:15:04.044 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":22,"id_loja":2,"product_sku":"55014778","created_at":"2022-07-12T17:15:04.015912","product_name":"iPhone 11 Apple 256GB PRODUCT(RED) Tela de 6,1”, Câmera Dupla de 12MP, iOS","product_price_sale":4949.1,"product_url":"https://www.casasbahia.com.br/Telefones-Celulares/Smartphones/iPhone/iphone-11-apple-256gb-product-red-tela-de-61-camera-dupla-de-12mp-ios-55014778.html?IdSku=55014778"}
+2022-07-12 17:15:04.088 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":23,"id_loja":2,"product_sku":"50005205","created_at":"2022-07-12T17:15:04.068659","product_name":"iPhone 8 Apple com 128GB, Tela Retina HD de 4,7”, iOS 11, Câmera de 12 MP, Resistente à Água, Wi-Fi, 4G LTE e NFC - Dourado","product_price_sale":3299.0,"product_url":"https://www.casasbahia.com.br/Telefones-Celulares/Smartphones/iPhone/iphone-8-apple-com-128gb-tela-retina-hd-de-47-ios-11-camera-de-12-mp-resistente-a-agua-wi-fi-4g-lte-e-nfc-dourado-50005205.html?IdSku=50005205"}
+2022-07-12 17:15:04.117 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":24,"id_loja":2,"product_sku":"50004436","created_at":"2022-07-12T17:15:04.108798","product_name":"iPhone 11 Pro Apple 256GB Dourado Tela de 5,8”, Câmera Tripla de 12MP, iOS","product_price_sale":7299.0,"product_url":"https://www.casasbahia.com.br/Telefones-Celulares/Smartphones/iPhone/iphone-11-pro-apple-256gb-dourado-tela-de-58-camera-tripla-de-12mp-ios-50004436.html?IdSku=50004436"}
+2022-07-12 17:15:04.139 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":25,"id_loja":2,"product_sku":"50004433","created_at":"2022-07-12T17:15:04.131216","product_name":"iPhone 11 Pro Apple 64GB Verde meia-noite Tela de 5,8”, Câmera Tripla de 12MP, iOS","product_price_sale":5999.0,"product_url":"https://www.casasbahia.com.br/Telefones-Celulares/Smartphones/iPhone/iphone-11-pro-apple-64gb-verde-meia-noite-tela-de-58-camera-tripla-de-12mp-ios-50004433.html?IdSku=50004433"}
+2022-07-12 17:15:04.169 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":26,"id_loja":2,"product_sku":"55014772","created_at":"2022-07-12T17:15:04.162555","product_name":"iPhone 11 Apple 128GB PRODUCT(RED Tela de 6,1”, Câmera Dupla de 12MP, iOS","product_price_sale":4299.0,"product_url":"https://www.casasbahia.com.br/Telefones-Celulares/Smartphones/iPhone/iphone-11-apple-128gb-product-red-tela-de-61-camera-dupla-de-12mp-ios-55014772.html?IdSku=55014772"}
+2022-07-12 17:15:04.210 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":27,"id_loja":2,"product_sku":"55014766","created_at":"2022-07-12T17:15:04.203888","product_name":"iPhone 11 Apple 64GB PRODUCT(RED), Tela de 6,1”, Câmera Dupla de 12MP, iOS","product_price_sale":3392.1,"product_url":"https://www.casasbahia.com.br/Telefones-Celulares/Smartphones/iPhone/iphone-11-apple-64gb-product-red-tela-de-61-camera-dupla-de-12mp-ios-55014766.html?IdSku=55014766"}
+2022-07-12 17:15:04.254 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":28,"id_loja":2,"product_sku":"55014771","created_at":"2022-07-12T17:15:04.239459","product_name":"iPhone 11 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS","product_price_sale":4299.0,"product_url":"https://www.casasbahia.com.br/Telefones-Celulares/Smartphones/iPhone/iphone-11-apple-128gb-branco-tela-de-61-camera-dupla-de-12mp-ios-55014771.html?IdSku=55014771"}
+2022-07-12 17:15:04.286 | INFO     | marketplaces.pipelines:to_db:72 - 201: {"id":29,"id_loja":2,"product_sku":"55014770","created_at":"2022-07-12T17:15:04.280221","product_name":"iPhone 11 Apple 128GB Preto Tela de 6,1”, Câmera Dupla de 12MP, iOS","product_price_sale":4084.05,"product_url":"https://www.casasbahia.com.br/Telefones-Celulares/Smartphones/iPhone/iphone-11-apple-128gb-preto-tela-de-61-camera-dupla-de-12mp-ios-55014770.html?IdSku=55014770"}
+2022-07-12 17:15:04.292 | INFO     | marketplaces.pipelines:close_spider:60 - Crawler finalizado.

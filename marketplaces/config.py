@@ -14,7 +14,7 @@ from loguru import logger as log
 
 SPIDERS = [
     AmericanasSpider,
-    # CasasbahiaSpider,
+    CasasbahiaSpider,
     # ExtraSpider,
     # PontofrioSpider,
     # SubmarinoSpider,

@@ -67,7 +67,7 @@ class DefaultPipeline(object):
             item.pop('created_at', None)
             remove = 'Spider'
             name = re.sub(remove, '', spider.__class__.__name__)
-            item.update({'id_loja': name})
+            item.update({'loja_nome': name})
             response = requests.post(api_url, data=json.dumps(ItemAdapter(item).asdict()), headers=headers)
             log.info(f'{response.status_code}: {response.text}')
 

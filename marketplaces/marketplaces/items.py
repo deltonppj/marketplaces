@@ -7,7 +7,7 @@ import scrapy
 
 
 class DefaultItem(scrapy.Item):
-    id_loja = scrapy.Field()
+    loja_nome = scrapy.Field()
     created_at = scrapy.Field()
     product_sku = scrapy.Field()
     product_name = scrapy.Field()

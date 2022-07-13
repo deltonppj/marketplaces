@@ -50,7 +50,7 @@ async def get_produto(produto_id: int, db: AsyncSession = Depends(get_session)):
 
 
 # Listar um produto pelo sku
-@router.get('/sku/{sku}', response_model=ReadProdutoSchema, status_code=status.HTTP_200_OK)
+@router.get('/sku/{sku}', response_model=List[ReadProdutoSchema], status_code=status.HTTP_200_OK)
 async def get_produto_by_sku(sku: str, db: AsyncSession = Depends(get_session)):
     """
     Este endpoint retorna um produto através do seu sku.
