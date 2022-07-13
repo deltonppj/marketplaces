@@ -13,11 +13,11 @@ from marketplaces.spiders.shoptudoazul import ShoptudoazulSpider
 from loguru import logger as log
 
 SPIDERS = [
-    AmericanasSpider,
-    CasasbahiaSpider,
-    # ExtraSpider,
-    # PontofrioSpider,
-    # SubmarinoSpider,
+    # AmericanasSpider,
+    # CasasbahiaSpider,
+    ExtraSpider,
+    PontofrioSpider,
+    SubmarinoSpider,
     # ShoptimeSpider,
     # MagazineluizaSpider,
     # FastshopSpider,
@@ -28,8 +28,8 @@ SPIDERS = [
 
 KEYWORDS = [
     # 'dell g15 -p 4000',
-    # 'iphone -p 5000',
-    'iphone 11 -p 3000',
+    'iphone -p 5000',
+    # 'iphone 11 -p 3000',
     # 'luva de box -p 50',
     # 'bicicleta -p 300'
 ]
