@@ -54,7 +54,7 @@ class ShopsmilesSpider(scrapy.Spider):
         self.url = f'https://www.shoppingsmiles.com.br/smiles/super_busca.jsf?b={self.keyword}&a=true'
         log.info(f'Preparando para carregar todo conteúdo do site: {self.url}')
 
-        self.web = BrowserV2(use_headless=True)
+        self.web = BrowserV2(use_headless=False)
         self.control_visible_btn = '//span[@class="btn-carregar-mais"]'
         self.btn_load_more = '//button[contains(@onclick, "content_mais_footer")]'
         self.hide_loding_modal = '//div[contains(@class, "ui-hidden-container modal-loading")]'

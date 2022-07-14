@@ -182,8 +182,8 @@ class FastshopSpider(scrapy.Spider):
         isPromotionApplied = data['result'][0]['products'][0]['skus'][0]['promotions'][0]['isPromotionApplied']
         isPrimeApplied = data['result'][0]['products'][0]['skus'][0]['promotions'][0]['isPrimeApplied']
 
-        log.warning(f'isPromotionApplied: {isPromotionApplied}')
-        log.warning(f'isPrimeApplied: {isPrimeApplied}')
+        #log.warning(f'isPromotionApplied: {isPromotionApplied}')
+        #log.warning(f'isPrimeApplied: {isPrimeApplied}')
 
         price = data['result'][0]['products'][0]['skus'][0]['promotions'][0]['value']
 
