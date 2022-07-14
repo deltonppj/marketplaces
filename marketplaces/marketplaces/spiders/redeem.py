@@ -29,7 +29,7 @@ from ..utils import slug
 
 class ReedemSpider(scrapy.Spider):
     name = 'reedem'
-    custom_settings = {'ITEM_PIPELINES': {'marketplaces.pipelines.ReedemPipeline': 300}}
+    custom_settings = {'ITEM_PIPELINES': {'marketplaces.pipelines.ResgatePipeline': 300}}
     start_urls = [
         'https://www.shoppingsmiles.com.br/smiles/super_busca.jsf?b=iphone&a=false']  # Fakely wait to load the page
 

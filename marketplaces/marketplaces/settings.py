@@ -75,7 +75,7 @@ EXTENSIONS = {
 ITEM_PIPELINES = {
    'marketplaces.pipelines.DefaultPipeline': 300,
    'marketplaces.pipelines.ShopsmilesPipeline': 300,
-   'marketplaces.pipelines.ReedemPipeline': 300,
+   'marketplaces.pipelines.ResgatePipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

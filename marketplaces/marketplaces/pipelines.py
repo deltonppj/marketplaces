@@ -8,6 +8,7 @@ from .utils import clean_string_BRL, create_dirs, slug
 
 _ENDPOINT_DEFAULT = 'http://localhost:8000/api/v1/produtos/'
 _ENDPOINT_SHOPMILHAS = 'http://localhost:8000/api/v1/shopmilhas/'
+_ENDPOINT_RESGATES = 'http://localhost:8000/api/v1/resgates/'
 _HEADERS = {'Content-Type': 'application/json'}
 
 
@@ -51,7 +52,20 @@ class ShopsmilesPipeline(object):
         if item["product_price_sale"] > float(spider.price):
             log.info(f'Salvando os dados no banco de dados.')
             item.pop('created_at', None)
-            response = requests.post(_ENDPOINT_SHOPMILHAS, data=json.dumps(ItemAdapter(item).asdict()), headers=_HEADERS)
+            response = requests.post(_ENDPOINT_SHOPMILHAS, data=json.dumps(ItemAdapter(item).asdict()),
+                                     headers=_HEADERS)
             log.info(f'{response.status_code}: {response.text}')
+
+        return item
+
+
+class ResgatePipeline(object):
+    def process_item(self, item, spider):
+        log.info(f'Um novo item foi processado: {item["product_name"]}')
+        log.info(f'Salvando os dados no banco de dados.')
+        item.pop('created_at', None)
+        response = requests.post(_ENDPOINT_RESGATES, data=json.dumps(ItemAdapter(item).asdict()),
+                                 headers=_HEADERS)
+        log.info(f'{response.status_code}: {response.text}')
 
         return item

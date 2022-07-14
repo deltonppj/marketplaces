@@ -14,7 +14,7 @@ from ..items import RedeemItem
 
 class ShoptudoazulSpider(scrapy.Spider):
     name = 'shoptudoazul'
-    custom_settings = {'ITEM_PIPELINES': {'marketplaces.pipelines.ReedemPipeline': 300}}
+    custom_settings = {'ITEM_PIPELINES': {'marketplaces.pipelines.ResgatePipeline': 300}}
 
     def __init__(self, search=None, filter=None, price=None, validate_freight=False, **kwargs):
         super().__init__(**kwargs)
