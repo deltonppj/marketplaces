@@ -13,23 +13,23 @@ from marketplaces.spiders.shoptudoazul import ShoptudoazulSpider
 from loguru import logger as log
 
 SPIDERS = [
-    # AmericanasSpider,
+    #AmericanasSpider,
     # CasasbahiaSpider,
-    ExtraSpider,
-    PontofrioSpider,
-    SubmarinoSpider,
-    # ShoptimeSpider,
-    # MagazineluizaSpider,
+    # ExtraSpider,
+    # PontofrioSpider,
+    # SubmarinoSpider,
+    #ShoptimeSpider,
+    #MagazineluizaSpider,
     # FastshopSpider,
-    # ShopsmilesSpider,
+    ShopsmilesSpider,
     # ReedemSpider,
     # ShoptudoazulSpider
 ]
 
 KEYWORDS = [
     # 'dell g15 -p 4000',
-    'iphone -p 5000',
-    # 'iphone 11 -p 3000',
+    # 'iphone -p 5000',
+    'iphone 11 -p 3000',
     # 'luva de box -p 50',
     # 'bicicleta -p 300'
 ]
@@ -44,18 +44,20 @@ def create_marketplaces_on_db():
     from http import HTTPStatus
 
     for spider in SPIDERS:
-        remove = 'Spider'
-        name = re.sub(remove, '', spider.__name__)
-        log.info(f'Criando {name} no banco de dados.')
+        if (spider.__name__ != 'ShopsmilesSpider') & (spider.__name__ != 'ReedemSpider') & \
+                (spider.__name__ != 'ShoptudoazulSpider'):
+            remove = 'Spider'
+            name = re.sub(remove, '', spider.__name__)
+            log.info(f'Criando {name} no banco de dados.')
 
-        url = f'{URL_BASE_API}lojas'
-        result = requests.post(url, json={'nome': name})
+            url = f'{URL_BASE_API}lojas'
+            result = requests.post(url, json={'nome': name})
 
-        if result.status_code == HTTPStatus.CREATED:
-            log.info(f'{name} criado com sucesso!')
-        else:
-            log.error(f'{name} ocorreu um erro ao criar!')
-            lof.error(f'{result.text}')
+            if result.status_code == HTTPStatus.CREATED:
+                log.info(f'{name} criado com sucesso!')
+            else:
+                log.error(f'{name} ocorreu um erro ao criar!')
+                lof.error(f'{result.text}')
 
 
 if __name__ == '__main__':

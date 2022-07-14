@@ -29,7 +29,7 @@ from ..utils import slug
 
 class ShopsmilesSpider(scrapy.Spider):
     name = 'shopsmiles'
-    custom_settings = {'ITEM_PIPELINES': {'marketplaces.pipelines.DefaultPipeline': 300}}
+    custom_settings = {'ITEM_PIPELINES': {'marketplaces.pipelines.ShopsmilesPipeline': 300}}
     start_urls = [
         'https://www.shoppingsmiles.com.br/smiles/super_busca.jsf?b=iphone&a=true']  # Fakely wait to load the page
 
