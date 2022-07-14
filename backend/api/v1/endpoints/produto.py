@@ -69,6 +69,7 @@ async def get_produto_by_nome(nome: str, db: AsyncSession = Depends(get_session)
     """
     return await ProdutoRepository(db).get_produto_by_nome(nome, limit, offset)
 
+#
 
 # Atualizar um produto
 @router.put('/{produto_id}', response_model=ReadProdutoSchema, status_code=status.HTTP_200_OK)

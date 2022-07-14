@@ -31,6 +31,15 @@ async def get_produtos(db: AsyncSession = Depends(get_session), limit: int = 10,
     return await ShopMilhasRepository(db).list_produtos(limit, offset)
 
 
+# Listar produto pelo nome
+@router.get('/nome/{nome}', response_model=List[ShopMilhasSchema])
+async def get_produto_by_nome(nome: str, db: AsyncSession = Depends(get_session), limit: int = 10, offset: int = 0):
+    """
+    Este endpoint retorna um produto através do seu nome.
+    """
+    return await ShopMilhasRepository(db).get_produto_by_nome(nome, limit, offset)
+
+
 # Update um produto
 @router.put('/{produto_id}', response_model=ShopMilhasSchema, status_code=status.HTTP_200_OK)
 async def update_produto(produto_id: int, produto: ShopMilhasSchema, db: AsyncSession = Depends(get_session)):
