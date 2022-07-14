@@ -15,7 +15,7 @@ class ProdutoModel(settings.DBBaseModel):
     created_at: datetime = Column(DateTime, default=datetime.now, index=True)
     product_name: str = Column(String(250), nullable=False)
     product_price_sale: float = Column(Float, nullable=False)
-    product_url: str = Column(String(250), nullable=False)
+    product_url: str = Column(String(350), nullable=False)
 
     id_loja: int = Column(Integer, ForeignKey('lojas.id'))
     loja_model: LojaModel = relationship(

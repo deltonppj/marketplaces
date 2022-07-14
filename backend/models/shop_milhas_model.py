@@ -14,4 +14,4 @@ class ShopMilhasModel(settings.DBBaseModel):
     product_name: str = Column(String(250), nullable=False)
     product_price_sale: float = Column(Float, nullable=False)
     product_gain_miles: float = Column(Float, nullable=False)
-    product_url: str = Column(String(250), nullable=False)
+    product_url: str = Column(String(350), nullable=False)
