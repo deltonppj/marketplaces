@@ -25,7 +25,9 @@ class ResgateRepository:
 
     async def list_produtos(self, limit: int = 10, offset: int = 0):
         async with self.db as session:
-            query = select(ResgateModel)
+            query = select(ResgateModel) \
+                .order_by(ResgateModel.created_at.desc()) \
+                .order_by(ResgateModel.product_reedem.asc())
             result = await session.execute(query)
             produtos: List[ResgateModel] = result.scalars().unique().all()
             return produtos[offset:offset + limit]
@@ -33,7 +35,10 @@ class ResgateRepository:
     async def get_produto_by_nome(self, name: str, limit: int = 10, offset: int = 0):
         async with self.db as session:
             name = name.split(' ')
-            query = select(ResgateModel).filter(and_(*[ResgateModel.product_name.ilike('%' + nome + '%') for nome in name]))
+            query = select(ResgateModel)\
+                .filter(and_(*[ResgateModel.product_name.ilike('%' + nome + '%') for nome in name])) \
+                .order_by(ResgateModel.created_at.desc()) \
+                .order_by(ResgateModel.product_reedem.asc())
             result = await session.execute(query)
             produto: ResgateModel = result.scalars().unique().all()
             return produto[offset:offset + limit]

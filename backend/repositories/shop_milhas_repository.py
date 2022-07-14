@@ -26,7 +26,10 @@ class ShopMilhasRepository:
 
     async def list_produtos(self, limit: int = 10, offset: int = 0):
         async with self.db as session:
-            query = select(ShopMilhasModel)
+            query = select(ShopMilhasModel) \
+                .order_by(ShopMilhasModel.created_at.desc()) \
+                .order_by(ShopMilhasModel.product_price_sale.asc())
+
             result = await session.execute(query)
             produtos: List[ShopMilhasModel] = result.scalars().unique().all()
             return produtos[offset:offset + limit]
@@ -34,7 +37,10 @@ class ShopMilhasRepository:
     async def get_produto_by_nome(self, name: str, limit: int = 10, offset: int = 0):
         async with self.db as session:
             name = name.split(' ')
-            query = select(ShopMilhasModel).filter(and_(*[ShopMilhasModel.product_name.ilike('%' + nome + '%') for nome in name]))
+            query = select(ShopMilhasModel)\
+                .filter(and_(*[ShopMilhasModel.product_name.ilike('%' + nome + '%') for nome in name])) \
+                .order_by(ShopMilhasModel.created_at.desc()) \
+                .order_by(ShopMilhasModel.product_price_sale.asc())
             result = await session.execute(query)
             produto: ShopMilhasModel = result.scalars().unique().all()
             return produto[offset:offset + limit]

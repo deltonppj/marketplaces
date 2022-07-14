@@ -15,15 +15,15 @@ from loguru import logger as log
 SPIDERS = [
     #AmericanasSpider,
     # CasasbahiaSpider,
-    ExtraSpider,
-    PontofrioSpider,
-    SubmarinoSpider,
-    #ShoptimeSpider,
-    #MagazineluizaSpider,
+    # ExtraSpider,
+    # PontofrioSpider,
+    # SubmarinoSpider,
+    # ShoptimeSpider,
+    # MagazineluizaSpider,
     # FastshopSpider,
     # ShopsmilesSpider,
-    # ReedemSpider,
-    # ShoptudoazulSpider
+    ReedemSpider,
+    ShoptudoazulSpider
 ]
 
 KEYWORDS = [

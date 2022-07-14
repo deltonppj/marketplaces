@@ -31,7 +31,10 @@ class ProdutoRepository:
 
     async def list_produtos(self, limit: int = 10, offset: int = 0):
         async with self.db as session:
-            query = select(ProdutoModel)
+            query = select(ProdutoModel) \
+                .order_by(ProdutoModel.created_at.desc()) \
+                .order_by(ProdutoModel.product_price_sale.asc())
+
             result = await session.execute(query)
             produtos: List[ProdutoModel] = result.scalars().unique().all()
             return produtos[offset:offset + limit]
@@ -53,7 +56,11 @@ class ProdutoRepository:
     async def get_produto_by_nome(self, name: str, limit: int = 10, offset: int = 0):
         async with self.db as session:
             name = name.split(' ')
-            query = select(ProdutoModel).filter(and_(*[ProdutoModel.product_name.ilike('%' + nome + '%') for nome in name]))
+            query = select(ProdutoModel)\
+                .filter(and_(*[ProdutoModel.product_name.ilike('%' + nome + '%') for nome in name])) \
+                .order_by(ProdutoModel.created_at.desc()) \
+                .order_by(ProdutoModel.product_price_sale.asc())
+
             result = await session.execute(query)
             produto: ProdutoModel = result.scalars().unique().all()
             return produto[offset:offset + limit]
