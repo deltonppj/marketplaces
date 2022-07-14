@@ -56,8 +56,9 @@ class ProdutoRepository:
     async def get_produto_by_nome(self, name: str, limit: int = 10, offset: int = 0):
         async with self.db as session:
             name = name.split(' ')
+
             query = select(ProdutoModel)\
-                .filter(and_(*[ProdutoModel.product_name.ilike('%' + nome + '%') for nome in name])) \
+                .filter(and_(*[ProdutoModel.product_name.ilike('%' + nome + ' %') for nome in name])) \
                 .order_by(ProdutoModel.created_at.desc()) \
                 .order_by(ProdutoModel.product_price_sale.asc())
 

@@ -36,7 +36,7 @@ class ResgateRepository:
         async with self.db as session:
             name = name.split(' ')
             query = select(ResgateModel)\
-                .filter(and_(*[ResgateModel.product_name.ilike('%' + nome + '%') for nome in name])) \
+                .filter(and_(*[ResgateModel.product_name.ilike('%' + nome + ' %') for nome in name])) \
                 .order_by(ResgateModel.created_at.desc()) \
                 .order_by(ResgateModel.product_reedem.asc())
             result = await session.execute(query)

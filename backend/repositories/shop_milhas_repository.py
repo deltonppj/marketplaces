@@ -38,7 +38,7 @@ class ShopMilhasRepository:
         async with self.db as session:
             name = name.split(' ')
             query = select(ShopMilhasModel)\
-                .filter(and_(*[ShopMilhasModel.product_name.ilike('%' + nome + '%') for nome in name])) \
+                .filter(and_(*[ShopMilhasModel.product_name.ilike('%' + nome + ' %') for nome in name])) \
                 .order_by(ShopMilhasModel.created_at.desc()) \
                 .order_by(ShopMilhasModel.product_price_sale.asc())
             result = await session.execute(query)
