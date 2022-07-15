@@ -41,6 +41,13 @@ class UsuarioRepository:
             usuario: UsuarioModel = result.scalars().unique().one_or_none()
             return usuario
 
+    async def get_usuario_by_email(self, email: str):
+        async with self.db as session:
+            query = select(UsuarioModel).filter(UsuarioModel.email == email)
+            result = await session.execute(query)
+            usuario: UsuarioModel = result.scalars().unique().one_or_none()
+            return usuario
+
     async def update_usuario(self, usuario_id: int, usuario: UsuarioSchemaUpdate):
         async with self.db as session:
             query = select(UsuarioModel).filter(UsuarioModel.id == usuario_id)
