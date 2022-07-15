@@ -9,7 +9,7 @@ load_dotenv()
 
 class Settings(BaseSettings):
     API_V1_STR: str = '/api/v1'
-    DB_URL: str = 'postgresql+asyncpg://drakon:mudar123@localhost:5432/marketplaces'
+    DB_URL: str = f'postgresql+asyncpg://{os.getenv("POSTGRES_USER")}:{os.getenv("POSTGRES_PASSWORD")}@localhost:5432/{os.getenv("POSTGRES_DB")}'
     DBBaseModel: declarative_base = declarative_base()
 
     JWT_SECRET_KEY: str = os.getenv('SECRET_KEY')
