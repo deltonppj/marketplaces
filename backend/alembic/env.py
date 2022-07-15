@@ -1,3 +1,5 @@
+import os
+
 import asyncio
 from logging.config import fileConfig
 
@@ -6,6 +8,10 @@ from sqlalchemy import pool
 from sqlalchemy.ext.asyncio import AsyncEngine
 
 from alembic import context
+
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
@@ -26,6 +32,13 @@ import models.__all_models
 target_metadata = settings.DBBaseModel.metadata
 
 
+def get_url():
+    postgres_user: str = os.getenv('POSTGRES_USER')
+    postgres_password: str = os.getenv("POSTGRES_PASSWORD")
+    postgres_db: str = os.getenv("POSTGRES_DB")
+    return f'postgresql+asyncpg://{postgres_user}:{postgres_password}@localhost:5432/{postgres_db}'
+
+
 def run_migrations_offline():
     """Run migrations in 'offline' mode.
     This configures the context with just a URL
@@ -35,7 +48,7 @@ def run_migrations_offline():
     Calls to context.execute() here emit the given string to the
     script output.
     """
-    url = config.get_main_option("sqlalchemy.url")
+    url = get_url()
     context.configure(
         url=url,
         target_metadata=target_metadata,
@@ -61,14 +74,12 @@ async def run_migrations_online():
     In this scenario we need to create an Engine
     and associate a connection with the context.
     """
+    configuration = config.get_section(config.config_ini_section)
+    configuration["sqlalchemy.url"] = get_url()
     connectable = AsyncEngine(
         engine_from_config(
-            config.get_section(config.config_ini_section),
-            prefix="sqlalchemy.",
-            poolclass=pool.NullPool,
-            future=True,
-        )
-    )
+            configuration, prefix="sqlalchemy.", poolclass=pool.NullPool,
+        ))
 
     async with connectable.connect() as connection:
         await connection.run_sync(do_run_migrations)

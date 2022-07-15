@@ -9,7 +9,12 @@ load_dotenv()
 
 class Settings(BaseSettings):
     API_V1_STR: str = '/api/v1'
-    DB_URL: str = f'postgresql+asyncpg://{os.getenv("POSTGRES_USER")}:{os.getenv("POSTGRES_PASSWORD")}@localhost:5432/{os.getenv("POSTGRES_DB")}'
+
+    postgres_user: str = os.getenv('POSTGRES_USER')
+    postgres_password: str = os.getenv("POSTGRES_PASSWORD")
+    postgres_db: str = os.getenv("POSTGRES_DB")
+
+    DB_URL: str = f'postgresql+asyncpg://{postgres_user}:{postgres_password}@localhost:5432/{postgres_db}'
     DBBaseModel: declarative_base = declarative_base()
 
     JWT_SECRET_KEY: str = os.getenv('SECRET_KEY')
