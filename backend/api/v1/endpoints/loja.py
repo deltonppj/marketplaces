@@ -8,14 +8,14 @@ from sqlalchemy.future import select
 from repositories.loja_repository import LojaRepository
 from schemas.loja_schema import LojaSchema, LojaSchemaProduto
 
-from core.deps import get_session
+from core.deps import get_session, get_current_user
 
 router = APIRouter()
 
 
 # Criar loja
 @router.post("/", response_model=LojaSchema, status_code=status.HTTP_201_CREATED)
-async def post_loja(loja: LojaSchema, db: AsyncSession = Depends(get_session)):
+async def post_loja(loja: LojaSchema, is_logged = Depends(get_current_user), db: AsyncSession = Depends(get_session)):
     """
     Este endpoint cria uma nova loja no banco de dados.
     """
@@ -24,7 +24,7 @@ async def post_loja(loja: LojaSchema, db: AsyncSession = Depends(get_session)):
 
 # Pegar todas as lojas
 @router.get("/", response_model=List[LojaSchema])
-async def get_lojas(db: AsyncSession = Depends(get_session)):
+async def get_lojas(db: AsyncSession = Depends(get_session), is_logged = Depends(get_current_user)):
     """
     Este endpoint retorna todas as lojas do banco de dados.
     """
@@ -33,7 +33,7 @@ async def get_lojas(db: AsyncSession = Depends(get_session)):
 
 # Pegar uma loja pelo id
 @router.get("/{loja_id}", response_model=LojaSchemaProduto, status_code=status.HTTP_200_OK)
-async def get_loja(loja_id: int, db: AsyncSession = Depends(get_session)):
+async def get_loja(loja_id: int, is_logged = Depends(get_current_user), db: AsyncSession = Depends(get_session)):
     """
     Este endpoint retorna uma loja através do seu id e todos os produtos relacionados a ela.
     """
@@ -47,7 +47,7 @@ async def get_loja(loja_id: int, db: AsyncSession = Depends(get_session)):
 
 # Pegar uma loja pelo nome
 @router.get("/nome/{nome}", response_model=LojaSchemaProduto, status_code=status.HTTP_200_OK)
-async def get_loja_by_nome(nome: str, db: AsyncSession = Depends(get_session)):
+async def get_loja_by_nome(nome: str, is_logged = Depends(get_current_user), db: AsyncSession = Depends(get_session)):
     """
     Este endpoint retorna uma loja através do seu nome e todos os produtos relacionados a ela.
     """
@@ -60,7 +60,7 @@ async def get_loja_by_nome(nome: str, db: AsyncSession = Depends(get_session)):
 
 # Atualizar loja
 @router.put("/{loja_id}", response_model=LojaSchema, status_code=status.HTTP_202_ACCEPTED)
-async def put_loja(loja_id: int, loja: LojaSchema, db: AsyncSession = Depends(get_session)):
+async def put_loja(loja_id: int, loja: LojaSchema, is_logged = Depends(get_current_user), db: AsyncSession = Depends(get_session)):
     """
     Este endpoint atualiza uma loja no banco de dados.
     """
@@ -73,7 +73,7 @@ async def put_loja(loja_id: int, loja: LojaSchema, db: AsyncSession = Depends(ge
 
 # Deletar loja
 @router.delete("/{loja_id}", status_code=status.HTTP_204_NO_CONTENT)
-async def delete_loja(loja_id: int, db: AsyncSession = Depends(get_session)):
+async def delete_loja(loja_id: int, is_logged = Depends(get_current_user), db: AsyncSession = Depends(get_session)):
     """
     Este endpoint deleta uma loja do banco de dados.
     """

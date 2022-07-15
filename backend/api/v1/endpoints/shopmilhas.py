@@ -8,14 +8,14 @@ from models.shop_milhas_model import ShopMilhasModel
 from repositories.shop_milhas_repository import ShopMilhasRepository
 from schemas.shop_milhas_schema import ShopMilhasSchema
 
-from core.deps import get_session
+from core.deps import get_session, get_current_user
 
 router = APIRouter()
 
 
 # Inserir um novo produto
 @router.post('/', response_model=ShopMilhasSchema, status_code=status.HTTP_201_CREATED)
-async def post_produto(produto: ShopMilhasSchema, db: AsyncSession = Depends(get_session)):
+async def post_produto(produto: ShopMilhasSchema, is_logged = Depends(get_current_user), db: AsyncSession = Depends(get_session)):
     """
     Este endpoint cria um novo produto na tabela shopmilhas.
     """
@@ -24,7 +24,7 @@ async def post_produto(produto: ShopMilhasSchema, db: AsyncSession = Depends(get
 
 # Listar todos os produtos
 @router.get('/', response_model=List[ShopMilhasSchema])
-async def get_produtos(db: AsyncSession = Depends(get_session), limit: int = 10, offset: int = 0):
+async def get_produtos(db: AsyncSession = Depends(get_session), is_logged = Depends(get_current_user), limit: int = 10, offset: int = 0):
     """
     Este endpoint retorna todos os produtos da tabela shopmilhas limitado por paginação.
     """
@@ -33,7 +33,7 @@ async def get_produtos(db: AsyncSession = Depends(get_session), limit: int = 10,
 
 # Listar produto pelo nome
 @router.get('/nome/{nome}', response_model=List[ShopMilhasSchema])
-async def get_produto_by_nome(nome: str, db: AsyncSession = Depends(get_session), limit: int = 10, offset: int = 0):
+async def get_produto_by_nome(nome: str, db: AsyncSession = Depends(get_session), is_logged = Depends(get_current_user), limit: int = 10, offset: int = 0):
     """
     Este endpoint retorna um produto através do seu nome.
     """
@@ -42,7 +42,7 @@ async def get_produto_by_nome(nome: str, db: AsyncSession = Depends(get_session)
 
 # Update um produto
 @router.put('/{produto_id}', response_model=ShopMilhasSchema, status_code=status.HTTP_200_OK)
-async def update_produto(produto_id: int, produto: ShopMilhasSchema, db: AsyncSession = Depends(get_session)):
+async def update_produto(produto_id: int, produto: ShopMilhasSchema, is_logged = Depends(get_current_user), db: AsyncSession = Depends(get_session)):
     """
     Este endpoint atualiza um produto na tabela shopmilhas.
     """
@@ -55,7 +55,7 @@ async def update_produto(produto_id: int, produto: ShopMilhasSchema, db: AsyncSe
 
 # Delete um produto
 @router.delete('/{produto_id}', status_code=status.HTTP_200_OK)
-async def delete_produto(produto_id: int, db: AsyncSession = Depends(get_session)):
+async def delete_produto(produto_id: int, is_logged = Depends(get_current_user), db: AsyncSession = Depends(get_session)):
     """
     Este endpoint deleta um produto na tabela shopmilhas.
     """

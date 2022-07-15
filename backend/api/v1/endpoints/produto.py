@@ -15,7 +15,7 @@ router = APIRouter()
 
 # Inserir um novo produto
 @router.post('/', response_model=ProdutoSchema, status_code=status.HTTP_201_CREATED)
-async def post_produto(produto: CreateProdutoSchema, db: AsyncSession = Depends(get_session)):
+async def post_produto(produto: CreateProdutoSchema, is_logged = Depends(get_current_user), db: AsyncSession = Depends(get_session)):
     """
     Este endpoint cria um novo produto no banco de dados.
     """
@@ -37,7 +37,7 @@ async def get_produtos(db: AsyncSession = Depends(get_session), is_logged = Depe
 
 # Listar um produto pelo id
 @router.get('/{produto_id}', response_model=ReadProdutoSchema, status_code=status.HTTP_200_OK)
-async def get_produto(produto_id: int, db: AsyncSession = Depends(get_session)):
+async def get_produto(produto_id: int, db: AsyncSession = Depends(get_session), is_logged = Depends(get_current_user)):
     """
     Este endpoint retorna um produto através do seu id.
     """
@@ -50,7 +50,7 @@ async def get_produto(produto_id: int, db: AsyncSession = Depends(get_session)):
 
 # Listar um produto pelo sku
 @router.get('/sku/{sku}', response_model=List[ReadProdutoSchema], status_code=status.HTTP_200_OK)
-async def get_produto_by_sku(sku: str, db: AsyncSession = Depends(get_session)):
+async def get_produto_by_sku(sku: str, db: AsyncSession = Depends(get_session), is_logged = Depends(get_current_user)):
     """
     Este endpoint retorna um produto através do seu sku.
     """
@@ -63,7 +63,7 @@ async def get_produto_by_sku(sku: str, db: AsyncSession = Depends(get_session)):
 
 # Listar produto pelo nome
 @router.get('/nome/{nome}', response_model=List[ReadProdutoSchema])
-async def get_produto_by_nome(nome: str, db: AsyncSession = Depends(get_session), limit: int = 10, offset: int = 0):
+async def get_produto_by_nome(nome: str, db: AsyncSession = Depends(get_session), is_logged = Depends(get_current_user), limit: int = 10, offset: int = 0):
     """
     Este endpoint retorna um produto através do seu nome.
     """
@@ -72,7 +72,7 @@ async def get_produto_by_nome(nome: str, db: AsyncSession = Depends(get_session)
 
 # Atualizar um produto
 @router.put('/{produto_id}', response_model=ReadProdutoSchema, status_code=status.HTTP_200_OK)
-async def put_produto(produto_id: int, produto: ProdutoSchema, db: AsyncSession = Depends(get_session)):
+async def put_produto(produto_id: int, produto: ProdutoSchema, is_logged = Depends(get_current_user), db: AsyncSession = Depends(get_session)):
     """
     Este endpoint atualiza um produto através do seu id.
     """
@@ -85,7 +85,7 @@ async def put_produto(produto_id: int, produto: ProdutoSchema, db: AsyncSession 
 
 # Deletar um produto
 @router.delete('/{produto_id}', status_code=status.HTTP_204_NO_CONTENT)
-async def delete_produto(produto_id: int, db: AsyncSession = Depends(get_session)):
+async def delete_produto(produto_id: int, is_logged = Depends(get_current_user), db: AsyncSession = Depends(get_session)):
     """
     Este endpoint deleta um produto através do seu id.
     """

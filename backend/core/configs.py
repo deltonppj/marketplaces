@@ -20,7 +20,7 @@ class Settings(BaseSettings):
     ALGORITHM: str = 'HS256'
 
     # 60 minutos * 24 horas * 365 dias => 1 ano
-    ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24 * 30
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24 * 365
 
     class Config:
         case_sensitive = True

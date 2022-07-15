@@ -8,7 +8,7 @@ from fastapi.responses import JSONResponse
 from repositories.usuario_repository import UsuarioRepository
 from schemas.usuario_schema import UsuarioSchemaBase, UsuarioSchemaCreate, UsuarioSchemaUpdate
 
-from core.deps import get_session
+from core.deps import get_session, get_current_user
 from providers.hash_provider import check_hash
 from providers.token_provider import create_access_token
 
@@ -17,7 +17,7 @@ router = APIRouter()
 
 # Signup
 @router.post("/signup", response_model=UsuarioSchemaBase, status_code=status.HTTP_201_CREATED)
-async def post_usuario(usuario: UsuarioSchemaCreate, db: AsyncSession = Depends(get_session)):
+async def post_usuario(usuario: UsuarioSchemaCreate, is_logged = Depends(get_current_user), db: AsyncSession = Depends(get_session)):
     """
     Este endpoint cria um novo usuário no banco de dados.
     """
