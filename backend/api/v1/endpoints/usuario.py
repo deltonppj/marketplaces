@@ -10,6 +10,7 @@ from schemas.usuario_schema import UsuarioSchemaBase, UsuarioSchemaCreate, Usuar
 
 from core.deps import get_session
 from providers.hash_provider import check_hash
+from providers.token_provider import create_access_token
 
 router = APIRouter()
 
@@ -29,7 +30,7 @@ async def post_usuario(usuario: UsuarioSchemaCreate, db: AsyncSession = Depends(
 
 
 # Login
-@router.post("/login")
+@router.post("/login/access-token")
 async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: AsyncSession = Depends(get_session)):
     """
     Este endpoint retorna um usuário através do seu email.
@@ -42,4 +43,6 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: AsyncSessi
     if not check_hash(form_data.password, usuario.senha):
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Senha incorreta")
 
-    return JSONResponse(content={"token": "implementar", "token_type": "bearer"}, status_code=status.HTTP_200_OK)
+    return JSONResponse(
+        content={"access_token": create_access_token(sub=usuario.id), "token_type": "bearer"},
+        status_code=status.HTTP_200_OK)

@@ -8,7 +8,7 @@ from models.produto_model import ProdutoModel
 from repositories.produto_repository import ProdutoRepository
 from schemas.produto_schema import ProdutoSchema, CreateProdutoSchema, ReadProdutoSchema, UpdateProdutoSchema
 
-from core.deps import get_session
+from core.deps import get_session, get_current_user
 
 router = APIRouter()
 
@@ -28,7 +28,7 @@ async def post_produto(produto: CreateProdutoSchema, db: AsyncSession = Depends(
 
 # Listar todos os produtos
 @router.get('/', response_model=List[ReadProdutoSchema])
-async def get_produtos(db: AsyncSession = Depends(get_session), limit: int = 10, offset: int = 0):
+async def get_produtos(db: AsyncSession = Depends(get_session), is_logged = Depends(get_current_user), limit: int = 10, offset: int = 0):
     """
     Este endpoint retorna todos os produtos do banco de dados limitado por paginação.
     """

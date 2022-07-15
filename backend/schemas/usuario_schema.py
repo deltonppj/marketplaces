@@ -24,3 +24,7 @@ class UsuarioSchemaUpdate(UsuarioSchemaBase):
     email: Optional[EmailStr]
     senha: Optional[str]
     is_admin: Optional[bool]
+
+
+class TokenData(SCBaseModel):
+    usuario_id: Optional[int] = None

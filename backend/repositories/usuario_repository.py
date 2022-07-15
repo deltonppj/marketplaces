@@ -34,7 +34,7 @@ class UsuarioRepository:
             usuarios: List[UsuarioModel] = result.scalars().unique().all()
             return usuarios
 
-    async def get_usuario(self, usuario_id: int):
+    async def get_usuario_by_id(self, usuario_id: int):
         async with self.db as session:
             query = select(UsuarioModel).filter(UsuarioModel.id == usuario_id)
             result = await session.execute(query)
