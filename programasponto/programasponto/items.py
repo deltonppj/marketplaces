@@ -6,7 +6,9 @@
 import scrapy
 
 
-class ProgramaspontoItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class ProgramasPontoItem(scrapy.Item):
+    loja_nome = scrapy.Field()
+    nome = scrapy.Field()
+    valor_bonus = scrapy.Field()
+    valor_real = scrapy.Field()
+

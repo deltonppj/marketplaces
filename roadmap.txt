@@ -1,0 +1,121 @@
+[CRAWLERS]
+------------------> Marketplaces
+- Americanas - Ok
+- Ponto Frio - OK
+- Casas Bahia - OK
+- Extra - OK
+- Shopping Smiles - OK
+- Fastshop - OK
+- Magazine Luiza - OK
+- Submarino - OK
+- Shoptime - OK
+- Shopping tudo azul - OK
+
+------------------> Programas de Pontos
+- Tudo Azul
+	-> Casas Bahia
+	-> Extra
+	-> Ponto Frio
+	-> Magalu
+- Esfera
+	-> Casas Bahia
+	-> Extra
+	-> Ponto Frio
+	-> Magalu
+- Livelo
+	-> Americanas
+	-> Submarino
+	-> Shoptime
+	-> Casas Bahia
+	-> Extra
+	-> Ponto Frio
+	-> Magalu
+- Dotz
+	-> Americanas
+	-> Submarino
+	-> Shoptime
+	-> Casas Bahia
+	-> Extra
+	-> Ponto Frio
+	-> Magalu
+- Latam
+	-> Americanas
+	-> Submarino
+	-> Shoptime
+	-> Casas Bahia
+	-> Extra
+	-> Ponto Frio
+	-> Magalu
+- Inter
+	-> Americanas
+	-> Submarino
+	-> Shoptime
+	-> Casas Bahia
+	-> Extra
+	-> Ponto Frio
+	-> Magalu
+- Meliuz
+	-> Americanas
+	-> Submarino
+	-> Shoptime
+	-> Casas Bahia
+	-> Extra
+	-> Ponto Frio
+	-> Magalu
+- Buscape
+	-> FastShop
+
+------------------> Sistema de Log
+- scrapeops - Free OK
+
+------------------> Sistema de Agendamentos
+- scrapyd / crontab
+- Integração scrapeops
+
+[MICROSERVICOS]
+
+------------------> BD
+- Local / Nuvem (Tipo) -Ok
+
+-Tables
+	-> lojas (id, nome) - OK
+	-> produtos (id, nome) - OK
+	-> precos (id, id_loja, id_produto, preco_compra, preco_frete, preco_venda, id_nome_pt, id_pt_por_real, ganho, milheiro, %lucro)
+	-> pontos(id, id_loja, nome, pt_por_real)
+	
+	
+	-> shopping_milhas (id, nome_produto, preco_real, ganhos_milhas , ganho_pt(ganhos_milhas/preco_real), ganho, milheiro, %lucro)  -> true - OK
+	-> resgates (id, nome_site, nome_produto, por_milhas, economize, (por_milhas - economize), ) -> false - OK
+											
+
+
+------------------> WebService (Template Customizado)
+- API
+	-> Endpoints
+		-> Usuarios (CRUD) -OK
+		-> Autenticação - OK
+		-> Precos (CRUD) - OK
+		-> Pontos (CRUD)	
+	-> Login - OK
+	-> Token - OK
+
+- Documentação - OK
+
+------------------> Proxy
+- Residencial (brightdata / scrapfly / oxylabs)
+------------------------------------------------------------------------------------------------------> Até aqui (R$ 2.800,00)
+
+
+[APLICACAO]
+------------------> Frontend
+------------------> Backend
+
+[DEVOPS]
+------------------> Dominio
+------------------> Servidor
+------------------> Criação e Configuração
+------------------> Deploy
+------------------> Backups
+
+
+
