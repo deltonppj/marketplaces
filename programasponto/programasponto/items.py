@@ -10,5 +10,6 @@ class ProgramasPontoItem(scrapy.Item):
     loja_nome = scrapy.Field()
     nome = scrapy.Field()
     valor_bonus = scrapy.Field()
+    valor_bonus_parcial = scrapy.Field()
     valor_real = scrapy.Field()
 
