@@ -30,7 +30,7 @@
 	-> Extra
 	-> Ponto Frio
 	-> Magalu
-- Dotz
+- Dotz - OK
 	-> Americanas
 	-> Submarino
 	-> Shoptime

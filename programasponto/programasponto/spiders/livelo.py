@@ -5,39 +5,38 @@ from time import sleep
 import scrapy
 
 from ..items import ProgramasPontoItem
-from ..utils import clean_string_BRL
 
 
-class DotzSpider(scrapy.Spider):
-    name = 'dotz'
+class LiveloSpider(scrapy.Spider):
+    name = 'livelo'
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         log.info(f'Crawler iniciado: {self.name}')
 
         self.partners = {
-            'americanas': 2,
-            'submarino': 11,
-            'shoptime': 53,
-            'casasbahia': 77,
-            'pontofrio': 76,
-            'extra': 59,
-            'maganizeluiza': 13,
+            'AMC': 'americanas',
+            'SBC': 'submarino',
+            'STC': 'shoptime',
+            'CSB': 'casasbahia',
+            'PTF': 'pontofrio',
+            'EXT': 'extra',
+            'MZL': 'maganizeluiza',
         }
 
     def start_requests(self):
         for key, value in self.partners.items():
-            url = 'https://api.dotz.com.br/capture/api/default/v2/partner/getbyid/{}'.format(str(value))
+            url = 'https://apis.pontoslivelo.com.br/partners-campaign/v1/campaigns/active?partnersCodes={}'.format(str(key))
             log.info('Acessando: {}'.format(url))
             yield scrapy.Request(url=url, callback=self.parse)
             sleep(1)
 
     def parse(self, response, **kwargs):
-        data = json.loads(response.text)['data']
+        data = json.loads(response.text)[0]
         item = ProgramasPontoItem()
-        item['loja_nome'] = data['name']
+        item['loja_nome'] = self.partners.get(response.url.split('=')[1])
         item['nome'] = self.name
-        item['valor_bonus'] = data['bonusNumberDotz']
-        item['valor_real'] = clean_string_BRL(data['bonusValueFor']).strip()
+        item['valor_bonus'] = data['parity']
+        item['valor_real'] = data['value']
 
         yield item
