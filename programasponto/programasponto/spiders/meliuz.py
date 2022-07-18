@@ -68,6 +68,6 @@ class MeliuzSpider(scrapy.Spider):
 
             item['loja_nome'] = loja_nome
             item['nome'] = self.name
-            item['valor_bonus'] =  extract_numbers(response.xpath(self.valor_bonus).get())
+            item['valor_bonus'] =  extract_numbers(response.xpath(self.valor_bonus).get())[0]
 
             yield item
