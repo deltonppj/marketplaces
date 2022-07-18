@@ -17,12 +17,12 @@
 	-> Extra
 	-> Ponto Frio
 	-> Magalu
-- Esfera
+- Esfera - OK
 	-> Casas Bahia
 	-> Extra
 	-> Ponto Frio
 	-> Magalu
-- Livelo
+- Livelo - OK
 	-> Americanas
 	-> Submarino
 	-> Shoptime
@@ -38,7 +38,7 @@
 	-> Extra
 	-> Ponto Frio
 	-> Magalu
-- Latam
+- Latam - OK
 	-> Americanas
 	-> Submarino
 	-> Shoptime
@@ -46,7 +46,7 @@
 	-> Extra
 	-> Ponto Frio
 	-> Magalu
-- Inter
+- Inter - OK
 	-> Americanas
 	-> Submarino
 	-> Shoptime
@@ -54,7 +54,7 @@
 	-> Extra
 	-> Ponto Frio
 	-> Magalu
-- Meliuz
+- Meliuz - OK
 	-> Americanas
 	-> Submarino
 	-> Shoptime
@@ -62,7 +62,7 @@
 	-> Extra
 	-> Ponto Frio
 	-> Magalu
-- Buscape
+- Buscape - OK
 	-> FastShop
 
 ------------------> Sistema de Log
