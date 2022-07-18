@@ -6,14 +6,15 @@ from programasponto.spiders.dotz import DotzSpider
 from programasponto.spiders.inter import InterSpider
 from programasponto.spiders.livelo import LiveloSpider
 from programasponto.spiders.meliuz import MeliuzSpider
-
+from programasponto.spiders.tudoazul import TudoazulSpider
 
 SPIDERS = [
-    BuscapeSpider,
-    LatamSpider,
-    EsferaSpider,
-    DotzSpider,
-    InterSpider,
-    LiveloSpider,
-    MeliuzSpider
+    # BuscapeSpider,
+    # LatamSpider,
+    # EsferaSpider,
+    # DotzSpider,
+    # InterSpider,
+    # LiveloSpider,
+    MeliuzSpider,
+    # TudoazulSpider
 ]
