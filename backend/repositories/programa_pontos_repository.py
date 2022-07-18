@@ -34,12 +34,10 @@ class ProgramaPontosRepository:
 
     async def get_programa_pontos_by_nome(self, nome: str):
         async with self.db as session:
-            name = nome.split(' ')
-
-            query = select(ProgramaPontosModel).\
-                filter(and_(*[ProgramaPontosModel.nome.ilike('%' + nome + ' %') for nome in name]))
+            query = select(ProgramaPontosModel) \
+                .filter(ProgramaPontosModel.nome.ilike(f'%{nome}%'))
             result = await session.execute(query)
-            programa_pontos: ProgramaPontosModel = result.scalars().unique().all()
+            programa_pontos: ProgramaPontosModel = result.scalars().unique().one_or_none()
             return programa_pontos
 
     async def update_programa_pontos(self, programa_pontos_id: int, programa_pontos: ProgramaPontosSchema):

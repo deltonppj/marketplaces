@@ -50,8 +50,8 @@ async def get_programa_pontos(programa_pontos_id: int,
 
 
 # Pegar um programa de pontos pelo nome
-@router.get("/nome/{nome}", response_model=List[ProgramaPontosSchemaRead], status_code=status.HTTP_200_OK)
-async def get_programa_pontos_nome(nome: str,
+@router.get("/nome/{nome}", response_model=ProgramaPontosSchemaRead, status_code=status.HTTP_200_OK)
+async def get_programa_pontos_by_nome(nome: str,
                                    is_logged=Depends(get_current_user),
                                    db: AsyncSession = Depends(get_session)):
     """

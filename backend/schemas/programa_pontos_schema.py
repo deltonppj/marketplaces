@@ -12,6 +12,7 @@ class ProgramaPontosSchema(SCBaseModel):
 
 
 class ProgramaPontosSchemaRead(SCBaseModel):
+    id: Optional[int]
     nome: Optional[str]
 
     class Config:
