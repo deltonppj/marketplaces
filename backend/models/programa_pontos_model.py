@@ -17,7 +17,8 @@ loja_programa_pontos = Table(
     Column('CreatedAt', DateTime, default=datetime.now, index=True),
     Column('id_loja', Integer, ForeignKey('lojas.id')),
     Column('id_programas_pontos', Integer, ForeignKey('programas_pontos.id')),
-    Column('preco_por_real', Float, nullable=False),
+    Column('valor_bonus', Float, nullable=False),
+    Column('valor_real', Float, nullable=False),
 )
 
 
