@@ -7,6 +7,10 @@ import os
 import unicodedata
 
 
+def extract_numbers(text):
+    return re.findall(r'[\d]+[.,\d]+|[\d]*[.][\d]+|[\d]+', text) # commas, dots, and integers
+
+
 def clean_string_BRL(data):
     '''Convert from this format R$0.00 to 0.00'''
     string = re.sub('R\$|\.', '', data)
