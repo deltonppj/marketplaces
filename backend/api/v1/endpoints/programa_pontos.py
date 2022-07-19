@@ -5,7 +5,8 @@ from fastapi import APIRouter, HTTPException, Depends, status, Response
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from repositories.programa_pontos_repository import ProgramaPontosRepository
-from schemas.programa_pontos_schema import ProgramaPontosSchema, ProgramaPontosSchemaRead
+from schemas.programa_pontos_schema import ProgramaPontosSchema, \
+    ProgramaPontosSchemaRead, LojaProgramaPontosSchema, LojaProgramaPontosCreateSchema, LojaProgramaPontosSchemaRead
 
 from core.deps import get_session, get_current_user
 
@@ -23,6 +24,17 @@ async def post_programa_pontos(programa_pontos: ProgramaPontosSchema,
     return await ProgramaPontosRepository(db).create_programa_pontos(programa_pontos)
 
 
+# Criar programa de pontos por loja
+@router.post("/loja", response_model=LojaProgramaPontosSchema, status_code=status.HTTP_201_CREATED)
+async def post_programa_pontos_by_loja(loja_programa_pontos: LojaProgramaPontosCreateSchema,
+                                       is_logged=Depends(get_current_user),
+                                       db: AsyncSession = Depends(get_session)):
+    """
+    Este endpoint cria um novo programa de pontos por loja no banco de dados.
+    """
+    return await ProgramaPontosRepository(db).create_programa_pontos_by_loja(loja_programa_pontos)
+
+
 # Pegar todos os programas de pontos
 @router.get("/", response_model=List[ProgramaPontosSchema])
 async def get_programas_pontos(db: AsyncSession = Depends(get_session),
@@ -31,6 +43,15 @@ async def get_programas_pontos(db: AsyncSession = Depends(get_session),
     Este endpoint retorna todos os programas de pontos do banco de dados.
     """
     return await ProgramaPontosRepository(db).list_programa_pontos()
+
+
+# Pegar todos os programas de pontos por loja
+@router.get("/loja/{loja_nome}", response_model=List[LojaProgramaPontosSchemaRead])
+async def get_programas_pontos_by_loja(loja_nome: str, db: AsyncSession = Depends(get_session), is_logged=Depends(get_current_user)):
+    """
+    Este endpoint retorna todos os programas de pontos por loja do banco de dados.
+    """
+    return await ProgramaPontosRepository(db).list_programa_pontos_by_loja(loja_nome)
 
 
 # Pegar um programa de pontos pelo id
@@ -52,8 +73,8 @@ async def get_programa_pontos(programa_pontos_id: int,
 # Pegar um programa de pontos pelo nome
 @router.get("/nome/{nome}", response_model=ProgramaPontosSchemaRead, status_code=status.HTTP_200_OK)
 async def get_programa_pontos_by_nome(nome: str,
-                                   is_logged=Depends(get_current_user),
-                                   db: AsyncSession = Depends(get_session)):
+                                      is_logged=Depends(get_current_user),
+                                      db: AsyncSession = Depends(get_session)):
     """
     Este endpoint retorna um programa de pontos através do seu nome.
     """

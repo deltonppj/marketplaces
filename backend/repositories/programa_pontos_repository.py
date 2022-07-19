@@ -2,8 +2,11 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.future import select
 from sqlalchemy import and_
 
-from models.programa_pontos_model import ProgramaPontosModel
-from schemas.programa_pontos_schema import ProgramaPontosSchema, LojaProgramaPontosSchema, ProgramaPontosSchemaRead
+from models.programa_pontos_model import ProgramaPontosModel, LojaProgramaPontos
+from models.loja_model import LojaModel
+from repositories.loja_repository import LojaRepository
+from schemas.programa_pontos_schema import ProgramaPontosSchema, LojaProgramaPontosSchema, ProgramaPontosSchemaRead, \
+    LojaProgramaPontosCreateSchema
 
 
 class ProgramaPontosRepository:
@@ -17,6 +20,28 @@ class ProgramaPontosRepository:
             await session.commit()
             session.refresh(novo_programa_pontos)
             return novo_programa_pontos
+
+    async def create_programa_pontos_by_loja(self, loja_programa_pontos: LojaProgramaPontosCreateSchema):
+        async with self.db as session:
+            loja = await LojaRepository(self.db).get_loja_by_nome(loja_programa_pontos.loja_nome)
+            lpp = LojaProgramaPontos(valor_bonus=loja_programa_pontos.valor_bonus,
+                                     valor_real=loja_programa_pontos.valor_real)
+            lpp.ppm = await self.get_programa_pontos_by_nome(loja_programa_pontos.programa_pontos_nome)
+            loja.ppms.append(lpp)
+            session.add(loja)
+            await session.commit()
+            await session.refresh(lpp)
+            return lpp # LojaProgramaPontosSchema
+
+    async def list_programa_pontos_by_loja(self, loja_nome: str):
+        loja = await LojaRepository(self.db).get_loja_by_nome(loja_nome)
+        async with self.db as session:
+            query = select(LojaProgramaPontos) \
+                .join(ProgramaPontosModel, LojaProgramaPontos.id_loja == loja.id) \
+                .order_by(LojaProgramaPontos.created_at.desc())
+            result = await session.execute(query)
+            loja_programa_pontos: List[LojaProgramaPontos] = result.scalars().unique().all()
+            return loja_programa_pontos
 
     async def list_programa_pontos(self):
         async with self.db as session:
