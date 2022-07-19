@@ -43,13 +43,13 @@ class LatamSpider(scrapy.Spider):
             if response.url.split('/')[-1] == 'ponto':
                 loja_nome = 'pontofrio'
             if response.url.split('/')[-1] == 'magalu':
-                loja_nome = 'maganizeluiza'
+                loja_nome = 'magazineluiza'
             if response.url.split('/')[-1] == 'casas-bahia':
                 loja_nome = 'casasbahia'
 
             item['loja_nome'] = loja_nome
-            item['nome'] = self.name
-            item['valor_bonus'] = response.xpath(self.valor_bonus).get()
-            item['valor_real'] = response.xpath(self.valor_real).get()
+            item['programa_pontos_nome'] = self.name
+            item['valor_bonus'] = float(response.xpath(self.valor_bonus).get())
+            item['valor_real'] = float(response.xpath(self.valor_real).get())
 
             yield item

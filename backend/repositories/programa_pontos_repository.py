@@ -23,15 +23,18 @@ class ProgramaPontosRepository:
 
     async def create_programa_pontos_by_loja(self, loja_programa_pontos: LojaProgramaPontosCreateSchema):
         async with self.db as session:
-            loja = await LojaRepository(self.db).get_loja_by_nome(loja_programa_pontos.loja_nome)
-            lpp = LojaProgramaPontos(valor_bonus=loja_programa_pontos.valor_bonus,
-                                     valor_real=loja_programa_pontos.valor_real)
-            lpp.ppm = await self.get_programa_pontos_by_nome(loja_programa_pontos.programa_pontos_nome)
-            loja.ppms.append(lpp)
-            session.add(loja)
-            await session.commit()
-            await session.refresh(lpp)
-            return lpp # LojaProgramaPontosSchema
+            try:
+                loja = await LojaRepository(self.db).get_loja_by_nome(loja_programa_pontos.loja_nome)
+                lpp = LojaProgramaPontos(valor_bonus=loja_programa_pontos.valor_bonus,
+                                         valor_real=loja_programa_pontos.valor_real)
+                lpp.ppm = await self.get_programa_pontos_by_nome(loja_programa_pontos.programa_pontos_nome)
+                loja.ppms.append(lpp)
+                session.add(loja)
+                await session.commit()
+                await session.refresh(lpp)
+                return lpp # LojaProgramaPontosSchema
+            except Exception:
+                return None
 
     async def list_programa_pontos_by_loja(self, loja_nome: str):
         loja = await LojaRepository(self.db).get_loja_by_nome(loja_nome)

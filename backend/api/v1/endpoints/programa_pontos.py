@@ -32,7 +32,10 @@ async def post_programa_pontos_by_loja(loja_programa_pontos: LojaProgramaPontosC
     """
     Este endpoint cria um novo programa de pontos por loja no banco de dados.
     """
-    return await ProgramaPontosRepository(db).create_programa_pontos_by_loja(loja_programa_pontos)
+    ppm = await ProgramaPontosRepository(db).create_programa_pontos_by_loja(loja_programa_pontos)
+    if ppm is None:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Programa de pontos ou loja não encontrados")
+    return ppm
 
 
 # Pegar todos os programas de pontos

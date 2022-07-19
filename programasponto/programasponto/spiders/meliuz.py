@@ -62,12 +62,15 @@ class MeliuzSpider(scrapy.Spider):
             if response.url.split('cupom-')[-1] == 'ponto':
                 loja_nome = 'pontofrio'
             if response.url.split('cupom-')[-1] == 'magazine-luiza':
-                loja_nome = 'maganizeluiza'
+                loja_nome = 'magazineluiza'
             if response.url.split('cupom-')[-1] == 'casas-bahia':
                 loja_nome = 'casasbahia'
+            if response.url.split('cupom-')[-1] == 'ponto-frio':
+                loja_nome = 'pontofrio'
 
             item['loja_nome'] = loja_nome
-            item['nome'] = self.name
-            item['valor_bonus'] =  extract_numbers(response.xpath(self.valor_bonus).get())[0]
+            item['programa_pontos_nome'] = self.name
+            item['valor_bonus'] =  float(extract_numbers(response.xpath(self.valor_bonus).get())[0])
+            item['valor_real'] = float(0)
 
             yield item

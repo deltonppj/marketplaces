@@ -49,9 +49,9 @@ class TudoazulSpider(scrapy.Spider):
             pts = re.findall(regex, img_link)[0].replace('-', '').split('x')
 
             item['loja_nome'] = loja_nome
-            item['nome'] = self.name
-            item['valor_bonus'] = pts[0]
-            item['valor_real'] = pts[1]
+            item['programa_pontos_nome'] = self.name
+            item['valor_bonus'] = float(pts[0])
+            item['valor_real'] = float(pts[1])
         except:
             from uc_browser.browser_v2 import BrowserV2
             from selenium.webdriver.support.ui import WebDriverWait
@@ -69,7 +69,8 @@ class TudoazulSpider(scrapy.Spider):
             pts = img_link.split('TudoAzul_')[1].split(' ')[0]
 
             item['loja_nome'] = loja_nome
-            item['nome'] = self.name
-            item['valor_bonus'] = pts
+            item['programa_pontos_nome'] = self.name
+            item['valor_bonus'] = float(pts)
+            item['valor_real'] = float(0)
 
         yield item

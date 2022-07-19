@@ -39,10 +39,12 @@ class EsferaSpider(scrapy.Spider):
             loja_nome = 'magazineluiza'
         if response.url.split('/')[7] == 'ponto':
             loja_nome = 'pontofrio'
+        if response.url.split('/')[7] == 'extracom':
+            loja_nome = 'extra'
 
         item = ProgramasPontoItem()
         item['loja_nome'] = loja_nome
-        item['nome'] = self.name
-        item['valor_bonus'] = pts[0]
-        item['valor_real'] = pts[1]
+        item['programa_pontos_nome'] = self.name
+        item['valor_bonus'] = float(pts[0])
+        item['valor_real'] = float(pts[1])
         yield item

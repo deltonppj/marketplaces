@@ -25,6 +25,7 @@ class BuscapeSpider(scrapy.Spider):
         loja_nome = ''.join(response.url.split('/')[-1].split('-')[:-1])
         item = ProgramasPontoItem()
         item['loja_nome'] = loja_nome
-        item['nome'] = self.name
-        item['valor_bonus'] = response.xpath(self.valor_bonus).get().replace('%', '').strip()
+        item['programa_pontos_nome'] = self.name
+        item['valor_bonus'] = float(response.xpath(self.valor_bonus).get().replace('%', '').strip())
+        item['valor_real'] = float(0)
         yield item

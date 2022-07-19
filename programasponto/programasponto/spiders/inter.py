@@ -38,13 +38,13 @@ class InterSpider(scrapy.Spider):
         if data['slug'] == 'ponto':
             loja_nome = 'pontofrio'
         if data['slug'] == 'magazine-luiza':
-            loja_nome = 'maganizeluiza'
+            loja_nome = 'magazineluiza'
         if data['slug'] == 'casas-bahia':
             loja_nome = 'casasbahia'
 
         item = ProgramasPontoItem()
         item['loja_nome'] = loja_nome
-        item['nome'] = self.name
-        item['valor_bonus'] = data['storeCashbacks']['fullCashbackValue']
-        item['valor_bonus_parcial'] = data['storeCashbacks']['partialCashbackValue']
+        item['programa_pontos_nome'] = self.name
+        item['valor_bonus'] = float(data['storeCashbacks']['fullCashbackValue'])
+        item['valor_real'] = float(0)  # data['storeCashbacks']['partialCashbackValue']
         yield item

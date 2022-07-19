@@ -21,7 +21,7 @@ class LiveloSpider(scrapy.Spider):
             'CSB': 'casasbahia',
             'PTF': 'pontofrio',
             'EXT': 'extra',
-            'MZL': 'maganizeluiza',
+            'MZL': 'magazineluiza',
         }
 
     def start_requests(self):
@@ -35,8 +35,8 @@ class LiveloSpider(scrapy.Spider):
         data = json.loads(response.text)[0]
         item = ProgramasPontoItem()
         item['loja_nome'] = self.partners.get(response.url.split('=')[1])
-        item['nome'] = self.name
-        item['valor_bonus'] = data['parity']
-        item['valor_real'] = data['value']
+        item['programa_pontos_nome'] = self.name
+        item['valor_bonus'] = float(data['parity'])
+        item['valor_real'] = float(data['value'])
 
         yield item

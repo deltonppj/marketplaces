@@ -34,10 +34,20 @@ class DotzSpider(scrapy.Spider):
 
     def parse(self, response, **kwargs):
         data = json.loads(response.text)['data']
+
+        loja_name = data['name']
+
+        if data['name'] == 'Casas Bahia':
+            loja_name = 'casasbahia'
+        if data['name'] == 'Ponto':
+            loja_name = 'pontofrio'
+        if data['name'] == 'Magazine Luiza':
+            loja_name = 'magazineluiza'
+
         item = ProgramasPontoItem()
-        item['loja_nome'] = data['name']
-        item['nome'] = self.name
-        item['valor_bonus'] = data['bonusNumberDotz']
-        item['valor_real'] = clean_string_BRL(data['bonusValueFor']).strip()
+        item['loja_nome'] = loja_name
+        item['programa_pontos_nome'] = self.name
+        item['valor_bonus'] = float(data['bonusNumberDotz'])
+        item['valor_real'] = float(clean_string_BRL(data['bonusValueFor']).strip())
 
         yield item
