@@ -13,17 +13,17 @@ from marketplaces.spiders.shoptudoazul import ShoptudoazulSpider
 from loguru import logger as log
 
 SPIDERS = [
-    #AmericanasSpider,
-    # CasasbahiaSpider,
-    # ExtraSpider,
-    # PontofrioSpider,
-    # SubmarinoSpider,
-    # ShoptimeSpider,
-    # MagazineluizaSpider,
-    # FastshopSpider,
+    AmericanasSpider,
+    CasasbahiaSpider,
+    ExtraSpider,
+    PontofrioSpider,
+    SubmarinoSpider,
+    ShoptimeSpider,
+    MagazineluizaSpider,
+    FastshopSpider,
     # ShopsmilesSpider,
-    ReedemSpider,
-    ShoptudoazulSpider
+    # ReedemSpider,
+    # ShoptudoazulSpider
 ]
 
 KEYWORDS = [

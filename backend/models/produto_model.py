@@ -2,6 +2,7 @@ from datetime import datetime
 
 from core.configs import settings
 from models.loja_model import LojaModel
+from models.venda_model import VendaModel
 
 from sqlalchemy import Column, Integer, String, Float, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
@@ -18,7 +19,12 @@ class ProdutoModel(settings.DBBaseModel):
     product_url: str = Column(String(350), nullable=False)
 
     id_loja: int = Column(Integer, ForeignKey('lojas.id'))
+
     loja_model: LojaModel = relationship(
         'LojaModel',
         back_populates='produtos',
         lazy='joined')
+
+    vendas = relationship('VendaModel',
+                         back_populates='produtos',
+                         uselist=False)

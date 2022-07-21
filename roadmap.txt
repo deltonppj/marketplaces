@@ -80,8 +80,8 @@
 -Tables
 	-> lojas (id, nome) - OK
 	-> produtos (id, nome) - OK
-	-> precos (id, id_loja, id_produto, preco_compra, preco_frete, preco_venda, id_nome_pt, id_pt_por_real, ganho, milheiro, %lucro)
-	-> pontos(id, id_loja, nome, pt_por_real)
+	-> vendas (id, loja_id, produto_id, programa_pontos_id, preco_venda, preco_frete, preco_venda, ganho, milheiro, %lucro)
+	-> pontos(id, id_loja, nome, pt_por_real) - OK
 	
 	
 	-> shopping_milhas (id, nome_produto, preco_real, ganhos_milhas , ganho_pt(ganhos_milhas/preco_real), ganho, milheiro, %lucro)  -> true - OK

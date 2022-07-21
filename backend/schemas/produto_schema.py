@@ -63,3 +63,15 @@ class ProdutoSchemaUrl(SCBaseModel):
 
     class Config:
         orm_mode = True
+
+
+class ProdutoVendaSchema(SCBaseModel):
+    id: Optional[int]
+    created_at: Optional[datetime]
+    product_sku: Optional[str]
+    product_name: str
+    product_price_sale: Optional[float]
+    product_url: Optional[str]
+
+    class Config:
+        orm_mode = True

@@ -3,6 +3,8 @@ from core.configs import settings
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relationship
 
+from models.venda_model import VendaModel
+
 
 class LojaModel(settings.DBBaseModel):
     __tablename__: str = 'lojas'
@@ -18,3 +20,4 @@ class LojaModel(settings.DBBaseModel):
         lazy='joined')
 
     ppms = relationship('LojaProgramaPontos', back_populates='loja', uselist=True, lazy='joined')
+    vendas = relationship('VendaModel', back_populates='lojas', uselist=True, lazy='joined')

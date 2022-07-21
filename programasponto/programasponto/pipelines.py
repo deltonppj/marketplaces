@@ -8,7 +8,7 @@ from itemadapter import ItemAdapter
 _ENDPOINT_PP = 'http://localhost:8000/api/v1/programaspontos/loja'
 _HEADERS = {
     'Content-Type': 'application/json',
-    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNjg5NDYwMjQ5LCJpYXQiOjE2NTc5MjQyNDksInN1YiI6IjEifQ.5jrfdm7N5Kt9G4IdNpCLBOpDauwPRmfNuEac5dcjgQc'
+    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNjg5ODI5NTUwLCJpYXQiOjE2NTgyOTM1NTAsInN1YiI6IjEifQ.sDTE5G0TMB4IK5VniynYCIGAd6NZ-97dKc3pa6vT80g'
 }
 
 

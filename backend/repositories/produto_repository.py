@@ -1,6 +1,9 @@
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.future import select
 from sqlalchemy import and_
+from sqlalchemy import func
+
+from datetime import timedelta, datetime, date
 
 from models.produto_model import ProdutoModel
 from schemas.produto_schema import ProdutoSchema, CreateProdutoSchema
@@ -28,6 +31,13 @@ class ProdutoRepository:
                 return novo_produto
         else:
             return None
+
+    async def list_produtos_today(self):
+        async with self.db as session:
+            query = select(ProdutoModel).filter(func.date(ProdutoModel.created_at) == date.today())
+            result = await session.execute(query)
+            produtos: List[ProdutoModel] = result.scalars().unique().all()
+            return produtos
 
     async def list_produtos(self, limit: int = 10, offset: int = 0):
         async with self.db as session:

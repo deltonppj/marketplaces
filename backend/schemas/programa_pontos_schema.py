@@ -2,7 +2,7 @@ from typing import Optional
 from datetime import datetime
 
 from pydantic import BaseModel as SCBaseModel
-from schemas.loja_schema import LojaSchema
+#from schemas.loja_schema import LojaSchema
 
 
 class ProgramaPontosSchema(SCBaseModel):
@@ -37,7 +37,7 @@ class LojaProgramaPontosSchemaRead(SCBaseModel):
     created_at: Optional[datetime]
     valor_bonus: float
     valor_real: float
-    loja: Optional[LojaSchema]
+    #loja: Optional[LojaSchema]
     ppm: Optional[ProgramaPontosSchemaRead]
 
     class Config:

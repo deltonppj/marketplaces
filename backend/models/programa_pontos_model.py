@@ -42,6 +42,6 @@ class ProgramaPontosModel(settings.DBBaseModel):
     __tablename__: str = 'programas_pontos'
 
     id: int = Column(Integer, primary_key=True, autoincrement=True)
-    nome: str = Column(String(100), nullable=False, unique=True)
+    nome: str = Column(String(100), nullable=False)
 
     ljs = relationship('LojaProgramaPontos', back_populates='ppm')

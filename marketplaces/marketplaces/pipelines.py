@@ -9,7 +9,10 @@ from .utils import clean_string_BRL, create_dirs, slug
 _ENDPOINT_DEFAULT = 'http://localhost:8000/api/v1/produtos/'
 _ENDPOINT_SHOPMILHAS = 'http://localhost:8000/api/v1/shopmilhas/'
 _ENDPOINT_RESGATES = 'http://localhost:8000/api/v1/resgates/'
-_HEADERS = {'Content-Type': 'application/json'}
+_HEADERS = {
+    'Content-Type': 'application/json',
+    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNjg5NDYwMjQ5LCJpYXQiOjE2NTc5MjQyNDksInN1YiI6IjEifQ.5jrfdm7N5Kt9G4IdNpCLBOpDauwPRmfNuEac5dcjgQc'
+}
 
 
 class DefaultPipeline(object):
