@@ -27,9 +27,11 @@ class VendaRepository:
         preco_venda = 0
         frete = 0
 
-        try:
-            list_produtos = await ProdutoRepository(self.db).list_produtos_today()
+        list_produtos = await ProdutoRepository(self.db).list_produtos_today()
+        if len(list_produtos) == 0:
+            return
 
+        try:
             for produto in list_produtos:
                 async with self.db as session:
                     venda = VendaModel(

@@ -1,6 +1,7 @@
 from typing import List
 
 from fastapi import APIRouter, HTTPException, Depends, status, Response
+from fastapi.responses import JSONResponse
 
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -19,9 +20,12 @@ async def criar_today_list(db: AsyncSession = Depends(get_session)):
     """
     result = await VendaRepository(db).criar_today_list()
     if result:
-        return Response(status_code=status.HTTP_201_CREATED)
+        return JSONResponse(
+            content={201: "Lista criada com sucesso."},
+            status_code=status.HTTP_201_CREATED)
     else:
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Erro ao criar lista de hoje")
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST,
+                            detail="Não existem produtos cadastrados para o dia de hoje.")
 
 
 @router.get("/", response_model=List[VendaSchemaRead])
