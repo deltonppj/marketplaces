@@ -835,7 +835,7 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "a890e03a5b563a34508245dae538b61d4305a5c5dd3824af089a217027ed72a6"
+content-hash = "2efa84e70e61df4248fd67c6b17a43ac7054fd8253782a8856e363d3966e4ca2"
 
 [metadata.files]
 async-generator = [
