@@ -12,19 +12,12 @@ class ProdutoModel(settings.DBBaseModel):
     __tablename__: str = 'produtos'
 
     id: int = Column(Integer, primary_key=True, autoincrement=True)
-    product_sku: str = Column(String, nullable=False)
+    product_sku: str = Column(String(100), nullable=False)
     created_at: datetime = Column(DateTime, default=datetime.now, index=True)
-    product_name: str = Column(String, nullable=False)
+    product_name: str = Column(String(500), nullable=False)
     product_price_sale: float = Column(Float, nullable=False)
-    product_url: str = Column(String, nullable=False)
-
+    product_url: str = Column(String(500), nullable=False)
     id_loja: int = Column(Integer, ForeignKey('lojas.id'))
 
-    loja_model: LojaModel = relationship(
-        'LojaModel',
-        back_populates='produtos',
-        lazy='joined')
-
-    vendas = relationship('VendaModel',
-                         back_populates='produtos',
-                         uselist=False)
+    loja_model: LojaModel = relationship('LojaModel', back_populates='produtos', lazy='subquery')
+    vendas = relationship('VendaModel', back_populates='produtos', uselist=False)

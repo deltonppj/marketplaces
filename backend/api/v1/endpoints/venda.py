@@ -25,8 +25,8 @@ async def criar_today_list(db: AsyncSession = Depends(get_session)):
 
 
 @router.get("/", response_model=List[VendaSchemaRead])
-async def list_vendas(db: AsyncSession = Depends(get_session)):
+async def list_vendas(db: AsyncSession = Depends(get_session), limit: int = 10, offset: int = 0):
     """
     Este endpoint retorna todas as vendas do dia atual.
     """
-    return await VendaRepository(db).list_vendas()
+    return await VendaRepository(db).list_vendas(limit, offset)

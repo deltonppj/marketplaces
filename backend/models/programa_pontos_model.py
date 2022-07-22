@@ -34,8 +34,8 @@ class LojaProgramaPontos(settings.DBBaseModel):
     id_loja: int = Column(Integer, ForeignKey('lojas.id'))
     id_programa_pontos: int = Column(Integer, ForeignKey('programas_pontos.id'))
 
-    loja = relationship('LojaModel', back_populates='ppms', lazy='joined')
-    ppm = relationship('ProgramaPontosModel', back_populates='ljs', lazy='joined')
+    loja = relationship('LojaModel', back_populates='ppms', lazy='subquery')
+    ppm = relationship('ProgramaPontosModel', back_populates='ljs', lazy='subquery')
 
 
 class ProgramaPontosModel(settings.DBBaseModel):

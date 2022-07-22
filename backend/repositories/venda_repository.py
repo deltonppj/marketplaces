@@ -1,9 +1,11 @@
 from datetime import datetime, date
+from typing import List
 
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.future import select
 from sqlalchemy import and_
 from sqlalchemy import func
+
 
 from models.venda_model import VendaModel
 from models.loja_model import LojaModel
@@ -41,7 +43,7 @@ class VendaRepository:
         except:
             return False
 
-    async def list_vendas(self):
+    async def list_vendas(self, limit: int = 10, offset: int = 0):
         async with self.db as session:
             query = select(VendaModel, ProdutoModel) \
                 .filter(func.date(VendaModel.created_at) == date.today()) \
@@ -50,4 +52,4 @@ class VendaRepository:
                 .order_by(VendaModel.created_at.desc())
             result = await session.execute(query)
             vendas: List[VendaModel] = result.scalars().unique().all()
-            return vendas
+            return vendas[offset:offset + limit]

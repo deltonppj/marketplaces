@@ -1,9 +1,7 @@
-from core.configs import settings
-
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relationship
 
-from models.venda_model import VendaModel
+from core.configs import settings
 
 
 class LojaModel(settings.DBBaseModel):
@@ -17,7 +15,7 @@ class LojaModel(settings.DBBaseModel):
         cascade='all, delete-orphan',
         back_populates='loja_model',
         uselist=True,
-        lazy='joined')
+        lazy='subquery')
 
-    ppms = relationship('LojaProgramaPontos', back_populates='loja', uselist=True, lazy='joined')
-    vendas = relationship('VendaModel', back_populates='lojas', uselist=True, lazy='joined')
+    ppms = relationship('LojaProgramaPontos', back_populates='loja', uselist=True, lazy='subquery')
+    vendas = relationship('VendaModel', back_populates='lojas', uselist=True, lazy='subquery')
